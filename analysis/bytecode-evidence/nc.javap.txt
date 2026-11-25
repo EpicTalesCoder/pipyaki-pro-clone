@@ -1,0 +1,254 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/nc.class
+  Last modified Nov 24, 2026; size 937 bytes
+  SHA-256 checksum f9e7cf7b4ef006b533c913769f5526ef3445751d11e7c58d66fa810171da4ddf
+final class nc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #7                          // nc
+  super_class: #5                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+    #1 = Class              #72           // ab
+    #2 = Class              #73           // cb
+    #3 = Class              #74           // fb
+    #4 = Class              #80           // java/lang/System
+    #5 = Class              #81           // java/lang/Thread
+    #6 = Class              #82           // qb
+    #7 = Class              #88           // nc
+    #8 = Fieldref           #1.#37        // ab.A:Lfb;
+    #9 = Fieldref           #1.#49        // ab.o:Z
+   #10 = Fieldref           #3.#36        // fb.N:Lcb;
+   #11 = Fieldref           #6.#52        // qb.Kb:I
+   #12 = Fieldref           #6.#53        // qb.Rb:I
+   #13 = Fieldref           #6.#54        // qb.Wb:I
+   #14 = Fieldref           #7.#38        // nc.b:Lqb;
+   #15 = Methodref          #2.#39        // cb.d:()V
+   #16 = Methodref          #2.#43        // cb.f:()V
+   #17 = Methodref          #3.#90        // fb.c:()V
+   #18 = Methodref          #4.#50        // java/lang/System.gc:()V
+   #19 = Methodref          #5.#32        // java/lang/Thread."<init>":()V
+   #20 = Methodref          #6.#33        // qb.g:(Lqb;)Lcb;
+   #21 = Methodref          #6.#34        // qb.b:(Lqb;Lcb;)Lcb;
+   #22 = Methodref          #6.#35        // qb.b:(Lqb;Z)Z
+   #23 = Methodref          #6.#40        // qb.f:(Lqb;)Z
+   #24 = Methodref          #6.#41        // qb.c:(Lqb;Z)Z
+   #25 = Methodref          #6.#42        // qb.c:(Z)V
+   #26 = Methodref          #6.#44        // qb.i:(I)V
+   #27 = Methodref          #6.#45        // qb.h:(Lqb;)Z
+   #28 = Methodref          #6.#46        // qb.d:(Lqb;Z)Z
+   #29 = Methodref          #6.#47        // qb.i:(Lqb;)Z
+   #30 = Methodref          #6.#48        // qb.j:(Lqb;)Z
+   #31 = Methodref          #6.#51        // qb.F:()V
+   #32 = NameAndType        #63:#55       // "<init>":()V
+   #33 = NameAndType        #70:#57       // g:(Lqb;)Lcb;
+   #34 = NameAndType        #92:#60       // b:(Lqb;Lcb;)Lcb;
+   #35 = NameAndType        #92:#61       // b:(Lqb;Z)Z
+   #36 = NameAndType        #93:#66       // N:Lcb;
+   #37 = NameAndType        #94:#67       // A:Lfb;
+   #38 = NameAndType        #92:#68       // b:Lqb;
+   #39 = NameAndType        #71:#55       // d:()V
+   #40 = NameAndType        #75:#59       // f:(Lqb;)Z
+   #41 = NameAndType        #95:#61       // c:(Lqb;Z)Z
+   #42 = NameAndType        #95:#62       // c:(Z)V
+   #43 = NameAndType        #75:#55       // f:()V
+   #44 = NameAndType        #76:#56       // i:(I)V
+   #45 = NameAndType        #96:#59       // h:(Lqb;)Z
+   #46 = NameAndType        #71:#61       // d:(Lqb;Z)Z
+   #47 = NameAndType        #76:#59       // i:(Lqb;)Z
+   #48 = NameAndType        #77:#59       // j:(Lqb;)Z
+   #49 = NameAndType        #78:#69       // o:Z
+   #50 = NameAndType        #79:#55       // gc:()V
+   #51 = NameAndType        #83:#55       // F:()V
+   #52 = NameAndType        #84:#65       // Kb:I
+   #53 = NameAndType        #86:#65       // Rb:I
+   #54 = NameAndType        #87:#65       // Wb:I
+   #55 = Utf8               ()V
+   #56 = Utf8               (I)V
+   #57 = Utf8               (Lqb;)Lcb;
+   #58 = Utf8               (Lqb;)V
+   #59 = Utf8               (Lqb;)Z
+   #60 = Utf8               (Lqb;Lcb;)Lcb;
+   #61 = Utf8               (Lqb;Z)Z
+   #62 = Utf8               (Z)V
+   #63 = Utf8               <init>
+   #64 = Utf8               Code
+   #65 = Utf8               I
+   #66 = Utf8               Lcb;
+   #67 = Utf8               Lfb;
+   #68 = Utf8               Lqb;
+   #69 = Utf8               Z
+   #70 = Utf8               g
+   #71 = Utf8               d
+   #72 = Utf8               ab
+   #73 = Utf8               cb
+   #74 = Utf8               fb
+   #75 = Utf8               f
+   #76 = Utf8               i
+   #77 = Utf8               j
+   #78 = Utf8               o
+   #79 = Utf8               gc
+   #80 = Utf8               java/lang/System
+   #81 = Utf8               java/lang/Thread
+   #82 = Utf8               qb
+   #83 = Utf8               F
+   #84 = Utf8               Kb
+   #85 = Utf8               run
+   #86 = Utf8               Rb
+   #87 = Utf8               Wb
+   #88 = Utf8               nc
+   #89 = Utf8               StackMap
+   #90 = NameAndType        #95:#55       // c:()V
+   #91 = Utf8               ZKM5.3.2a
+   #92 = Utf8               b
+   #93 = Utf8               N
+   #94 = Utf8               A
+   #95 = Utf8               c
+   #96 = Utf8               h
+   #97 = NameAndType        #98:#69       // xc:Z
+   #98 = Utf8               xc
+   #99 = Fieldref           #1.#97        // ab.xc:Z
+{
+  private final qb b;
+    descriptor: Lqb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  nc(qb);
+    descriptor: (Lqb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #19                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #14                 // Field b:Lqb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #14                 // Field b:Lqb;
+         4: invokestatic  #23                 // Method qb.f:(Lqb;)Z
+         7: ifeq          16
+        10: getstatic     #8                  // Field ab.A:Lfb;
+        13: invokevirtual #17                 // Method fb.c:()V
+        16: aload_0
+        17: getfield      #14                 // Field b:Lqb;
+        20: invokestatic  #20                 // Method qb.g:(Lqb;)Lcb;
+        23: invokevirtual #15                 // Method cb.d:()V
+        26: aload_0
+        27: getfield      #14                 // Field b:Lqb;
+        30: invokestatic  #20                 // Method qb.g:(Lqb;)Lcb;
+        33: invokevirtual #16                 // Method cb.f:()V
+        36: getstatic     #8                  // Field ab.A:Lfb;
+        39: aconst_null
+        40: putfield      #10                 // Field fb.N:Lcb;
+        43: aconst_null
+        44: putstatic     #8                  // Field ab.A:Lfb;
+        47: aload_0
+        48: getfield      #14                 // Field b:Lqb;
+        51: aconst_null
+        52: invokestatic  #21                 // Method qb.b:(Lqb;Lcb;)Lcb;
+        55: pop
+        56: invokestatic  #18                 // Method java/lang/System.gc:()V
+        59: aload_0
+        60: getfield      #14                 // Field b:Lqb;
+        63: invokestatic  #27                 // Method qb.h:(Lqb;)Z
+        66: ifeq          76
+        69: aload_0
+        70: getfield      #14                 // Field b:Lqb;
+        73: invokevirtual #31                 // Method qb.F:()V
+        76: aload_0
+        77: getfield      #14                 // Field b:Lqb;
+        80: invokestatic  #29                 // Method qb.i:(Lqb;)Z
+        83: ifeq          135
+        86: aload_0
+        87: getfield      #14                 // Field b:Lqb;
+        90: bipush        70
+        92: putfield      #12                 // Field qb.Rb:I
+        95: aload_0
+        96: getfield      #14                 // Field b:Lqb;
+        99: iconst_0
+       100: invokestatic  #22                 // Method qb.b:(Lqb;Z)Z
+       103: pop
+       104: aload_0
+       105: getfield      #14                 // Field b:Lqb;
+       108: bipush        13
+       110: invokevirtual #26                 // Method qb.i:(I)V
+       113: aload_0
+       114: getfield      #14                 // Field b:Lqb;
+       117: iconst_1
+       118: putfield      #13                 // Field qb.Wb:I
+       121: aload_0
+       122: getfield      #14                 // Field b:Lqb;
+       125: iconst_m1
+       126: putfield      #11                 // Field qb.Kb:I
+       129: getstatic     #99                 // Field ab.xc:Z
+       132: ifeq          187
+       135: aload_0
+       136: getfield      #14                 // Field b:Lqb;
+       139: invokestatic  #30                 // Method qb.j:(Lqb;)Z
+       142: ifeq          187
+       145: aload_0
+       146: getfield      #14                 // Field b:Lqb;
+       149: bipush        71
+       151: putfield      #12                 // Field qb.Rb:I
+       154: aload_0
+       155: getfield      #14                 // Field b:Lqb;
+       158: iconst_0
+       159: invokestatic  #22                 // Method qb.b:(Lqb;Z)Z
+       162: pop
+       163: aload_0
+       164: getfield      #14                 // Field b:Lqb;
+       167: iconst_0
+       168: invokevirtual #26                 // Method qb.i:(I)V
+       171: aload_0
+       172: getfield      #14                 // Field b:Lqb;
+       175: iconst_1
+       176: putfield      #13                 // Field qb.Wb:I
+       179: aload_0
+       180: getfield      #14                 // Field b:Lqb;
+       183: iconst_m1
+       184: putfield      #11                 // Field qb.Kb:I
+       187: aload_0
+       188: getfield      #14                 // Field b:Lqb;
+       191: iconst_0
+       192: invokestatic  #24                 // Method qb.c:(Lqb;Z)Z
+       195: pop
+       196: aload_0
+       197: getfield      #14                 // Field b:Lqb;
+       200: iconst_0
+       201: invokestatic  #28                 // Method qb.d:(Lqb;Z)Z
+       204: pop
+       205: iconst_0
+       206: putstatic     #9                  // Field ab.o:Z
+       209: aload_0
+       210: getfield      #14                 // Field b:Lqb;
+       213: invokestatic  #23                 // Method qb.f:(Lqb;)Z
+       216: ifeq          227
+       219: aload_0
+       220: getfield      #14                 // Field b:Lqb;
+       223: iconst_1
+       224: invokevirtual #25                 // Method qb.c:(Z)V
+       227: return
+      StackMap: number_of_entries = 5
+        frame_type = 255 offset = 16
+          locals = [ class nc ]
+          stack = []
+        frame_type = 255 offset = 76
+          locals = [ class nc ]
+          stack = []
+        frame_type = 255 offset = 135
+          locals = [ class nc ]
+          stack = []
+        frame_type = 255 offset = 187
+          locals = [ class nc ]
+          stack = []
+        frame_type = 255 offset = 227
+          locals = [ class nc ]
+          stack = []
+}

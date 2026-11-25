@@ -1,0 +1,114 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/wfree/MultipartMessage.class
+  Last modified Nov 24, 2026; size 866 bytes
+  SHA-256 checksum 0cd6fb6b4dc5b1f4e7e638e3220cbb2404fbde7b52c4bab062ebbbc49b42da9c
+public interface wfree.MultipartMessage extends wfree.Message
+  minor version: 0
+  major version: 47
+  flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+  this_class: #2                          // wfree/MultipartMessage
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 0, methods: 17, attributes: 0
+Constant pool:
+   #1 = Utf8               wfree/MultipartMessage
+   #2 = Class              #1             // wfree/MultipartMessage
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               wfree/Message
+   #6 = Class              #5             // wfree/Message
+   #7 = Utf8               addAddress
+   #8 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Z
+   #9 = Utf8               addMessagePart
+  #10 = Utf8               (Lwfree/MessagePart;)V
+  #11 = Utf8               getAddresses
+  #12 = Utf8               (Ljava/lang/String;)[Ljava/lang/String;
+  #13 = Utf8               getHeader
+  #14 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #15 = Utf8               getMessagePart
+  #16 = Utf8               (Ljava/lang/String;)Lwfree/MessagePart;
+  #17 = Utf8               getMessageParts
+  #18 = Utf8               ()[Lwfree/MessagePart;
+  #19 = Utf8               getStartContentId
+  #20 = Utf8               ()Ljava/lang/String;
+  #21 = Utf8               getSubject
+  #22 = Utf8               removeAddress
+  #23 = Utf8               removeAddresses
+  #24 = Utf8               ()V
+  #25 = Utf8               (Ljava/lang/String;)V
+  #26 = Utf8               removeMessagePart
+  #27 = Utf8               (Lwfree/MessagePart;)Z
+  #28 = Utf8               removeMessagePartId
+  #29 = Utf8               (Ljava/lang/String;)Z
+  #30 = Utf8               removeMessagePartLocation
+  #31 = Utf8               setHeader
+  #32 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+  #33 = Utf8               setStartContentId
+  #34 = Utf8               setSubject
+{
+  public abstract boolean addAddress(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Z
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void addMessagePart(wfree.MessagePart);
+    descriptor: (Lwfree/MessagePart;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract java.lang.String[] getAddresses(java.lang.String);
+    descriptor: (Ljava/lang/String;)[Ljava/lang/String;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract java.lang.String getHeader(java.lang.String);
+    descriptor: (Ljava/lang/String;)Ljava/lang/String;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract wfree.MessagePart getMessagePart(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lwfree/MessagePart;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract wfree.MessagePart[] getMessageParts();
+    descriptor: ()[Lwfree/MessagePart;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract java.lang.String getStartContentId();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract java.lang.String getSubject();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract boolean removeAddress(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Z
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void removeAddresses();
+    descriptor: ()V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void removeAddresses(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract boolean removeMessagePart(wfree.MessagePart);
+    descriptor: (Lwfree/MessagePart;)Z
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract boolean removeMessagePartId(java.lang.String);
+    descriptor: (Ljava/lang/String;)Z
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract boolean removeMessagePartLocation(java.lang.String);
+    descriptor: (Ljava/lang/String;)Z
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void setHeader(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void setStartContentId(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void setSubject(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+}

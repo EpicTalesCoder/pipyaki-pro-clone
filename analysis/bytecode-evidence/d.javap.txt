@@ -1,0 +1,263 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/d.class
+  Last modified Nov 24, 2026; size 982 bytes
+  SHA-256 checksum b67be5a9b140e8603cc66b612729f9a03260b49b3563b07ad3cc540756420a43
+public final class d
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #1                          // d
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 8, methods: 2, attributes: 0
+Constant pool:
+   #1 = Class              #52            // d
+   #2 = Class              #54            // j
+   #3 = Class              #56            // fb
+   #4 = Class              #60            // java/lang/Object
+   #5 = Class              #61            // java/util/Vector
+   #6 = Fieldref           #1.#22         // d.f:B
+   #7 = Fieldref           #1.#23         // d.b:I
+   #8 = Fieldref           #1.#24         // d.e:Lnb;
+   #9 = Fieldref           #1.#25         // d.d:Lpb;
+  #10 = Fieldref           #1.#26         // d.h:Z
+  #11 = Fieldref           #1.#28         // d.c:I
+  #12 = Fieldref           #1.#29         // d.i:Z
+  #13 = Fieldref           #1.#30         // d.g:I
+  #14 = Fieldref           #3.#32         // fb.Wd:Ljava/util/Vector;
+  #15 = Methodref          #2.#21         // j.c:(II)Z
+  #16 = Methodref          #4.#20         // java/lang/Object."<init>":()V
+  #17 = Methodref          #5.#27         // java/util/Vector.addElement:(Ljava/lang/Object;)V
+  #18 = Methodref          #5.#31         // java/util/Vector.elementAt:(I)Ljava/lang/Object;
+  #19 = Methodref          #5.#33         // java/util/Vector.size:()I
+  #20 = NameAndType        #43:#37        // "<init>":()V
+  #21 = NameAndType        #51:#39        // c:(II)Z
+  #22 = NameAndType        #66:#44        // f:B
+  #23 = NameAndType        #67:#46        // b:I
+  #24 = NameAndType        #68:#47        // e:Lnb;
+  #25 = NameAndType        #52:#49        // d:Lpb;
+  #26 = NameAndType        #69:#50        // h:Z
+  #27 = NameAndType        #53:#41        // addElement:(Ljava/lang/Object;)V
+  #28 = NameAndType        #51:#46        // c:I
+  #29 = NameAndType        #70:#50        // i:Z
+  #30 = NameAndType        #57:#46        // g:I
+  #31 = NameAndType        #58:#38        // elementAt:(I)Ljava/lang/Object;
+  #32 = NameAndType        #59:#48        // Wd:Ljava/util/Vector;
+  #33 = NameAndType        #62:#36        // size:()I
+  #34 = Class              #64            // pb
+  #35 = Class              #65            // nb
+  #36 = Utf8               ()I
+  #37 = Utf8               ()V
+  #38 = Utf8               (I)Ljava/lang/Object;
+  #39 = Utf8               (II)Z
+  #40 = Utf8               (Lnb;IIIZ)V
+  #41 = Utf8               (Ljava/lang/Object;)V
+  #42 = Utf8               (Lpb;BIII)V
+  #43 = Utf8               <init>
+  #44 = Utf8               B
+  #45 = Utf8               Code
+  #46 = Utf8               I
+  #47 = Utf8               Lnb;
+  #48 = Utf8               Ljava/util/Vector;
+  #49 = Utf8               Lpb;
+  #50 = Utf8               Z
+  #51 = Utf8               c
+  #52 = Utf8               d
+  #53 = Utf8               addElement
+  #54 = Utf8               j
+  #55 = Utf8               ZKM5.3.2a
+  #56 = Utf8               fb
+  #57 = Utf8               g
+  #58 = Utf8               elementAt
+  #59 = Utf8               Wd
+  #60 = Utf8               java/lang/Object
+  #61 = Utf8               java/util/Vector
+  #62 = Utf8               size
+  #63 = Utf8               StackMap
+  #64 = Utf8               pb
+  #65 = Utf8               nb
+  #66 = Utf8               f
+  #67 = Utf8               b
+  #68 = Utf8               e
+  #69 = Utf8               h
+  #70 = Utf8               i
+  #71 = Class              #72            // ab
+  #72 = Utf8               ab
+  #73 = NameAndType        #74:#50        // xc:Z
+  #74 = Utf8               xc
+  #75 = Fieldref           #71.#73        // ab.xc:Z
+{
+  public int b;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int c;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public pb d;
+    descriptor: Lpb;
+    flags: (0x0001) ACC_PUBLIC
+
+  public nb e;
+    descriptor: Lnb;
+    flags: (0x0001) ACC_PUBLIC
+
+  public byte f;
+    descriptor: B
+    flags: (0x0001) ACC_PUBLIC
+
+  public int g;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public boolean h;
+    descriptor: Z
+    flags: (0x0001) ACC_PUBLIC
+
+  public boolean i;
+    descriptor: Z
+    flags: (0x0001) ACC_PUBLIC
+
+  public d(pb, byte, int, int, int);
+    descriptor: (Lpb;BIII)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=7, args_size=6
+         0: getstatic     #75                 // Field ab.xc:Z
+         3: istore        6
+         5: aload_0
+         6: invokespecial #16                 // Method java/lang/Object."<init>":()V
+         9: iload_3
+        10: bipush        30
+        12: idiv
+        13: iload         4
+        15: bipush        30
+        17: idiv
+        18: invokestatic  #15                 // Method j.c:(II)Z
+        21: ifeq          25
+        24: return
+        25: aload_0
+        26: aload_1
+        27: putfield      #9                  // Field d:Lpb;
+        30: aload_0
+        31: iload_3
+        32: putfield      #7                  // Field b:I
+        35: aload_0
+        36: iload         4
+        38: putfield      #11                 // Field c:I
+        41: aload_0
+        42: iload         5
+        44: putfield      #13                 // Field g:I
+        47: aload_0
+        48: iload_2
+        49: putfield      #6                  // Field f:B
+        52: aload_0
+        53: iconst_0
+        54: putfield      #10                 // Field h:Z
+        57: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+        60: ifnull        164
+        63: iconst_0
+        64: istore_1
+        65: iconst_0
+        66: istore_2
+        67: iload_2
+        68: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+        71: invokevirtual #19                 // Method java/util/Vector.size:()I
+        74: if_icmpge     164
+        77: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+        80: iload         6
+        82: ifne          167
+        85: iload_2
+        86: invokevirtual #18                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        89: checkcast     #1                  // class d
+        92: getfield      #7                  // Field b:I
+        95: bipush        30
+        97: idiv
+        98: aload_0
+        99: getfield      #7                  // Field b:I
+       102: bipush        30
+       104: idiv
+       105: if_icmpne     156
+       108: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+       111: iload_2
+       112: invokevirtual #18                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+       115: checkcast     #1                  // class d
+       118: getfield      #11                 // Field c:I
+       121: bipush        30
+       123: idiv
+       124: aload_0
+       125: getfield      #11                 // Field c:I
+       128: bipush        30
+       130: idiv
+       131: if_icmpne     156
+       134: iinc          1, 1
+       137: iload_1
+       138: iconst_2
+       139: if_icmplt     156
+       142: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+       145: iload_2
+       146: invokevirtual #18                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+       149: checkcast     #1                  // class d
+       152: iconst_1
+       153: putfield      #12                 // Field i:Z
+       156: iinc          2, 1
+       159: iload         6
+       161: ifeq          67
+       164: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+       167: ifnull        177
+       170: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+       173: aload_0
+       174: invokevirtual #17                 // Method java/util/Vector.addElement:(Ljava/lang/Object;)V
+       177: return
+      StackMap: number_of_entries = 6
+        frame_type = 255 offset = 25
+          locals = [ class d, class pb, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 67
+          locals = [ class d, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 156
+          locals = [ class d, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 164
+          locals = [ class d, top, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 167
+          locals = [ class d, top, int, int, int, int, int ]
+          stack = [ class java/util/Vector ]
+        frame_type = 255 offset = 177
+          locals = [ class d, top, int, int, int, int, int ]
+          stack = []
+
+  public d(nb, int, int, int, boolean);
+    descriptor: (Lnb;IIIZ)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=6, args_size=6
+         0: aload_0
+         1: invokespecial #16                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #8                  // Field e:Lnb;
+         9: aload_0
+        10: iload_2
+        11: putfield      #7                  // Field b:I
+        14: aload_0
+        15: iload_3
+        16: putfield      #11                 // Field c:I
+        19: aload_0
+        20: iload         4
+        22: putfield      #13                 // Field g:I
+        25: aload_0
+        26: iload         5
+        28: putfield      #10                 // Field h:Z
+        31: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+        34: ifnull        44
+        37: getstatic     #14                 // Field fb.Wd:Ljava/util/Vector;
+        40: aload_0
+        41: invokevirtual #17                 // Method java/util/Vector.addElement:(Ljava/lang/Object;)V
+        44: return
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 44
+          locals = [ class d, class nb, int, int, int, int ]
+          stack = []
+}

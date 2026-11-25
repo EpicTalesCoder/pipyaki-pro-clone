@@ -1,0 +1,22 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/wfree/MessageListener.class
+  Last modified Nov 24, 2026; size 136 bytes
+  SHA-256 checksum 6ba8862bd5d983bbcd1417b7fb2f93dffaad81e3a9949a30ca02f11fdc3d6472
+public interface wfree.MessageListener
+  minor version: 0
+  major version: 47
+  flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+  this_class: #2                          // wfree/MessageListener
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 1, attributes: 0
+Constant pool:
+  #1 = Utf8               wfree/MessageListener
+  #2 = Class              #1              // wfree/MessageListener
+  #3 = Utf8               java/lang/Object
+  #4 = Class              #3              // java/lang/Object
+  #5 = Utf8               notifyIncomingMessage
+  #6 = Utf8               (Lwfree/MessageConnection;)V
+{
+  public abstract void notifyIncomingMessage(wfree.MessageConnection);
+    descriptor: (Lwfree/MessageConnection;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+}

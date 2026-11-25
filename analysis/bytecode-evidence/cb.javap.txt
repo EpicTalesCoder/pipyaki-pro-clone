@@ -1,0 +1,203 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/cb.class
+  Last modified Nov 24, 2026; size 794 bytes
+  SHA-256 checksum 0082881e889692e12eeac5c23f019309bb3d48f8e0a838f738977142e77dde50
+abstract class cb
+  minor version: 0
+  major version: 47
+  flags: (0x0420) ACC_SUPER, ACC_ABSTRACT
+  this_class: #1                          // cb
+  super_class: #3                         // java/lang/Object
+  interfaces: 0, fields: 3, methods: 14, attributes: 0
+Constant pool:
+   #1 = Class              #37            // cb
+   #2 = Class              #38            // jb
+   #3 = Class              #44            // java/lang/Object
+   #4 = Class              #45            // java/util/Vector
+   #5 = Fieldref           #1.#18         // cb.b:I
+   #6 = Fieldref           #1.#19         // cb.d:Ljb;
+   #7 = Fieldref           #2.#20         // jb.e:I
+   #8 = Fieldref           #2.#21         // jb.i:Ljava/util/Vector;
+   #9 = Methodref          #2.#16         // jb.b:(I)V
+  #10 = Methodref          #2.#17         // jb.b:([B)V
+  #11 = Methodref          #2.#22         // jb.g:()V
+  #12 = Methodref          #2.#23         // jb.h:()V
+  #13 = Methodref          #3.#15         // java/lang/Object."<init>":()V
+  #14 = Methodref          #4.#24         // java/util/Vector.size:()I
+  #15 = NameAndType        #29:#26        // "<init>":()V
+  #16 = NameAndType        #35:#27        // b:(I)V
+  #17 = NameAndType        #35:#28        // b:([B)V
+  #18 = NameAndType        #35:#31        // b:I
+  #19 = NameAndType        #47:#32        // d:Ljb;
+  #20 = NameAndType        #36:#31        // e:I
+  #21 = NameAndType        #49:#33        // i:Ljava/util/Vector;
+  #22 = NameAndType        #42:#26        // g:()V
+  #23 = NameAndType        #43:#26        // h:()V
+  #24 = NameAndType        #46:#25        // size:()I
+  #25 = Utf8               ()I
+  #26 = Utf8               ()V
+  #27 = Utf8               (I)V
+  #28 = Utf8               ([B)V
+  #29 = Utf8               <init>
+  #30 = Utf8               Code
+  #31 = Utf8               I
+  #32 = Utf8               Ljb;
+  #33 = Utf8               Ljava/util/Vector;
+  #34 = Utf8               Z
+  #35 = Utf8               b
+  #36 = Utf8               e
+  #37 = Utf8               cb
+  #38 = Utf8               jb
+  #39 = Utf8               f
+  #40 = Utf8               a
+  #41 = Utf8               ZKM5.3.2a
+  #42 = Utf8               g
+  #43 = Utf8               h
+  #44 = Utf8               java/lang/Object
+  #45 = Utf8               java/util/Vector
+  #46 = Utf8               size
+  #47 = Utf8               d
+  #48 = Utf8               c
+  #49 = Utf8               i
+  #50 = Utf8               StackMap
+{
+  public int b;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public boolean c;
+    descriptor: Z
+    flags: (0x0001) ACC_PUBLIC
+
+  protected jb d;
+    descriptor: Ljb;
+    flags: (0x0004) ACC_PROTECTED
+
+  cb();
+    descriptor: ()V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #13                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iconst_0
+         6: putfield      #5                  // Field b:I
+         9: aload_0
+        10: aconst_null
+        11: putfield      #6                  // Field d:Ljb;
+        14: return
+
+  public final void b(byte[]);
+    descriptor: ([B)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #6                  // Field d:Ljb;
+         4: aload_1
+         5: invokevirtual #10                 // Method jb.b:([B)V
+         8: return
+
+  public void a();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public void b();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public void c();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public void b(int);
+    descriptor: (I)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=2, args_size=2
+         0: return
+
+  public void d();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public int e();
+    descriptor: ()I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_0
+         1: ireturn
+
+  public void f();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public final void c(int);
+    descriptor: (I)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #6                  // Field d:Ljb;
+         4: iload_1
+         5: invokevirtual #9                  // Method jb.b:(I)V
+         8: return
+
+  public final void d(int);
+    descriptor: (I)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #6                  // Field d:Ljb;
+         4: iload_1
+         5: putfield      #7                  // Field jb.e:I
+         8: return
+
+  public final void g();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #6                  // Field d:Ljb;
+         4: invokevirtual #11                 // Method jb.g:()V
+         7: return
+
+  public final void h();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #6                  // Field d:Ljb;
+         4: invokevirtual #12                 // Method jb.h:()V
+         7: return
+
+  public final int i();
+    descriptor: ()I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #6                  // Field d:Ljb;
+         4: getfield      #8                  // Field jb.i:Ljava/util/Vector;
+         7: invokevirtual #14                 // Method java/util/Vector.size:()I
+        10: ireturn
+}

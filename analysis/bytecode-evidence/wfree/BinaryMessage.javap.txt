@@ -1,0 +1,30 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/wfree/BinaryMessage.class
+  Last modified Nov 24, 2026; size 157 bytes
+  SHA-256 checksum 4e7eec66ca15fb524386019d89070cea4f6310a1dc8b19870b18ff3051b592eb
+public interface wfree.BinaryMessage extends wfree.Message
+  minor version: 0
+  major version: 47
+  flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+  this_class: #2                          // wfree/BinaryMessage
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 0, methods: 2, attributes: 0
+Constant pool:
+   #1 = Utf8               wfree/BinaryMessage
+   #2 = Class              #1             // wfree/BinaryMessage
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               wfree/Message
+   #6 = Class              #5             // wfree/Message
+   #7 = Utf8               getPayloadData
+   #8 = Utf8               ()[B
+   #9 = Utf8               setPayloadData
+  #10 = Utf8               ([B)V
+{
+  public abstract byte[] getPayloadData();
+    descriptor: ()[B
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void setPayloadData(byte[]);
+    descriptor: ([B)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+}

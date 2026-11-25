@@ -1,0 +1,78 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/hc.class
+  Last modified Nov 24, 2026; size 315 bytes
+  SHA-256 checksum d44cb78194ce063e3ddfaec1e9e67a8092d2d4de4bf62e8752b1ba4d1924bfc0
+final class hc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #2                          // hc
+  super_class: #3                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+   #1 = Class              #24            // ab
+   #2 = Class              #25            // hc
+   #3 = Class              #28            // java/lang/Thread
+   #4 = Class              #29            // qb
+   #5 = Fieldref           #2.#12         // hc.b:Lqb;
+   #6 = Fieldref           #4.#16         // qb.Wb:I
+   #7 = Methodref          #1.#14         // ab.e:()V
+   #8 = Methodref          #3.#11         // java/lang/Thread."<init>":()V
+   #9 = Methodref          #4.#13         // qb.d:()V
+  #10 = Methodref          #4.#15         // qb.t:()V
+  #11 = NameAndType        #19:#17        // "<init>":()V
+  #12 = NameAndType        #23:#22        // b:Lqb;
+  #13 = NameAndType        #26:#17        // d:()V
+  #14 = NameAndType        #27:#17        // e:()V
+  #15 = NameAndType        #33:#17        // t:()V
+  #16 = NameAndType        #31:#21        // Wb:I
+  #17 = Utf8               ()V
+  #18 = Utf8               (Lqb;)V
+  #19 = Utf8               <init>
+  #20 = Utf8               Code
+  #21 = Utf8               I
+  #22 = Utf8               Lqb;
+  #23 = Utf8               b
+  #24 = Utf8               ab
+  #25 = Utf8               hc
+  #26 = Utf8               d
+  #27 = Utf8               e
+  #28 = Utf8               java/lang/Thread
+  #29 = Utf8               qb
+  #30 = Utf8               run
+  #31 = Utf8               Wb
+  #32 = Utf8               ZKM5.3.2a
+  #33 = Utf8               t
+  #34 = Utf8               StackMap
+{
+  private final qb b;
+    descriptor: Lqb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  hc(qb);
+    descriptor: (Lqb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #8                  // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #5                  // Field b:Lqb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #5                  // Field b:Lqb;
+         4: iconst_1
+         5: putfield      #6                  // Field qb.Wb:I
+         8: invokestatic  #7                  // Method ab.e:()V
+        11: invokestatic  #10                 // Method qb.t:()V
+        14: aload_0
+        15: getfield      #5                  // Field b:Lqb;
+        18: invokevirtual #9                  // Method qb.d:()V
+        21: return
+}

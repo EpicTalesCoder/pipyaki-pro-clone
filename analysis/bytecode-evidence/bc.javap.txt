@@ -1,0 +1,178 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/bc.class
+  Last modified Nov 24, 2026; size 649 bytes
+  SHA-256 checksum c911ff9f7b3c9ea3ce548441f30ddb6debb89599ddea9ab3d3a6dca9e5dbd108
+final class bc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #1                          // bc
+  super_class: #5                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+   #1 = Class              #49            // bc
+   #2 = Class              #51            // ab
+   #3 = Class              #52            // fb
+   #4 = Class              #57            // java/lang/System
+   #5 = Class              #58            // java/lang/Thread
+   #6 = Class              #59            // qb
+   #7 = Fieldref           #1.#26         // bc.b:Lqb;
+   #8 = Fieldref           #2.#25         // ab.A:Lfb;
+   #9 = Fieldref           #2.#33         // ab.o:Z
+  #10 = Fieldref           #6.#32         // qb.F:I
+  #11 = Fieldref           #6.#36         // qb.pc:I
+  #12 = Methodref          #3.#27         // fb.c:()V
+  #13 = Methodref          #4.#34         // java/lang/System.gc:()V
+  #14 = Methodref          #5.#22         // java/lang/Thread."<init>":()V
+  #15 = Methodref          #6.#23         // qb.b:(IZZ)V
+  #16 = Methodref          #6.#24         // qb.e:(Lqb;)V
+  #17 = Methodref          #6.#28         // qb.c:(I)V
+  #18 = Methodref          #6.#29         // qb.c:(Z)V
+  #19 = Methodref          #6.#30         // qb.d:()V
+  #20 = Methodref          #6.#31         // qb.f:()V
+  #21 = Methodref          #6.#35         // qb.F:()V
+  #22 = NameAndType        #42:#37        // "<init>":()V
+  #23 = NameAndType        #48:#39        // b:(IZZ)V
+  #24 = NameAndType        #65:#40        // e:(Lqb;)V
+  #25 = NameAndType        #66:#45        // A:Lfb;
+  #26 = NameAndType        #48:#46        // b:Lqb;
+  #27 = NameAndType        #50:#37        // c:()V
+  #28 = NameAndType        #50:#38        // c:(I)V
+  #29 = NameAndType        #50:#41        // c:(Z)V
+  #30 = NameAndType        #53:#37        // d:()V
+  #31 = NameAndType        #54:#37        // f:()V
+  #32 = NameAndType        #60:#44        // F:I
+  #33 = NameAndType        #55:#47        // o:Z
+  #34 = NameAndType        #56:#37        // gc:()V
+  #35 = NameAndType        #60:#37        // F:()V
+  #36 = NameAndType        #62:#44        // pc:I
+  #37 = Utf8               ()V
+  #38 = Utf8               (I)V
+  #39 = Utf8               (IZZ)V
+  #40 = Utf8               (Lqb;)V
+  #41 = Utf8               (Z)V
+  #42 = Utf8               <init>
+  #43 = Utf8               Code
+  #44 = Utf8               I
+  #45 = Utf8               Lfb;
+  #46 = Utf8               Lqb;
+  #47 = Utf8               Z
+  #48 = Utf8               b
+  #49 = Utf8               bc
+  #50 = Utf8               c
+  #51 = Utf8               ab
+  #52 = Utf8               fb
+  #53 = Utf8               d
+  #54 = Utf8               f
+  #55 = Utf8               o
+  #56 = Utf8               gc
+  #57 = Utf8               java/lang/System
+  #58 = Utf8               java/lang/Thread
+  #59 = Utf8               qb
+  #60 = Utf8               F
+  #61 = Utf8               run
+  #62 = Utf8               pc
+  #63 = Utf8               StackMap
+  #64 = Utf8               ZKM5.3.2a
+  #65 = Utf8               e
+  #66 = Utf8               A
+{
+  private final qb b;
+    descriptor: Lqb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  bc(qb);
+    descriptor: (Lqb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #14                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #7                  // Field b:Lqb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=4, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #7                  // Field b:Lqb;
+         4: invokestatic  #16                 // Method qb.e:(Lqb;)V
+         7: aload_0
+         8: getfield      #7                  // Field b:Lqb;
+        11: invokevirtual #19                 // Method qb.d:()V
+        14: getstatic     #8                  // Field ab.A:Lfb;
+        17: invokevirtual #12                 // Method fb.c:()V
+        20: aconst_null
+        21: putstatic     #8                  // Field ab.A:Lfb;
+        24: invokestatic  #13                 // Method java/lang/System.gc:()V
+        27: aload_0
+        28: getfield      #7                  // Field b:Lqb;
+        31: getfield      #11                 // Field qb.pc:I
+        34: bipush        -2
+        36: if_icmpne     73
+        39: aload_0
+        40: getfield      #7                  // Field b:Lqb;
+        43: aload_0
+        44: getfield      #7                  // Field b:Lqb;
+        47: getfield      #10                 // Field qb.F:I
+        50: invokevirtual #17                 // Method qb.c:(I)V
+        53: aload_0
+        54: getfield      #7                  // Field b:Lqb;
+        57: invokevirtual #20                 // Method qb.f:()V
+        60: iconst_0
+        61: putstatic     #9                  // Field ab.o:Z
+        64: aload_0
+        65: getfield      #7                  // Field b:Lqb;
+        68: iconst_1
+        69: invokevirtual #18                 // Method qb.c:(Z)V
+        72: return
+        73: aload_0
+        74: getfield      #7                  // Field b:Lqb;
+        77: getfield      #11                 // Field qb.pc:I
+        80: bipush        -3
+        82: if_icmpne     105
+        85: aload_0
+        86: getfield      #7                  // Field b:Lqb;
+        89: invokevirtual #21                 // Method qb.F:()V
+        92: iconst_0
+        93: putstatic     #9                  // Field ab.o:Z
+        96: aload_0
+        97: getfield      #7                  // Field b:Lqb;
+       100: iconst_1
+       101: invokevirtual #18                 // Method qb.c:(Z)V
+       104: return
+       105: aload_0
+       106: getfield      #7                  // Field b:Lqb;
+       109: getfield      #11                 // Field qb.pc:I
+       112: iconst_m1
+       113: if_icmpne     129
+       116: iconst_0
+       117: putstatic     #9                  // Field ab.o:Z
+       120: aload_0
+       121: getfield      #7                  // Field b:Lqb;
+       124: iconst_1
+       125: invokevirtual #18                 // Method qb.c:(Z)V
+       128: return
+       129: aload_0
+       130: getfield      #7                  // Field b:Lqb;
+       133: aload_0
+       134: getfield      #7                  // Field b:Lqb;
+       137: getfield      #11                 // Field qb.pc:I
+       140: iconst_0
+       141: iconst_0
+       142: invokevirtual #15                 // Method qb.b:(IZZ)V
+       145: return
+      StackMap: number_of_entries = 3
+        frame_type = 255 offset = 73
+          locals = [ class bc ]
+          stack = []
+        frame_type = 255 offset = 105
+          locals = [ class bc ]
+          stack = []
+        frame_type = 255 offset = 129
+          locals = [ class bc ]
+          stack = []
+}

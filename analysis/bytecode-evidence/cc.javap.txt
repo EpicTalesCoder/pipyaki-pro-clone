@@ -1,0 +1,166 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/cc.class
+  Last modified Nov 24, 2026; size 829 bytes
+  SHA-256 checksum 12a6f12132c4a4238b331308d6ce5a8e3fd0b97e248b211804a03879e7479eea
+final class cc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #3                          // cc
+  super_class: #9                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+   #1 = String             #43            // R Exception
+   #2 = String             #44            // READ:
+   #3 = Class              #47            // cc
+   #4 = Class              #49            // ab
+   #5 = Class              #50            // jb
+   #6 = Class              #53            // java/io/IOException
+   #7 = Class              #54            // java/lang/Exception
+   #8 = Class              #55            // java/lang/StringBuffer
+   #9 = Class              #56            // java/lang/Thread
+  #10 = Fieldref           #3.#23         // cc.b:Ljb;
+  #11 = Fieldref           #4.#24         // ab.B:Lqb;
+  #12 = Fieldref           #5.#25         // jb.g:Z
+  #13 = Methodref          #3.#30         // cc.sleep:(J)V
+  #14 = Methodref          #3.#32         // cc.yield:()V
+  #15 = Methodref          #5.#28         // jb.e:()V
+  #16 = Methodref          #5.#29         // jb.i:()V
+  #17 = Methodref          #8.#22         // java/lang/StringBuffer."<init>":()V
+  #18 = Methodref          #8.#26         // java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #19 = Methodref          #8.#27         // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #20 = Methodref          #8.#31         // java/lang/StringBuffer.toString:()Ljava/lang/String;
+  #21 = Methodref          #9.#22         // java/lang/Thread."<init>":()V
+  #22 = NameAndType        #39:#34        // "<init>":()V
+  #23 = NameAndType        #46:#41        // b:Ljb;
+  #24 = NameAndType        #63:#42        // B:Lqb;
+  #25 = NameAndType        #64:#45        // g:Z
+  #26 = NameAndType        #48:#37        // append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #27 = NameAndType        #48:#38        // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #28 = NameAndType        #51:#34        // e:()V
+  #29 = NameAndType        #52:#34        // i:()V
+  #30 = NameAndType        #58:#35        // sleep:(J)V
+  #31 = NameAndType        #59:#33        // toString:()Ljava/lang/String;
+  #32 = NameAndType        #60:#34        // yield:()V
+  #33 = Utf8               ()Ljava/lang/String;
+  #34 = Utf8               ()V
+  #35 = Utf8               (J)V
+  #36 = Utf8               (Ljb;)V
+  #37 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #38 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #39 = Utf8               <init>
+  #40 = Utf8               Code
+  #41 = Utf8               Ljb;
+  #42 = Utf8               Lqb;
+  #43 = Utf8               R Exception
+  #44 = Utf8               READ:
+  #45 = Utf8               Z
+  #46 = Utf8               b
+  #47 = Utf8               cc
+  #48 = Utf8               append
+  #49 = Utf8               ab
+  #50 = Utf8               jb
+  #51 = Utf8               e
+  #52 = Utf8               i
+  #53 = Utf8               java/io/IOException
+  #54 = Utf8               java/lang/Exception
+  #55 = Utf8               java/lang/StringBuffer
+  #56 = Utf8               java/lang/Thread
+  #57 = Utf8               run
+  #58 = Utf8               sleep
+  #59 = Utf8               toString
+  #60 = Utf8               yield
+  #61 = Utf8               StackMap
+  #62 = Utf8               ZKM5.3.2a
+  #63 = Utf8               B
+  #64 = Utf8               g
+  #65 = NameAndType        #66:#45        // xc:Z
+  #66 = Utf8               xc
+  #67 = Fieldref           #4.#65         // ab.xc:Z
+{
+  private final jb b;
+    descriptor: Ljb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  cc(jb);
+    descriptor: (Ljb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #21                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #10                 // Field b:Ljb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=3, args_size=1
+         0: getstatic     #67                 // Field ab.xc:Z
+         3: istore_2
+         4: aload_0
+         5: getfield      #10                 // Field b:Ljb;
+         8: getfield      #12                 // Field jb.g:Z
+        11: ifeq          93
+        14: aload_0
+        15: getfield      #10                 // Field b:Ljb;
+        18: invokevirtual #15                 // Method jb.e:()V
+        21: goto          78
+        24: astore_1
+        25: new           #8                  // class java/lang/StringBuffer
+        28: dup
+        29: invokespecial #17                 // Method java/lang/StringBuffer."<init>":()V
+        32: ldc           #1                  // String R Exception
+        34: invokevirtual #19                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        37: aload_1
+        38: invokevirtual #18                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+        41: invokevirtual #20                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        44: pop
+        45: getstatic     #11                 // Field ab.B:Lqb;
+        48: ifnull        71
+        51: new           #8                  // class java/lang/StringBuffer
+        54: dup
+        55: invokespecial #17                 // Method java/lang/StringBuffer."<init>":()V
+        58: ldc           #2                  // String READ:
+        60: invokevirtual #19                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        63: aload_1
+        64: invokevirtual #18                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+        67: invokevirtual #20                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        70: pop
+        71: aload_0
+        72: getfield      #10                 // Field b:Ljb;
+        75: invokevirtual #16                 // Method jb.i:()V
+        78: invokestatic  #14                 // Method yield:()V
+        81: lconst_1
+        82: invokestatic  #13                 // Method sleep:(J)V
+        85: goto          4
+        88: pop
+        89: iload_2
+        90: ifeq          4
+        93: return
+      Exception table:
+         from    to  target type
+            14    21    24   Class java/io/IOException
+            78    85    88   Class java/lang/Exception
+      StackMap: number_of_entries = 6
+        frame_type = 255 offset = 4
+          locals = [ class cc, top, int ]
+          stack = []
+        frame_type = 255 offset = 24
+          locals = [ class cc, top, int ]
+          stack = [ class java/io/IOException ]
+        frame_type = 255 offset = 71
+          locals = [ class cc, class java/io/IOException, int ]
+          stack = []
+        frame_type = 255 offset = 78
+          locals = [ class cc, top, int ]
+          stack = []
+        frame_type = 255 offset = 88
+          locals = [ class cc, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 93
+          locals = [ class cc, top, int ]
+          stack = []
+}

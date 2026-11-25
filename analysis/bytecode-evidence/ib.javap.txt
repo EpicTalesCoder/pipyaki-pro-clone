@@ -1,0 +1,280 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/ib.class
+  Last modified Nov 24, 2026; size 1346 bytes
+  SHA-256 checksum 18a9c633adfea223e962c69986a04cb328272a05f762a866e0fc863905444e1d
+public final class ib
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #5                          // ib
+  super_class: #9                         // java/lang/Object
+  interfaces: 0, fields: 4, methods: 6, attributes: 0
+Constant pool:
+   #1 = String             #47            //
+   #2 = String             #59            // /lang.txt
+   #3 = String             #60            // ;
+   #4 = String             #66            // UTF-8
+   #5 = Class              #72            // ib
+   #6 = Class              #78            // java/io/DataInputStream
+   #7 = Class              #79            // java/lang/Class
+   #8 = Class              #80            // java/lang/Exception
+   #9 = Class              #81            // java/lang/Object
+  #10 = Class              #82            // java/lang/String
+  #11 = Class              #83            // rb
+  #12 = Class              #84            // midlet
+  #13 = Fieldref           #5.#33         // ib.b:C
+  #14 = Fieldref           #5.#34         // ib.e:I
+  #15 = Fieldref           #5.#35         // ib.c:Z
+  #16 = Fieldref           #5.#36         // ib.d:[Ljava/lang/String;
+  #17 = Fieldref           #12.#42        // midlet.a:Lmidlet;
+  #18 = Methodref          #5.#31         // ib.b:(Ljava/lang/String;)[Ljava/lang/String;
+  #19 = Methodref          #6.#29         // java/io/DataInputStream."<init>":(Ljava/io/InputStream;)V
+  #20 = Methodref          #6.#37         // java/io/DataInputStream.available:()I
+  #21 = Methodref          #6.#39         // java/io/DataInputStream.close:()V
+  #22 = Methodref          #6.#43         // java/io/DataInputStream.read:()I
+  #23 = Methodref          #6.#44         // java/io/DataInputStream.read:([B)I
+  #24 = Methodref          #7.#41         // java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+  #25 = Methodref          #9.#40         // java/lang/Object.getClass:()Ljava/lang/Class;
+  #26 = Methodref          #10.#30        // java/lang/String."<init>":([BLjava/lang/String;)V
+  #27 = Methodref          #10.#38        // java/lang/String.charAt:(I)C
+  #28 = Methodref          #11.#32        // rb.b:(Ljava/lang/String;C)[Ljava/lang/String;
+  #29 = NameAndType        #90:#52        // "<init>":(Ljava/io/InputStream;)V
+  #30 = NameAndType        #90:#58        // "<init>":([BLjava/lang/String;)V
+  #31 = NameAndType        #69:#54        // b:(Ljava/lang/String;)[Ljava/lang/String;
+  #32 = NameAndType        #69:#55        // b:(Ljava/lang/String;C)[Ljava/lang/String;
+  #33 = NameAndType        #69:#62        // b:C
+  #34 = NameAndType        #91:#64        // e:I
+  #35 = NameAndType        #71:#67        // c:Z
+  #36 = NameAndType        #92:#68        // d:[Ljava/lang/String;
+  #37 = NameAndType        #70:#48        // available:()I
+  #38 = NameAndType        #73:#50        // charAt:(I)C
+  #39 = NameAndType        #74:#89        // close:()V
+  #40 = NameAndType        #75:#49        // getClass:()Ljava/lang/Class;
+  #41 = NameAndType        #76:#53        // getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+  #42 = NameAndType        #77:#65        // a:Lmidlet;
+  #43 = NameAndType        #85:#48        // read:()I
+  #44 = NameAndType        #85:#57        // read:([B)I
+  #45 = Class              #87            // "[B"
+  #46 = Class              #68            // "[Ljava/lang/String;"
+  #47 = Utf8
+  #48 = Utf8               ()I
+  #49 = Utf8               ()Ljava/lang/Class;
+  #50 = Utf8               (I)C
+  #51 = Utf8               (I)Ljava/lang/String;
+  #52 = Utf8               (Ljava/io/InputStream;)V
+  #53 = Utf8               (Ljava/lang/String;)Ljava/io/InputStream;
+  #54 = Utf8               (Ljava/lang/String;)[Ljava/lang/String;
+  #55 = Utf8               (Ljava/lang/String;C)[Ljava/lang/String;
+  #56 = Utf8               (Ljava/lang/String;I)Ljava/lang/String;
+  #57 = Utf8               ([B)I
+  #58 = Utf8               ([BLjava/lang/String;)V
+  #59 = Utf8               /lang.txt
+  #60 = Utf8               ;
+  #61 = Utf8               <clinit>
+  #62 = Utf8               C
+  #63 = Utf8               Code
+  #64 = Utf8               I
+  #65 = Utf8               Lmidlet;
+  #66 = Utf8               UTF-8
+  #67 = Utf8               Z
+  #68 = Utf8               [Ljava/lang/String;
+  #69 = Utf8               b
+  #70 = Utf8               available
+  #71 = Utf8               c
+  #72 = Utf8               ib
+  #73 = Utf8               charAt
+  #74 = Utf8               close
+  #75 = Utf8               getClass
+  #76 = Utf8               getResourceAsStream
+  #77 = Utf8               a
+  #78 = Utf8               java/io/DataInputStream
+  #79 = Utf8               java/lang/Class
+  #80 = Utf8               java/lang/Exception
+  #81 = Utf8               java/lang/Object
+  #82 = Utf8               java/lang/String
+  #83 = Utf8               rb
+  #84 = Utf8               midlet
+  #85 = Utf8               read
+  #86 = Utf8               StackMap
+  #87 = Utf8               [B
+  #88 = Utf8               ZKM5.3.2a
+  #89 = Utf8               ()V
+  #90 = Utf8               <init>
+  #91 = Utf8               e
+  #92 = Utf8               d
+{
+  private static char b;
+    descriptor: C
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public static boolean c;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  private static java.lang.String[] d;
+    descriptor: [Ljava/lang/String;
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public static int e;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static void b();
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: ldc           #2                  // String /lang.txt
+         2: invokestatic  #18                 // Method b:(Ljava/lang/String;)[Ljava/lang/String;
+         5: putstatic     #16                 // Field d:[Ljava/lang/String;
+         8: return
+
+  private static java.lang.String[] b(java.lang.String);
+    descriptor: (Ljava/lang/String;)[Ljava/lang/String;
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=4, locals=2, args_size=1
+         0: new           #6                  // class java/io/DataInputStream
+         3: dup
+         4: getstatic     #17                 // Field midlet.a:Lmidlet;
+         7: invokevirtual #25                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        10: aload_0
+        11: invokevirtual #24                 // Method java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+        14: invokespecial #19                 // Method java/io/DataInputStream."<init>":(Ljava/io/InputStream;)V
+        17: dup
+        18: astore_0
+        19: invokevirtual #20                 // Method java/io/DataInputStream.available:()I
+        22: iconst_3
+        23: isub
+        24: newarray       byte
+        26: astore_1
+        27: aload_0
+        28: invokevirtual #22                 // Method java/io/DataInputStream.read:()I
+        31: pop
+        32: aload_0
+        33: invokevirtual #22                 // Method java/io/DataInputStream.read:()I
+        36: pop
+        37: aload_0
+        38: invokevirtual #22                 // Method java/io/DataInputStream.read:()I
+        41: pop
+        42: aload_0
+        43: aload_1
+        44: invokevirtual #23                 // Method java/io/DataInputStream.read:([B)I
+        47: pop
+        48: aload_0
+        49: invokevirtual #21                 // Method java/io/DataInputStream.close:()V
+        52: goto          56
+        55: pop
+        56: new           #10                 // class java/lang/String
+        59: dup
+        60: aload_1
+        61: ldc           #4                  // String UTF-8
+        63: invokespecial #26                 // Method java/lang/String."<init>":([BLjava/lang/String;)V
+        66: getstatic     #13                 // Field b:C
+        69: invokestatic  #28                 // Method rb.b:(Ljava/lang/String;C)[Ljava/lang/String;
+        72: areturn
+        73: pop
+        74: aconst_null
+        75: areturn
+      Exception table:
+         from    to  target type
+            48    52    55   Class java/lang/Exception
+             0    72    73   Class java/lang/Exception
+      StackMap: number_of_entries = 3
+        frame_type = 255 offset = 55
+          locals = [ class java/io/DataInputStream, class "[B" ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 56
+          locals = [ class java/io/DataInputStream, class "[B" ]
+          stack = []
+        frame_type = 255 offset = 73
+          locals = [ class java/lang/Object ]
+          stack = [ class java/lang/Exception ]
+
+  public static java.lang.String b(int);
+    descriptor: (I)Ljava/lang/String;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #16                 // Field d:[Ljava/lang/String;
+         3: ifnull        12
+         6: getstatic     #16                 // Field d:[Ljava/lang/String;
+         9: iload_0
+        10: aaload
+        11: areturn
+        12: ldc           #1                  // String
+        14: areturn
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 12
+          locals = [ int ]
+          stack = []
+
+  public static java.lang.String c(int);
+    descriptor: (I)Ljava/lang/String;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #16                 // Field d:[Ljava/lang/String;
+         3: ifnull        15
+         6: getstatic     #16                 // Field d:[Ljava/lang/String;
+         9: iload_0
+        10: bipush        64
+        12: iadd
+        13: aaload
+        14: areturn
+        15: ldc           #1                  // String
+        17: areturn
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 15
+          locals = [ int ]
+          stack = []
+
+  public static java.lang.String b(java.lang.String, int);
+    descriptor: (Ljava/lang/String;I)Ljava/lang/String;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokestatic  #18                 // Method b:(Ljava/lang/String;)[Ljava/lang/String;
+         4: dup
+         5: astore_0
+         6: ifnonnull     12
+         9: ldc           #1                  // String
+        11: areturn
+        12: iload_1
+        13: iflt          22
+        16: iload_1
+        17: aload_0
+        18: arraylength
+        19: if_icmplt     25
+        22: ldc           #1                  // String
+        24: areturn
+        25: aload_0
+        26: iload_1
+        27: aaload
+        28: areturn
+      StackMap: number_of_entries = 3
+        frame_type = 255 offset = 12
+          locals = [ class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 22
+          locals = [ class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 25
+          locals = [ class "[Ljava/lang/String;", int ]
+          stack = []
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: ldc           #3                  // String ;
+         2: iconst_0
+         3: invokevirtual #27                 // Method java/lang/String.charAt:(I)C
+         6: putstatic     #13                 // Field b:C
+         9: iconst_1
+        10: putstatic     #15                 // Field c:Z
+        13: iconst_m1
+        14: putstatic     #14                 // Field e:I
+        17: return
+}

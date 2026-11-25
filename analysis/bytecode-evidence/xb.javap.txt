@@ -1,0 +1,532 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/xb.class
+  Last modified Nov 24, 2026; size 2947 bytes
+  SHA-256 checksum 8b35e5feaff3a13df8587f6eb8425db6c6da2dbdbe87da0c298aad55766ecd7b
+final class xb extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #7                          // xb
+  super_class: #15                        // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+    #1 = String             #92           // \'
+    #2 = String             #144          // lst ex
+    #3 = String             #147          // prc ex
+    #4 = String             #148          // prc len=
+    #5 = String             #149          // prc url=\'
+    #6 = Class              #122          // f
+    #7 = Class              #125          // xb
+    #8 = Class              #128          // ab
+    #9 = Class              #129          // eb
+   #10 = Class              #135          // java/io/InputStream
+   #11 = Class              #136          // java/io/OutputStream
+   #12 = Class              #137          // java/lang/Exception
+   #13 = Class              #138          // java/lang/String
+   #14 = Class              #139          // java/lang/StringBuffer
+   #15 = Class              #140          // java/lang/Thread
+   #16 = Class              #141          // java/util/Vector
+   #17 = Class              #142          // javax/microedition/io/StreamConnection
+   #18 = Class              #143          // javax/microedition/io/StreamConnectionNotifier
+   #19 = Long               3000l
+   #21 = Fieldref           #6.#68        // f.k:Z
+   #22 = Fieldref           #6.#74        // f.c:Z
+   #23 = Fieldref           #7.#66        // xb.b:Lf;
+   #24 = Fieldref           #9.#67        // eb.b:Ljava/lang/String;
+   #25 = Methodref          #6.#60        // f.b:()V
+   #26 = Methodref          #6.#63        // f.c:(Lf;)Ljava/util/Vector;
+   #27 = Methodref          #6.#64        // f.b:(Lf;)Ljavax/microedition/io/StreamConnectionNotifier;
+   #28 = Methodref          #6.#65        // f.b:(Ljava/lang/String;)Ljava/lang/String;
+   #29 = Methodref          #6.#76        // f.c:()V
+   #30 = Methodref          #8.#61        // ab.b:(BBBB)I
+   #31 = Methodref          #8.#62        // ab.b:(I)[B
+   #32 = Methodref          #9.#58        // eb."<init>":(Lf;Ljava/lang/String;IB)V
+   #33 = Methodref          #10.#75       // java/io/InputStream.close:()V
+   #34 = Methodref          #10.#82       // java/io/InputStream.read:()I
+   #35 = Methodref          #10.#83       // java/io/InputStream.read:([B)I
+   #36 = Methodref          #11.#75       // java/io/OutputStream.close:()V
+   #37 = Methodref          #11.#79       // java/io/OutputStream.flush:()V
+   #38 = Methodref          #11.#88       // java/io/OutputStream.write:([B)V
+   #39 = Methodref          #13.#59       // java/lang/String."<init>":([B)V
+   #40 = Methodref          #13.#78       // java/lang/String.equals:(Ljava/lang/Object;)Z
+   #41 = Methodref          #14.#57       // java/lang/StringBuffer."<init>":()V
+   #42 = Methodref          #14.#71       // java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+   #43 = Methodref          #14.#72       // java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #44 = Methodref          #14.#73       // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #45 = Methodref          #14.#87       // java/lang/StringBuffer.toString:()Ljava/lang/String;
+   #46 = Methodref          #15.#57       // java/lang/Thread."<init>":()V
+   #47 = Methodref          #15.#86       // java/lang/Thread.sleep:(J)V
+   #48 = Methodref          #15.#89       // java/lang/Thread.yield:()V
+   #49 = Methodref          #16.#70       // java/util/Vector.addElement:(Ljava/lang/Object;)V
+   #50 = Methodref          #16.#77       // java/util/Vector.elementAt:(I)Ljava/lang/Object;
+   #51 = Methodref          #16.#84       // java/util/Vector.removeElementAt:(I)V
+   #52 = Methodref          #16.#85       // java/util/Vector.size:()I
+   #53 = InterfaceMethodref #17.#75       // javax/microedition/io/StreamConnection.close:()V
+   #54 = InterfaceMethodref #17.#80       // javax/microedition/io/StreamConnection.openInputStream:()Ljava/io/InputStream;
+   #55 = InterfaceMethodref #17.#81       // javax/microedition/io/StreamConnection.openOutputStream:()Ljava/io/OutputStream;
+   #56 = InterfaceMethodref #18.#69       // javax/microedition/io/StreamConnectionNotifier.acceptAndOpen:()Ljavax/microedition/io/StreamConnection;
+   #57 = NameAndType        #116:#98      // "<init>":()V
+   #58 = NameAndType        #116:#108     // "<init>":(Lf;Ljava/lang/String;IB)V
+   #59 = NameAndType        #116:#115     // "<init>":([B)V
+   #60 = NameAndType        #121:#98      // b:()V
+   #61 = NameAndType        #121:#99      // b:(BBBB)I
+   #62 = NameAndType        #121:#103     // b:(I)[B
+   #63 = NameAndType        #127:#105     // c:(Lf;)Ljava/util/Vector;
+   #64 = NameAndType        #121:#106     // b:(Lf;)Ljavax/microedition/io/StreamConnectionNotifier;
+   #65 = NameAndType        #121:#112     // b:(Ljava/lang/String;)Ljava/lang/String;
+   #66 = NameAndType        #121:#118     // b:Lf;
+   #67 = NameAndType        #121:#119     // b:Ljava/lang/String;
+   #68 = NameAndType        #161:#120     // k:Z
+   #69 = NameAndType        #123:#97      // acceptAndOpen:()Ljavax/microedition/io/StreamConnection;
+   #70 = NameAndType        #124:#110     // addElement:(Ljava/lang/Object;)V
+   #71 = NameAndType        #126:#101     // append:(I)Ljava/lang/StringBuffer;
+   #72 = NameAndType        #126:#109     // append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #73 = NameAndType        #126:#113     // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #74 = NameAndType        #127:#120     // c:Z
+   #75 = NameAndType        #130:#98      // close:()V
+   #76 = NameAndType        #127:#98      // c:()V
+   #77 = NameAndType        #132:#100     // elementAt:(I)Ljava/lang/Object;
+   #78 = NameAndType        #133:#111     // equals:(Ljava/lang/Object;)Z
+   #79 = NameAndType        #134:#98      // flush:()V
+   #80 = NameAndType        #145:#94      // openInputStream:()Ljava/io/InputStream;
+   #81 = NameAndType        #146:#95      // openOutputStream:()Ljava/io/OutputStream;
+   #82 = NameAndType        #150:#93      // read:()I
+   #83 = NameAndType        #150:#114     // read:([B)I
+   #84 = NameAndType        #151:#102     // removeElementAt:(I)V
+   #85 = NameAndType        #153:#93      // size:()I
+   #86 = NameAndType        #154:#104     // sleep:(J)V
+   #87 = NameAndType        #155:#96      // toString:()Ljava/lang/String;
+   #88 = NameAndType        #156:#115     // write:([B)V
+   #89 = NameAndType        #157:#98      // yield:()V
+   #90 = Class              #159          // "[B"
+   #91 = Class              #160          // java/lang/Object
+   #92 = Utf8               \'
+   #93 = Utf8               ()I
+   #94 = Utf8               ()Ljava/io/InputStream;
+   #95 = Utf8               ()Ljava/io/OutputStream;
+   #96 = Utf8               ()Ljava/lang/String;
+   #97 = Utf8               ()Ljavax/microedition/io/StreamConnection;
+   #98 = Utf8               ()V
+   #99 = Utf8               (BBBB)I
+  #100 = Utf8               (I)Ljava/lang/Object;
+  #101 = Utf8               (I)Ljava/lang/StringBuffer;
+  #102 = Utf8               (I)V
+  #103 = Utf8               (I)[B
+  #104 = Utf8               (J)V
+  #105 = Utf8               (Lf;)Ljava/util/Vector;
+  #106 = Utf8               (Lf;)Ljavax/microedition/io/StreamConnectionNotifier;
+  #107 = Utf8               (Lf;)V
+  #108 = Utf8               (Lf;Ljava/lang/String;IB)V
+  #109 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #110 = Utf8               (Ljava/lang/Object;)V
+  #111 = Utf8               (Ljava/lang/Object;)Z
+  #112 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #113 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #114 = Utf8               ([B)I
+  #115 = Utf8               ([B)V
+  #116 = Utf8               <init>
+  #117 = Utf8               Code
+  #118 = Utf8               Lf;
+  #119 = Utf8               Ljava/lang/String;
+  #120 = Utf8               Z
+  #121 = Utf8               b
+  #122 = Utf8               f
+  #123 = Utf8               acceptAndOpen
+  #124 = Utf8               addElement
+  #125 = Utf8               xb
+  #126 = Utf8               append
+  #127 = Utf8               c
+  #128 = Utf8               ab
+  #129 = Utf8               eb
+  #130 = Utf8               close
+  #131 = Utf8               ZKM5.3.2a
+  #132 = Utf8               elementAt
+  #133 = Utf8               equals
+  #134 = Utf8               flush
+  #135 = Utf8               java/io/InputStream
+  #136 = Utf8               java/io/OutputStream
+  #137 = Utf8               java/lang/Exception
+  #138 = Utf8               java/lang/String
+  #139 = Utf8               java/lang/StringBuffer
+  #140 = Utf8               java/lang/Thread
+  #141 = Utf8               java/util/Vector
+  #142 = Utf8               javax/microedition/io/StreamConnection
+  #143 = Utf8               javax/microedition/io/StreamConnectionNotifier
+  #144 = Utf8               lst ex
+  #145 = Utf8               openInputStream
+  #146 = Utf8               openOutputStream
+  #147 = Utf8               prc ex
+  #148 = Utf8               prc len=
+  #149 = Utf8               prc url=\'
+  #150 = Utf8               read
+  #151 = Utf8               removeElementAt
+  #152 = Utf8               run
+  #153 = Utf8               size
+  #154 = Utf8               sleep
+  #155 = Utf8               toString
+  #156 = Utf8               write
+  #157 = Utf8               yield
+  #158 = Utf8               StackMap
+  #159 = Utf8               [B
+  #160 = Utf8               java/lang/Object
+  #161 = Utf8               k
+  #162 = NameAndType        #163:#120     // xc:Z
+  #163 = Utf8               xc
+  #164 = Fieldref           #8.#162       // ab.xc:Z
+{
+  private final f b;
+    descriptor: Lf;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  xb(f);
+    descriptor: (Lf;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #46                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #23                 // Field b:Lf;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=8, locals=11, args_size=1
+         0: getstatic     #164                // Field ab.xc:Z
+         3: istore        10
+         5: aload_0
+         6: getfield      #23                 // Field b:Lf;
+         9: invokevirtual #25                 // Method f.b:()V
+        12: aload_0
+        13: getfield      #23                 // Field b:Lf;
+        16: getfield      #21                 // Field f.k:Z
+        19: ifeq          545
+        22: aload_0
+        23: getfield      #23                 // Field b:Lf;
+        26: getfield      #22                 // Field f.c:Z
+        29: ifne          545
+        32: aload_0
+        33: getfield      #23                 // Field b:Lf;
+        36: invokestatic  #27                 // Method f.b:(Lf;)Ljavax/microedition/io/StreamConnectionNotifier;
+        39: invokeinterface #56,  1           // InterfaceMethod javax/microedition/io/StreamConnectionNotifier.acceptAndOpen:()Ljavax/microedition/io/StreamConnection;
+        44: astore_1
+        45: goto          98
+        48: astore_2
+        49: aload_0
+        50: getfield      #23                 // Field b:Lf;
+        53: getfield      #21                 // Field f.k:Z
+        56: ifeq          97
+        59: aload_0
+        60: getfield      #23                 // Field b:Lf;
+        63: getfield      #22                 // Field f.c:Z
+        66: ifne          97
+        69: new           #14                 // class java/lang/StringBuffer
+        72: dup
+        73: invokespecial #41                 // Method java/lang/StringBuffer."<init>":()V
+        76: ldc           #2                  // String lst ex
+        78: invokevirtual #44                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        81: aload_2
+        82: invokevirtual #43                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+        85: invokevirtual #45                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        88: pop
+        89: invokestatic  #48                 // Method java/lang/Thread.yield:()V
+        92: iload         10
+        94: ifeq          12
+        97: return
+        98: aload_0
+        99: getfield      #23                 // Field b:Lf;
+       102: getfield      #21                 // Field f.k:Z
+       105: ifeq          537
+       108: aload_0
+       109: getfield      #23                 // Field b:Lf;
+       112: getfield      #22                 // Field f.c:Z
+       115: ifne          537
+       118: aload_0
+       119: getfield      #23                 // Field b:Lf;
+       122: invokevirtual #29                 // Method f.c:()V
+       125: aload_1
+       126: invokeinterface #54,  1           // InterfaceMethod javax/microedition/io/StreamConnection.openInputStream:()Ljava/io/InputStream;
+       131: astore        5
+       133: aload_1
+       134: invokeinterface #55,  1           // InterfaceMethod javax/microedition/io/StreamConnection.openOutputStream:()Ljava/io/OutputStream;
+       139: dup
+       140: astore        6
+       142: iconst_4
+       143: invokestatic  #31                 // Method ab.b:(I)[B
+       146: invokevirtual #38                 // Method java/io/OutputStream.write:([B)V
+       149: aload         6
+       151: invokevirtual #37                 // Method java/io/OutputStream.flush:()V
+       154: iconst_4
+       155: newarray       byte
+       157: astore        8
+       159: aload         5
+       161: aload         8
+       163: invokevirtual #35                 // Method java/io/InputStream.read:([B)I
+       166: pop
+       167: aload_0
+       168: getfield      #23                 // Field b:Lf;
+       171: getfield      #22                 // Field f.c:Z
+       174: ifne          187
+       177: aload_0
+       178: getfield      #23                 // Field b:Lf;
+       181: getfield      #21                 // Field f.k:Z
+       184: ifne          188
+       187: return
+       188: aload         8
+       190: iconst_0
+       191: baload
+       192: aload         8
+       194: iconst_1
+       195: baload
+       196: aload         8
+       198: iconst_2
+       199: baload
+       200: aload         8
+       202: iconst_3
+       203: baload
+       204: invokestatic  #30                 // Method ab.b:(BBBB)I
+       207: dup
+       208: istore_3
+       209: iconst_4
+       210: if_icmpne     217
+       213: iconst_1
+       214: goto          218
+       217: iconst_0
+       218: istore        7
+       220: aload         5
+       222: invokevirtual #34                 // Method java/io/InputStream.read:()I
+       225: istore        8
+       227: new           #14                 // class java/lang/StringBuffer
+       230: dup
+       231: invokespecial #41                 // Method java/lang/StringBuffer."<init>":()V
+       234: ldc           #4                  // String prc len=
+       236: invokevirtual #44                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       239: iload         8
+       241: invokevirtual #42                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+       244: invokevirtual #45                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       247: pop
+       248: aload_0
+       249: getfield      #23                 // Field b:Lf;
+       252: getfield      #22                 // Field f.c:Z
+       255: ifne          268
+       258: aload_0
+       259: getfield      #23                 // Field b:Lf;
+       262: getfield      #21                 // Field f.k:Z
+       265: ifne          269
+       268: return
+       269: iload         8
+       271: ifle          347
+       274: iload         8
+       276: newarray       byte
+       278: astore        9
+       280: aload         5
+       282: aload         9
+       284: invokevirtual #35                 // Method java/io/InputStream.read:([B)I
+       287: pop
+       288: new           #13                 // class java/lang/String
+       291: dup
+       292: aload         9
+       294: invokespecial #39                 // Method java/lang/String."<init>":([B)V
+       297: astore_2
+       298: iconst_1
+       299: newarray       byte
+       301: astore        9
+       303: aload         5
+       305: aload         9
+       307: invokevirtual #35                 // Method java/io/InputStream.read:([B)I
+       310: pop
+       311: aload         9
+       313: iconst_0
+       314: baload
+       315: istore        4
+       317: new           #14                 // class java/lang/StringBuffer
+       320: dup
+       321: invokespecial #41                 // Method java/lang/StringBuffer."<init>":()V
+       324: ldc           #5                  // String prc url=\'
+       326: invokevirtual #44                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       329: aload_2
+       330: invokevirtual #44                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       333: ldc           #1                  // String \'
+       335: invokevirtual #44                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       338: invokevirtual #45                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       341: pop
+       342: iload         10
+       344: ifeq          353
+       347: invokestatic  #48                 // Method java/lang/Thread.yield:()V
+       350: goto          154
+       353: ldc2_w        #19                 // long 3000l
+       356: invokestatic  #47                 // Method java/lang/Thread.sleep:(J)V
+       359: iload         7
+       361: ifeq          476
+       364: aload_2
+       365: invokestatic  #28                 // Method f.b:(Ljava/lang/String;)Ljava/lang/String;
+       368: astore        8
+       370: iconst_0
+       371: istore        9
+       373: iload         9
+       375: aload_0
+       376: getfield      #23                 // Field b:Lf;
+       379: invokestatic  #26                 // Method f.c:(Lf;)Ljava/util/Vector;
+       382: invokevirtual #52                 // Method java/util/Vector.size:()I
+       385: if_icmpge     451
+       388: aload_0
+       389: getfield      #23                 // Field b:Lf;
+       392: invokestatic  #26                 // Method f.c:(Lf;)Ljava/util/Vector;
+       395: iload         9
+       397: invokevirtual #50                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+       400: checkcast     #9                  // class eb
+       403: astore        7
+       405: aload         8
+       407: aload         7
+       409: getfield      #24                 // Field eb.b:Ljava/lang/String;
+       412: invokestatic  #28                 // Method f.b:(Ljava/lang/String;)Ljava/lang/String;
+       415: invokevirtual #40                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       418: iload         10
+       420: ifne          19
+       423: ifeq          443
+       426: aload_0
+       427: getfield      #23                 // Field b:Lf;
+       430: invokestatic  #26                 // Method f.c:(Lf;)Ljava/util/Vector;
+       433: iload         9
+       435: invokevirtual #51                 // Method java/util/Vector.removeElementAt:(I)V
+       438: iload         10
+       440: ifeq          451
+       443: iinc          9, 1
+       446: iload         10
+       448: ifeq          373
+       451: aload_0
+       452: getfield      #23                 // Field b:Lf;
+       455: invokestatic  #26                 // Method f.c:(Lf;)Ljava/util/Vector;
+       458: new           #9                  // class eb
+       461: dup
+       462: aload_0
+       463: getfield      #23                 // Field b:Lf;
+       466: aload_2
+       467: iload_3
+       468: iload         4
+       470: invokespecial #32                 // Method eb."<init>":(Lf;Ljava/lang/String;IB)V
+       473: invokevirtual #49                 // Method java/util/Vector.addElement:(Ljava/lang/Object;)V
+       476: aload         5
+       478: invokevirtual #33                 // Method java/io/InputStream.close:()V
+       481: goto          485
+       484: pop
+       485: aload         6
+       487: invokevirtual #36                 // Method java/io/OutputStream.close:()V
+       490: goto          520
+       493: pop
+       494: goto          520
+       497: astore        5
+       499: new           #14                 // class java/lang/StringBuffer
+       502: dup
+       503: invokespecial #41                 // Method java/lang/StringBuffer."<init>":()V
+       506: ldc           #3                  // String prc ex
+       508: invokevirtual #44                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       511: aload         5
+       513: invokevirtual #43                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+       516: invokevirtual #45                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       519: pop
+       520: aload_1
+       521: invokeinterface #53,  1           // InterfaceMethod javax/microedition/io/StreamConnection.close:()V
+       526: goto          530
+       529: pop
+       530: aload_0
+       531: getfield      #23                 // Field b:Lf;
+       534: invokevirtual #25                 // Method f.b:()V
+       537: invokestatic  #48                 // Method java/lang/Thread.yield:()V
+       540: iload         10
+       542: ifeq          12
+       545: return
+      Exception table:
+         from    to  target type
+            32    45    48   Class java/lang/Exception
+           476   481   484   Class java/lang/Exception
+           485   490   493   Class java/lang/Exception
+           125   187   497   Class java/lang/Exception
+           188   268   497   Class java/lang/Exception
+           269   494   497   Class java/lang/Exception
+           520   526   529   Class java/lang/Exception
+      StackMap: number_of_entries = 27
+        frame_type = 255 offset = 12
+          locals = [ class xb, top, top, top, top, top, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 19
+          locals = [ class xb, top, top, top, top, top, top, top, top, top, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 48
+          locals = [ class xb, top, top, top, top, top, top, top, top, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 97
+          locals = [ class xb, top, class java/lang/Exception, top, top, top, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 98
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, top, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 154
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, class java/io/InputStream, class java/io/OutputStream, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 187
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, class java/io/InputStream, class java/io/OutputStream, top, class "[B", top, int ]
+          stack = []
+        frame_type = 255 offset = 188
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, class java/io/InputStream, class java/io/OutputStream, top, class "[B", top, int ]
+          stack = []
+        frame_type = 255 offset = 217
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, int, top, class java/io/InputStream, class java/io/OutputStream, top, class "[B", top, int ]
+          stack = []
+        frame_type = 255 offset = 218
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, int, top, class java/io/InputStream, class java/io/OutputStream, top, class "[B", top, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 268
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, int, top, class java/io/InputStream, class java/io/OutputStream, int, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 269
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, int, top, class java/io/InputStream, class java/io/OutputStream, int, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 347
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, int, top, class java/io/InputStream, class java/io/OutputStream, int, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 353
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, int, int, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 373
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, top, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 443
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, class eb, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 451
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, top, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 476
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 484
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, top, top, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 485
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 493
+          locals = [ class xb, class javax/microedition/io/StreamConnection, class java/lang/String, int, int, class java/io/InputStream, class java/io/OutputStream, top, top, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 497
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, top, top, top, top, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 520
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, class java/lang/Object, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 529
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, class java/lang/Object, top, top, top, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 530
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, class java/lang/Object, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 537
+          locals = [ class xb, class javax/microedition/io/StreamConnection, top, top, top, top, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 545
+          locals = [ class xb, top, top, top, top, top, top, top, top, top, int ]
+          stack = []
+}

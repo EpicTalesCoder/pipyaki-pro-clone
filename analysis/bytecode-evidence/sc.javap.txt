@@ -1,0 +1,184 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/sc.class
+  Last modified Nov 24, 2026; size 959 bytes
+  SHA-256 checksum de26c6407fd646dd75507f019313d3980dff273a92ed257100faf0aa85763f36
+public final class sc extends javax.microedition.media.protocol.DataSource
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // sc
+  super_class: #3                         // javax/microedition/media/protocol/DataSource
+  interfaces: 0, fields: 5, methods: 10, attributes: 0
+Constant pool:
+   #1 = Class              #31            // z
+   #2 = Class              #32            // sc
+   #3 = Class              #39            // javax/microedition/media/protocol/DataSource
+   #4 = Fieldref           #1.#12         // z.b:J
+   #5 = Fieldref           #2.#13         // sc.b:Ljava/lang/String;
+   #6 = Fieldref           #2.#14         // sc.d:[Lz;
+   #7 = Fieldref           #2.#15         // sc.c:Ljava/lang/String;
+   #8 = Methodref          #1.#11         // z."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+   #9 = Methodref          #3.#10         // javax/microedition/media/protocol/DataSource."<init>":(Ljava/lang/String;)V
+  #10 = NameAndType        #23:#21        // "<init>":(Ljava/lang/String;)V
+  #11 = NameAndType        #23:#22        // "<init>":(Ljava/lang/String;Ljava/lang/String;)V
+  #12 = NameAndType        #29:#26        // b:J
+  #13 = NameAndType        #29:#27        // b:Ljava/lang/String;
+  #14 = NameAndType        #43:#28        // d:[Lz;
+  #15 = NameAndType        #30:#27        // c:Ljava/lang/String;
+  #16 = Utf8               ()Ljava/lang/String;
+  #17 = Utf8               ()V
+  #18 = Utf8               ()[Ljavax/microedition/media/Control;
+  #19 = Utf8               ()[Ljavax/microedition/media/protocol/SourceStream;
+  #20 = Utf8               (Ljava/lang/String;)Ljavax/microedition/media/Control;
+  #21 = Utf8               (Ljava/lang/String;)V
+  #22 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+  #23 = Utf8               <init>
+  #24 = Utf8               Code
+  #25 = Utf8               I
+  #26 = Utf8               J
+  #27 = Utf8               Ljava/lang/String;
+  #28 = Utf8               [Lz;
+  #29 = Utf8               b
+  #30 = Utf8               c
+  #31 = Utf8               z
+  #32 = Utf8               sc
+  #33 = Utf8               connect
+  #34 = Utf8               disconnect
+  #35 = Utf8               getContentType
+  #36 = Utf8               getControl
+  #37 = Utf8               getControls
+  #38 = Utf8               getStreams
+  #39 = Utf8               javax/microedition/media/protocol/DataSource
+  #40 = Utf8               start
+  #41 = Utf8               stop
+  #42 = Utf8               ZKM5.3.2a
+  #43 = Utf8               d
+  #44 = Utf8               e
+  #45 = Utf8               f
+  #46 = Utf8               StackMap
+{
+  private java.lang.String b;
+    descriptor: Ljava/lang/String;
+    flags: (0x0002) ACC_PRIVATE
+
+  private java.lang.String c;
+    descriptor: Ljava/lang/String;
+    flags: (0x0002) ACC_PRIVATE
+
+  private z[] d;
+    descriptor: [Lz;
+    flags: (0x0002) ACC_PRIVATE
+
+  public int e;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int f;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public sc(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=6, locals=3, args_size=3
+         0: aload_0
+         1: aload_1
+         2: invokespecial #9                  // Method javax/microedition/media/protocol/DataSource."<init>":(Ljava/lang/String;)V
+         5: aload_0
+         6: aload_1
+         7: putfield      #7                  // Field c:Ljava/lang/String;
+        10: aload_0
+        11: aload_2
+        12: putfield      #5                  // Field b:Ljava/lang/String;
+        15: aload_0
+        16: iconst_1
+        17: anewarray     #1                  // class z
+        20: putfield      #6                  // Field d:[Lz;
+        23: aload_0
+        24: getfield      #6                  // Field d:[Lz;
+        27: iconst_0
+        28: new           #1                  // class z
+        31: dup
+        32: aload_0
+        33: getfield      #7                  // Field c:Ljava/lang/String;
+        36: aload_0
+        37: getfield      #5                  // Field b:Ljava/lang/String;
+        40: invokespecial #8                  // Method z."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        43: aastore
+        44: return
+
+  public final void connect();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public final void disconnect();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public final void start();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public final void stop();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public final javax.microedition.media.Control getControl(java.lang.String);
+    descriptor: (Ljava/lang/String;)Ljavax/microedition/media/Control;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aconst_null
+         1: areturn
+
+  public final javax.microedition.media.Control[] getControls();
+    descriptor: ()[Ljavax/microedition/media/Control;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public final javax.microedition.media.protocol.SourceStream[] getStreams();
+    descriptor: ()[Ljavax/microedition/media/protocol/SourceStream;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #6                  // Field d:[Lz;
+         4: areturn
+
+  public final java.lang.String getContentType();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #5                  // Field b:Ljava/lang/String;
+         4: areturn
+
+  public final void b();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #6                  // Field d:[Lz;
+         4: iconst_0
+         5: aaload
+         6: lconst_0
+         7: putfield      #4                  // Field z.b:J
+        10: return
+}

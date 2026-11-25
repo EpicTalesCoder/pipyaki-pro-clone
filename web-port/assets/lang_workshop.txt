@@ -1,0 +1,73 @@
+﻿Trong màn này bạn cần sử dụng nhiều vũ khí khác nhau. Các vũ khí đó có thể mua ở của hàng.Bản đồ trong đây rất hẹp nên cẩn thạn không mất mạng.Mua xu và vật phẩm ở shop.
+Xu hiển thị ở góc dưới bên trái. Góc bên phải sẽ hiển thị giá - Bạn cần một lựa chọn đúng đắn.
+Vật phẩm được chia thành ba loại:... Loại một là vũ khí chiến đấu. Lọa hai là công cụ trang bị. Cuối cùng là công cụ hỗ trợ.Nhấn OK để xem thông tin chi tiết.Nhấn phím trái hoặc phải để "mua" hoặc "hủy bỏ"...
+Nếu bạn không đủ xu có thể gửi tin nhắn để lấy xu.
+
+Dưa hấu màu xanh lá là loại rẻ tiền nhất nhưng nếu thiếu tiền đó là công cụ hỗ trợ đắc lực. Khi quả dưa chín thì nó sẽ phát nổ với bán kính tương đối. Bạn có thể mở đường, .....
+
+. Nâng cao thông thường dưa hấu tăng (120) cũng làm tăng phạm vi nổ thiệt hại;Dưa hấu xanh
+
+Đặt bom và có thể đá. Sát thương nhẹ và giá rẻ chỉ có 10xu; Dưa hấu đỏ
+
+Cải tiến từ dưa hấu xanh. Có phần mạnh mẽ hơn. Gây sát thương gấp đôi so với dưa hấu thường; Gạch ngói
+
+Là những viên gạch được phù phép. Người bị ném trúng sẽ bất động 6s.
+
+Hiện tại nó là phát minh bí ẩn và nhiều hấp dẫn với giá chỉ có 20xu ; Dưa xanh cao su
+
+...Là kết quả của việc đột biến gen dưa hấu xanh tạo ra một trái có thể lăn và bám dính. Sát thương khá lớn; Dưa đỏ cao su
+
+ Là loại vũ khí nguy hiểm nhất,Dưa đỏ cao su lợi thế là trong phạm vi tấn công nổ bức tường khá lớn và có thể xâm nhập sâu; Dưa lăn
+
+Được gọi như thế bởi vì khi ném xuống đất nó sẽ lăn đi và khi chạm bất cứ vật gì sẽ chuyển hướng. Khả năng linh hoạt cao. Nhưng có thể gây sát thương cho chính mình bởi tính đặc dụng; Dưa lăn cải tiến
+
+Được cải tiến đáng kể với sức mạnh đáng sợ. Tác dụng như dưa lăn nhưng khá năng sát thương và linh hoạt vô cùng lớn. Giá hơi đắt ^^!; Dứa 
+
+Là loại vũ khí có sức sát thương lớn nhất. Nó là mối lo ngại cho kẻ thù; Dứa rừng
+
+Vũ khí được ví như bom hạt nhân làm cho kẻ thù khiếp sợ. Là vũ khí khắc chế xe bắn pháo; Tất thối
+
+Nghe đến tên chắc các bạn đã cảm nhận được sự kinh khủng của nó. Chiếc tất thối chứa ruồi gây bệnh này đã làm điên đảo bao nhiêu đầu óc kẻ thù; Vỏ chuối
+
+Công cụ hữu ích để bẫy kẻ thù. Khi bị trượt vỏ chuối, nặng thì choáng 5s, nhẹ thì mất máu;..! Bừa cào
+
+Cái bừa cào tưởng chừng như vô dụng nhưng nó được cải tiến với khả năng tàng hình khiến bao kẻ thù nơm nớp lo sợ dính bẫy; Bom
+
+Đây là vũ khí thu được từ gián điệp bị bắt của kẻ thù cài vào. Chúng ta đã lấy được công nghệ chế tạo vũ khí này từ chúng.Khả năng sát thương lớn hơn dưa hấu; Bom bẫy
+
+Đặt bẫy bằng bom và gây sát thương trên diện rộng; Quả chuối
+
+Hồi phục 45% máu sau khi sử dụng vỏ chuối; Mũ giác đấu
+
+Đội mũ vào sẽ có sức mạnh hơn người Mũ giúp chạy nhanh và húc như trâu
+
+Mẹo: Có thể khắc chế đòn tấn công độn thổ; Mũ tàng hình
+
+Giúp ta tàng hình trong 30s; Mũ bảo vệ
+
+Đội mũ sẽ giảm 50% sát thương; Cà rốt
+
+Tăng 100% máu; Trứng phục sinh
+
+Giúp tăng thêm mạng; Bình cứu thương
+
+Sử dụng để nâng cao máu cho mình; Mức độ %
+
+Tăng cường số tiền nhặt được và sức mạnh vũ khí; Kích thích dưa
+
+Tăng cường tất cả công nghệ của dưa lên 20% sát thương; Kích thích gạch
+
+Tăng số lượng gạch và thời gian bất động; Kích thích dưa cao su
+Tăng cường 30% sát thương cho vũ khí loại cao su; Kích thích dưa lăn
+
+Tăng mức sát thương 20 =>30% và thời gian lăn lâu hơn; Kích thích dứa
+
+Tăng sức công phá vũ khí loại dứa lên 70% (60 giây); Sức thối lan tỏa
+
+Tăng 50% sát thương của tất thối và phạm vi lan rộng 10%; Sửa chữa
+Tăng độ nguy hiểm của bẫy bừa cào bằng việc tăng sát thương 30%; Tấm lót
+
+Tăng tốc độ khi đội mũ giác đấu và tăng sức húc 20%; Vải tàng hình
+
+Tăng thời gian tàng hình lên 45s
+

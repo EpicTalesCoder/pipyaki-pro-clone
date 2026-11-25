@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 16.0-b13 (Sun Microsystems Inc.)
+MIDlet-1: Pipyaki Pro,/icon.png,midlet
+MIDlet-Vendor: waptai.com
+MIDlet-Name: Pipyaki Pro
+MIDlet-Version: 2.0.52
+MIDlet-Description: Tai mien phi waptai.com
+MIDlet-Info-URL: http://waptai.com
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+

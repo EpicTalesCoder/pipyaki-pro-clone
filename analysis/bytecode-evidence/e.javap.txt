@@ -1,0 +1,472 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/e.class
+  Last modified Nov 24, 2026; size 1656 bytes
+  SHA-256 checksum c1868e18d419c58c314a38d5dfde041a6d2ab766b550597874282de98ad2c181
+abstract class e
+  minor version: 0
+  major version: 47
+  flags: (0x0420) ACC_SUPER, ACC_ABSTRACT
+  this_class: #1                          // e
+  super_class: #3                         // java/lang/Object
+  interfaces: 0, fields: 5, methods: 17, attributes: 0
+Constant pool:
+   #1 = Class              #63            // e
+   #2 = Class              #65            // jb
+   #3 = Class              #74            // java/lang/Object
+   #4 = Class              #75            // java/util/Vector
+   #5 = Class              #78            // kb
+   #6 = Fieldref           #1.#29         // e.b:I
+   #7 = Fieldref           #1.#30         // e.e:Lc;
+   #8 = Fieldref           #1.#31         // e.f:Lob;
+   #9 = Fieldref           #1.#32         // e.d:Ljava/util/Vector;
+  #10 = Fieldref           #2.#28         // jb.c:B
+  #11 = Fieldref           #2.#84         // jb.h:Ljava/util/Vector;
+  #12 = Methodref          #1.#27         // e.b:([B)V
+  #13 = Methodref          #1.#36         // e.i:()V
+  #14 = Methodref          #2.#34         // jb.g:()V
+  #15 = Methodref          #2.#35         // jb.h:()V
+  #16 = Methodref          #2.#37         // jb.k:()V
+  #17 = Methodref          #2.#38         // jb.l:()V
+  #18 = Methodref          #3.#25         // java/lang/Object."<init>":()V
+  #19 = Methodref          #3.#39         // java/lang/Object.notify:()V
+  #20 = Methodref          #4.#25         // java/util/Vector."<init>":()V
+  #21 = Methodref          #4.#33         // java/util/Vector.elementAt:(I)Ljava/lang/Object;
+  #22 = Methodref          #4.#40         // java/util/Vector.removeElementAt:(I)V
+  #23 = Methodref          #4.#41         // java/util/Vector.size:()I
+  #24 = Methodref          #5.#26         // kb.b:()V
+  #25 = NameAndType        #54:#44        // "<init>":()V
+  #26 = NameAndType        #62:#44        // b:()V
+  #27 = NameAndType        #62:#52        // b:([B)V
+  #28 = NameAndType        #64:#55        // c:B
+  #29 = NameAndType        #62:#57        // b:I
+  #30 = NameAndType        #63:#58        // e:Lc;
+  #31 = NameAndType        #67:#59        // f:Lob;
+  #32 = NameAndType        #66:#60        // d:Ljava/util/Vector;
+  #33 = NameAndType        #68:#46        // elementAt:(I)Ljava/lang/Object;
+  #34 = NameAndType        #69:#44        // g:()V
+  #35 = NameAndType        #70:#44        // h:()V
+  #36 = NameAndType        #71:#44        // i:()V
+  #37 = NameAndType        #73:#44        // k:()V
+  #38 = NameAndType        #76:#44        // l:()V
+  #39 = NameAndType        #77:#44        // notify:()V
+  #40 = NameAndType        #79:#47        // removeElementAt:(I)V
+  #41 = NameAndType        #80:#43        // size:()I
+  #42 = Class              #82            // java/lang/Throwable
+  #43 = Utf8               ()I
+  #44 = Utf8               ()V
+  #45 = Utf8               (B)B
+  #46 = Utf8               (I)Ljava/lang/Object;
+  #47 = Utf8               (I)V
+  #48 = Utf8               (I[B)V
+  #49 = Utf8               (Lc;Lob;)V
+  #50 = Utf8               (Ljb;[B)V
+  #51 = Utf8               (Ljava/lang/String;I[BBZZ)V
+  #52 = Utf8               ([B)V
+  #53 = Utf8               ([BB)V
+  #54 = Utf8               <init>
+  #55 = Utf8               B
+  #56 = Utf8               Code
+  #57 = Utf8               I
+  #58 = Utf8               Lc;
+  #59 = Utf8               Lob;
+  #60 = Utf8               Ljava/util/Vector;
+  #61 = Utf8               Z
+  #62 = Utf8               b
+  #63 = Utf8               e
+  #64 = Utf8               c
+  #65 = Utf8               jb
+  #66 = Utf8               d
+  #67 = Utf8               f
+  #68 = Utf8               elementAt
+  #69 = Utf8               g
+  #70 = Utf8               h
+  #71 = Utf8               i
+  #72 = Utf8               j
+  #73 = Utf8               k
+  #74 = Utf8               java/lang/Object
+  #75 = Utf8               java/util/Vector
+  #76 = Utf8               l
+  #77 = Utf8               notify
+  #78 = Utf8               kb
+  #79 = Utf8               removeElementAt
+  #80 = Utf8               size
+  #81 = Utf8               StackMap
+  #82 = Utf8               java/lang/Throwable
+  #83 = Utf8               ZKM5.3.2a
+  #84 = NameAndType        #70:#60        // h:Ljava/util/Vector;
+  #85 = Utf8               m
+  #86 = Class              #87            // ab
+  #87 = Utf8               ab
+  #88 = NameAndType        #89:#61        // xc:Z
+  #89 = Utf8               xc
+  #90 = Fieldref           #86.#88        // ab.xc:Z
+{
+  public int b;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public boolean c;
+    descriptor: Z
+    flags: (0x0001) ACC_PUBLIC
+
+  protected java.util.Vector d;
+    descriptor: Ljava/util/Vector;
+    flags: (0x0004) ACC_PROTECTED
+
+  protected c e;
+    descriptor: Lc;
+    flags: (0x0004) ACC_PROTECTED
+
+  protected ob f;
+    descriptor: Lob;
+    flags: (0x0004) ACC_PROTECTED
+
+  public e(c, ob);
+    descriptor: (Lc;Lob;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=3
+         0: aload_0
+         1: invokespecial #18                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iconst_0
+         6: putfield      #6                  // Field b:I
+         9: aload_0
+        10: new           #4                  // class java/util/Vector
+        13: dup
+        14: invokespecial #20                 // Method java/util/Vector."<init>":()V
+        17: putfield      #9                  // Field d:Ljava/util/Vector;
+        20: aload_0
+        21: aload_1
+        22: putfield      #7                  // Field e:Lc;
+        25: aload_0
+        26: aload_2
+        27: putfield      #8                  // Field f:Lob;
+        30: return
+
+  public int b();
+    descriptor: ()I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #9                  // Field d:Ljava/util/Vector;
+         4: invokevirtual #23                 // Method java/util/Vector.size:()I
+         7: ireturn
+
+  abstract void d();
+    descriptor: ()V
+    flags: (0x0400) ACC_ABSTRACT
+
+  public final void f();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: iconst_1
+         1: newarray       byte
+         3: dup
+         4: iconst_0
+         5: bipush        110
+         7: bastore
+         8: astore_1
+         9: aload_0
+        10: aload_1
+        11: invokevirtual #12                 // Method b:([B)V
+        14: aload_0
+        15: invokevirtual #13                 // Method i:()V
+        18: return
+
+  public final void g();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=4, args_size=1
+         0: getstatic     #90                 // Field ab.xc:Z
+         3: istore_3
+         4: iconst_0
+         5: istore_1
+         6: iload_1
+         7: aload_0
+         8: getfield      #9                  // Field d:Ljava/util/Vector;
+        11: invokevirtual #23                 // Method java/util/Vector.size:()I
+        14: if_icmpge     40
+        17: aload_0
+        18: getfield      #9                  // Field d:Ljava/util/Vector;
+        21: iload_1
+        22: invokevirtual #21                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        25: checkcast     #2                  // class jb
+        28: dup
+        29: astore_2
+        30: invokevirtual #16                 // Method jb.k:()V
+        33: iinc          1, 1
+        36: iload_3
+        37: ifeq          6
+        40: return
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 6
+          locals = [ class e, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 40
+          locals = [ class e, int, top, int ]
+          stack = []
+
+  public final void h();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=4, args_size=1
+         0: getstatic     #90                 // Field ab.xc:Z
+         3: istore_3
+         4: iconst_0
+         5: istore_1
+         6: iload_1
+         7: aload_0
+         8: getfield      #9                  // Field d:Ljava/util/Vector;
+        11: invokevirtual #23                 // Method java/util/Vector.size:()I
+        14: if_icmpge     40
+        17: aload_0
+        18: getfield      #9                  // Field d:Ljava/util/Vector;
+        21: iload_1
+        22: invokevirtual #21                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        25: checkcast     #2                  // class jb
+        28: dup
+        29: astore_2
+        30: invokevirtual #17                 // Method jb.l:()V
+        33: iinc          1, 1
+        36: iload_3
+        37: ifeq          6
+        40: return
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 6
+          locals = [ class e, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 40
+          locals = [ class e, int, top, int ]
+          stack = []
+
+  public final byte b(byte);
+    descriptor: (B)B
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #9                  // Field d:Ljava/util/Vector;
+         4: iload_1
+         5: iconst_2
+         6: isub
+         7: invokevirtual #21                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        10: checkcast     #2                  // class jb
+        13: dup
+        14: astore_1
+        15: getfield      #10                 // Field jb.c:B
+        18: ireturn
+
+  public final void i();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=4, args_size=1
+         0: getstatic     #90                 // Field ab.xc:Z
+         3: istore_3
+         4: iconst_0
+         5: istore_1
+         6: iload_1
+         7: aload_0
+         8: getfield      #9                  // Field d:Ljava/util/Vector;
+        11: invokevirtual #23                 // Method java/util/Vector.size:()I
+        14: if_icmpge     40
+        17: aload_0
+        18: getfield      #9                  // Field d:Ljava/util/Vector;
+        21: iload_1
+        22: invokevirtual #21                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        25: checkcast     #2                  // class jb
+        28: dup
+        29: astore_2
+        30: invokevirtual #14                 // Method jb.g:()V
+        33: iinc          1, 1
+        36: iload_3
+        37: ifeq          6
+        40: return
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 6
+          locals = [ class e, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 40
+          locals = [ class e, int, top, int ]
+          stack = []
+
+  public final void j();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=4, args_size=1
+         0: getstatic     #90                 // Field ab.xc:Z
+         3: istore_3
+         4: iconst_0
+         5: istore_1
+         6: iload_1
+         7: aload_0
+         8: getfield      #9                  // Field d:Ljava/util/Vector;
+        11: invokevirtual #23                 // Method java/util/Vector.size:()I
+        14: if_icmpge     40
+        17: aload_0
+        18: getfield      #9                  // Field d:Ljava/util/Vector;
+        21: iload_1
+        22: invokevirtual #21                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        25: checkcast     #2                  // class jb
+        28: dup
+        29: astore_2
+        30: invokevirtual #15                 // Method jb.h:()V
+        33: iinc          1, 1
+        36: iload_3
+        37: ifeq          6
+        40: return
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 6
+          locals = [ class e, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 40
+          locals = [ class e, int, top, int ]
+          stack = []
+
+  protected final void k();
+    descriptor: ()V
+    flags: (0x0014) ACC_PROTECTED, ACC_FINAL
+    Code:
+      stack=3, locals=4, args_size=1
+         0: getstatic     #90                 // Field ab.xc:Z
+         3: istore_3
+         4: aload_0
+         5: dup
+         6: astore_2
+         7: monitorenter
+         8: aload_0
+         9: invokevirtual #19                 // Method java/lang/Object.notify:()V
+        12: aload_0
+        13: getfield      #9                  // Field d:Ljava/util/Vector;
+        16: invokevirtual #23                 // Method java/util/Vector.size:()I
+        19: ifeq          54
+        22: aload_0
+        23: getfield      #9                  // Field d:Ljava/util/Vector;
+        26: iconst_0
+        27: invokevirtual #21                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        30: checkcast     #5                  // class kb
+        33: astore_1
+        34: aload_0
+        35: getfield      #9                  // Field d:Ljava/util/Vector;
+        38: iconst_0
+        39: invokevirtual #22                 // Method java/util/Vector.removeElementAt:(I)V
+        42: aload_1
+        43: invokevirtual #24                 // Method kb.b:()V
+        46: iload_3
+        47: ifne          56
+        50: iload_3
+        51: ifeq          12
+        54: aload_2
+        55: monitorexit
+        56: return
+        57: astore_1
+        58: aload_2
+        59: monitorexit
+        60: aload_1
+        61: athrow
+      Exception table:
+         from    to  target type
+             8    56    57   any
+            57    60    57   any
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 12
+          locals = [ class e, top, class e, int ]
+          stack = []
+        frame_type = 255 offset = 54
+          locals = [ class e, top, class e, int ]
+          stack = []
+        frame_type = 255 offset = 56
+          locals = [ class e, top, class e, int ]
+          stack = []
+        frame_type = 255 offset = 57
+          locals = [ class e, top, class e, int ]
+          stack = [ class java/lang/Throwable ]
+
+  abstract void b(jb, byte[]);
+    descriptor: (Ljb;[B)V
+    flags: (0x0400) ACC_ABSTRACT
+
+  abstract void b(byte[]);
+    descriptor: ([B)V
+    flags: (0x0400) ACC_ABSTRACT
+
+  abstract void b(byte[], byte);
+    descriptor: ([BB)V
+    flags: (0x0400) ACC_ABSTRACT
+
+  abstract void b(int, byte[]);
+    descriptor: (I[B)V
+    flags: (0x0400) ACC_ABSTRACT
+
+  public void l();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public void b(java.lang.String, int, byte[], byte, boolean, boolean);
+    descriptor: (Ljava/lang/String;I[BBZZ)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=7, args_size=7
+         0: return
+
+  public final int m();
+    descriptor: ()I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=4, locals=4, args_size=1
+         0: getstatic     #90                 // Field ab.xc:Z
+         3: istore_3
+         4: aload_0
+         5: getfield      #9                  // Field d:Ljava/util/Vector;
+         8: ifnull        59
+        11: iconst_0
+        12: istore_1
+        13: iconst_0
+        14: istore_2
+        15: iload_2
+        16: aload_0
+        17: getfield      #9                  // Field d:Ljava/util/Vector;
+        20: invokevirtual #23                 // Method java/util/Vector.size:()I
+        23: if_icmpge     57
+        26: iload_1
+        27: aload_0
+        28: getfield      #9                  // Field d:Ljava/util/Vector;
+        31: iload_2
+        32: invokevirtual #21                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        35: checkcast     #2                  // class jb
+        38: getfield      #11                 // Field jb.h:Ljava/util/Vector;
+        41: invokevirtual #23                 // Method java/util/Vector.size:()I
+        44: iadd
+        45: iload_3
+        46: ifne          58
+        49: istore_1
+        50: iinc          2, 1
+        53: iload_3
+        54: ifeq          15
+        57: iload_1
+        58: ireturn
+        59: iconst_0
+        60: ireturn
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 15
+          locals = [ class e, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 57
+          locals = [ class e, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 58
+          locals = [ class e, int, int, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 59
+          locals = [ class e, top, top, int ]
+          stack = []
+}

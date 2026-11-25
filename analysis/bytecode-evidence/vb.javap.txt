@@ -1,0 +1,251 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/vb.class
+  Last modified Nov 24, 2026; size 1164 bytes
+  SHA-256 checksum a1ba8adca7b8f24de5dfa725229c704e8ae75e99f94406cf11cd715164835edc
+final class vb
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #8                          // vb
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 4, methods: 4, attributes: 0
+Constant pool:
+   #1 = String             #36            //
+   #2 = Class              #57            // java/io/ByteArrayInputStream
+   #3 = Class              #58            // java/io/IOException
+   #4 = Class              #59            // java/lang/Object
+   #5 = Class              #60            // java/lang/String
+   #6 = Class              #61            // java/lang/StringBuffer
+   #7 = Class              #62            // java/util/Vector
+   #8 = Class              #63            // vb
+   #9 = Fieldref           #8.#25         // vb.c:B
+  #10 = Fieldref           #8.#26         // vb.b:Ljava/lang/String;
+  #11 = Fieldref           #8.#30         // vb.e:B
+  #12 = Fieldref           #8.#31         // vb.d:Ljava/lang/String;
+  #13 = Methodref          #2.#32         // java/io/ByteArrayInputStream.read:()I
+  #14 = Methodref          #2.#33         // java/io/ByteArrayInputStream.read:([B)I
+  #15 = Methodref          #3.#23         // java/io/IOException."<init>":()V
+  #16 = Methodref          #4.#23         // java/lang/Object."<init>":()V
+  #17 = Methodref          #5.#24         // java/lang/String."<init>":([B)V
+  #18 = Methodref          #6.#23         // java/lang/StringBuffer."<init>":()V
+  #19 = Methodref          #6.#28         // java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+  #20 = Methodref          #6.#29         // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #21 = Methodref          #6.#34         // java/lang/StringBuffer.toString:()Ljava/lang/String;
+  #22 = Methodref          #7.#27         // java/util/Vector.addElement:(Ljava/lang/Object;)V
+  #23 = NameAndType        #49:#39        // "<init>":()V
+  #24 = NameAndType        #49:#48        // "<init>":([B)V
+  #25 = NameAndType        #53:#50        // c:B
+  #26 = NameAndType        #69:#52        // b:Ljava/lang/String;
+  #27 = NameAndType        #54:#44        // addElement:(Ljava/lang/Object;)V
+  #28 = NameAndType        #55:#41        // append:(I)Ljava/lang/StringBuffer;
+  #29 = NameAndType        #55:#45        // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #30 = NameAndType        #56:#50        // e:B
+  #31 = NameAndType        #70:#52        // d:Ljava/lang/String;
+  #32 = NameAndType        #64:#37        // read:()I
+  #33 = NameAndType        #64:#47        // read:([B)I
+  #34 = NameAndType        #65:#38        // toString:()Ljava/lang/String;
+  #35 = Class              #67            // "[B"
+  #36 = Utf8
+  #37 = Utf8               ()I
+  #38 = Utf8               ()Ljava/lang/String;
+  #39 = Utf8               ()V
+  #40 = Utf8               (B)V
+  #41 = Utf8               (I)Ljava/lang/StringBuffer;
+  #42 = Utf8               (Ln;Ljava/lang/String;)V
+  #43 = Utf8               (Ln;Ljava/util/Vector;Ljava/io/ByteArrayInputStream;)V
+  #44 = Utf8               (Ljava/lang/Object;)V
+  #45 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #46 = Utf8               (Lvb;)Ljava/lang/String;
+  #47 = Utf8               ([B)I
+  #48 = Utf8               ([B)V
+  #49 = Utf8               <init>
+  #50 = Utf8               B
+  #51 = Utf8               Code
+  #52 = Utf8               Ljava/lang/String;
+  #53 = Utf8               c
+  #54 = Utf8               addElement
+  #55 = Utf8               append
+  #56 = Utf8               e
+  #57 = Utf8               java/io/ByteArrayInputStream
+  #58 = Utf8               java/io/IOException
+  #59 = Utf8               java/lang/Object
+  #60 = Utf8               java/lang/String
+  #61 = Utf8               java/lang/StringBuffer
+  #62 = Utf8               java/util/Vector
+  #63 = Utf8               vb
+  #64 = Utf8               read
+  #65 = Utf8               toString
+  #66 = Utf8               StackMap
+  #67 = Utf8               [B
+  #68 = Utf8               ZKM5.3.2a
+  #69 = Utf8               b
+  #70 = Utf8               d
+  #71 = Class              #72            // ab
+  #72 = Utf8               ab
+  #73 = NameAndType        #74:#75        // xc:Z
+  #74 = Utf8               xc
+  #75 = Utf8               Z
+  #76 = Fieldref           #71.#73        // ab.xc:Z
+{
+  public java.lang.String b;
+    descriptor: Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  public byte c;
+    descriptor: B
+    flags: (0x0001) ACC_PUBLIC
+
+  public java.lang.String d;
+    descriptor: Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  public byte e;
+    descriptor: B
+    flags: (0x0001) ACC_PUBLIC
+
+  public vb(n, java.lang.String);
+    descriptor: (Ln;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: invokespecial #16                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: ldc           #1                  // String
+         7: putfield      #12                 // Field d:Ljava/lang/String;
+        10: aload_0
+        11: aload_2
+        12: putfield      #10                 // Field b:Ljava/lang/String;
+        15: return
+
+  public final void b(byte);
+    descriptor: (B)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iconst_0
+         2: putfield      #11                 // Field e:B
+         5: aload_0
+         6: iload_1
+         7: putfield      #9                  // Field c:B
+        10: return
+
+  public vb(n, java.util.Vector, java.io.ByteArrayInputStream);
+    descriptor: (Ln;Ljava/util/Vector;Ljava/io/ByteArrayInputStream;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=5, locals=4, args_size=4
+         0: aload_0
+         1: invokespecial #16                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: ldc           #1                  // String
+         7: putfield      #12                 // Field d:Ljava/lang/String;
+        10: aload_3
+        11: invokevirtual #13                 // Method java/io/ByteArrayInputStream.read:()I
+        14: dup
+        15: istore_1
+        16: ifgt          27
+        19: new           #3                  // class java/io/IOException
+        22: dup
+        23: invokespecial #15                 // Method java/io/IOException."<init>":()V
+        26: athrow
+        27: iload_1
+        28: newarray       byte
+        30: astore_1
+        31: aload_3
+        32: aload_1
+        33: invokevirtual #14                 // Method java/io/ByteArrayInputStream.read:([B)I
+        36: pop
+        37: aload_0
+        38: new           #5                  // class java/lang/String
+        41: dup
+        42: aload_1
+        43: invokespecial #17                 // Method java/lang/String."<init>":([B)V
+        46: putfield      #10                 // Field b:Ljava/lang/String;
+        49: aload_0
+        50: aload_3
+        51: invokevirtual #13                 // Method java/io/ByteArrayInputStream.read:()I
+        54: i2b
+        55: putfield      #11                 // Field e:B
+        58: aload_0
+        59: getfield      #11                 // Field e:B
+        62: ifne          80
+        65: aload_0
+        66: aload_3
+        67: invokevirtual #13                 // Method java/io/ByteArrayInputStream.read:()I
+        70: i2b
+        71: putfield      #9                  // Field c:B
+        74: getstatic     #76                 // Field ab.xc:Z
+        77: ifeq          115
+        80: aload_0
+        81: getfield      #11                 // Field e:B
+        84: iconst_1
+        85: if_icmpne     115
+        88: aload_3
+        89: invokevirtual #13                 // Method java/io/ByteArrayInputStream.read:()I
+        92: dup
+        93: istore_1
+        94: newarray       byte
+        96: astore_1
+        97: aload_3
+        98: aload_1
+        99: invokevirtual #14                 // Method java/io/ByteArrayInputStream.read:([B)I
+       102: pop
+       103: aload_0
+       104: new           #5                  // class java/lang/String
+       107: dup
+       108: aload_1
+       109: invokespecial #17                 // Method java/lang/String."<init>":([B)V
+       112: putfield      #12                 // Field d:Ljava/lang/String;
+       115: aload_2
+       116: aload_0
+       117: invokevirtual #22                 // Method java/util/Vector.addElement:(Ljava/lang/Object;)V
+       120: return
+      StackMap: number_of_entries = 3
+        frame_type = 255 offset = 27
+          locals = [ class vb, int, class java/util/Vector, class java/io/ByteArrayInputStream ]
+          stack = []
+        frame_type = 255 offset = 80
+          locals = [ class vb, class "[B", class java/util/Vector, class java/io/ByteArrayInputStream ]
+          stack = []
+        frame_type = 255 offset = 115
+          locals = [ class vb, class "[B", class java/util/Vector, class java/io/ByteArrayInputStream ]
+          stack = []
+
+  static java.lang.String b(vb);
+    descriptor: (Lvb;)Ljava/lang/String;
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_0
+         3: getfield      #11                 // Field e:B
+         6: ifne          32
+         9: new           #6                  // class java/lang/StringBuffer
+        12: dup
+        13: invokespecial #18                 // Method java/lang/StringBuffer."<init>":()V
+        16: ldc           #1                  // String
+        18: invokevirtual #20                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        21: aload_0
+        22: getfield      #9                  // Field c:B
+        25: invokevirtual #19                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+        28: invokevirtual #21                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        31: areturn
+        32: aload_0
+        33: getfield      #11                 // Field e:B
+        36: iconst_1
+        37: if_icmpne     45
+        40: aload_0
+        41: getfield      #12                 // Field d:Ljava/lang/String;
+        44: areturn
+        45: ldc           #1                  // String
+        47: areturn
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 32
+          locals = [ class vb ]
+          stack = []
+        frame_type = 255 offset = 45
+          locals = [ class vb ]
+          stack = []
+}

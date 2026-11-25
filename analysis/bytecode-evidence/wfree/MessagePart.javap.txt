@@ -1,0 +1,118 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/wfree/MessagePart.class
+  Last modified Nov 24, 2026; size 823 bytes
+  SHA-256 checksum f245739a9ed6f2cd8cb847f58d79a7e70047de56fdffb97d2e59efdfac738171
+public class wfree.MessagePart
+  minor version: 0
+  major version: 47
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #2                          // wfree/MessagePart
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 10, attributes: 0
+Constant pool:
+   #1 = Utf8               wfree/MessagePart
+   #2 = Class              #1             // wfree/MessagePart
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = NameAndType        #5:#6          // "<init>":()V
+   #8 = Methodref          #4.#7          // java/lang/Object."<init>":()V
+   #9 = Utf8               ([BIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  #10 = Utf8               Code
+  #11 = Utf8               ([BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  #12 = Utf8               (Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  #13 = Utf8               getContent
+  #14 = Utf8               ()[B
+  #15 = Utf8               getContentAsStream
+  #16 = Utf8               ()Ljava/io/InputStream;
+  #17 = Utf8               getContentID
+  #18 = Utf8               ()Ljava/lang/String;
+  #19 = Utf8               getContentLocation
+  #20 = Utf8               getEncoding
+  #21 = Utf8               getLength
+  #22 = Utf8               ()I
+  #23 = Utf8               getMIMEType
+{
+  public wfree.MessagePart(byte[], int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+    descriptor: ([BIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=8, args_size=8
+         0: aload_0
+         1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+         4: return
+
+  public wfree.MessagePart(byte[], java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+    descriptor: ([BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=6, args_size=6
+         0: aload_0
+         1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+         4: return
+
+  public wfree.MessagePart(java.io.InputStream, java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+    descriptor: (Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=6, args_size=6
+         0: aload_0
+         1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+         4: return
+
+  public byte[] getContent();
+    descriptor: ()[B
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public java.io.InputStream getContentAsStream();
+    descriptor: ()Ljava/io/InputStream;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public java.lang.String getContentID();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public java.lang.String getContentLocation();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public java.lang.String getEncoding();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public int getLength();
+    descriptor: ()I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_0
+         1: ireturn
+
+  public java.lang.String getMIMEType();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+}

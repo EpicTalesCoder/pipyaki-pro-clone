@@ -1,0 +1,1585 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/rc.class
+  Last modified Nov 24, 2026; size 5617 bytes
+  SHA-256 checksum 2ddf44bb1aceff5711d16df1b1c126f3c064e11b94165cd03c1c38e9ca1429cd
+public final class rc extends javax.microedition.lcdui.Canvas
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #15                         // rc
+  super_class: #6                         // javax/microedition/lcdui/Canvas
+  interfaces: 0, fields: 18, methods: 13, attributes: 0
+Constant pool:
+    #1 = Class              #238          // ab
+    #2 = Class              #239          // fb
+    #3 = Class              #240          // gb
+    #4 = Class              #256          // java/lang/Exception
+    #5 = Class              #257          // java/lang/Math
+    #6 = Class              #258          // javax/microedition/lcdui/Canvas
+    #7 = Class              #259          // javax/microedition/lcdui/Display
+    #8 = Class              #260          // javax/microedition/lcdui/Graphics
+    #9 = Class              #229          // pb
+   #10 = Class              #230          // qb
+   #11 = Class              #263          // midlet
+   #12 = Class              #265          // tb
+   #13 = Class              #270          // ub
+   #14 = Class              #272          // wb
+   #15 = Class              #278          // rc
+   #16 = Long               50l
+   #18 = Fieldref           #1.#121       // ab.jb:I
+   #19 = Fieldref           #1.#122       // ab.kb:I
+   #20 = Fieldref           #1.#123       // ab.nb:I
+   #21 = Fieldref           #1.#124       // ab.ob:I
+   #22 = Fieldref           #1.#125       // ab.pb:I
+   #23 = Fieldref           #1.#126       // ab.qb:I
+   #24 = Fieldref           #1.#127       // ab.rb:I
+   #25 = Fieldref           #1.#134       // ab.l:I
+   #26 = Fieldref           #1.#136       // ab.A:Lfb;
+   #27 = Fieldref           #1.#138       // ab.F:Ljavax/microedition/lcdui/Font;
+   #28 = Fieldref           #1.#140       // ab.B:Lqb;
+   #29 = Fieldref           #1.#142       // ab.G:Lub;
+   #30 = Fieldref           #1.#152       // ab.q:I
+   #31 = Fieldref           #1.#172       // ab.D:I
+   #32 = Fieldref           #1.#173       // ab.o:Z
+   #33 = Fieldref           #1.#177       // ab.E:I
+   #34 = Fieldref           #1.#188       // ab.Ib:Z
+   #35 = Fieldref           #2.#135       // fb.kb:J
+   #36 = Fieldref           #2.#284       // fb.I:Lfb;
+   #37 = Fieldref           #2.#141       // fb.i:Ltb;
+   #38 = Fieldref           #2.#145       // fb.Id:[I
+   #39 = Fieldref           #2.#154       // fb.Jd:[I
+   #40 = Fieldref           #2.#179       // fb.Kd:I
+   #41 = Fieldref           #2.#181       // fb.Ld:I
+   #42 = Fieldref           #2.#182       // fb.Md:I
+   #43 = Fieldref           #2.#185       // fb.Nd:I
+   #44 = Fieldref           #3.#157       // gb.j:I
+   #45 = Fieldref           #3.#161       // gb.k:I
+   #46 = Fieldref           #3.#291       // gb.n:I
+   #47 = Fieldref           #3.#166       // gb.o:I
+   #48 = Fieldref           #9.#281       // pb.b:I
+   #49 = Fieldref           #9.#288       // pb.d:I
+   #50 = Fieldref           #9.#289       // pb.e:I
+   #51 = Fieldref           #10.#139      // qb.b:Lpb;
+   #52 = Fieldref           #10.#285      // qb.c:Ltb;
+   #53 = Fieldref           #10.#146      // qb.Db:[Lgb;
+   #54 = Fieldref           #10.#162      // qb.M:Lpb;
+   #55 = Fieldref           #10.#186      // qb.Cb:I
+   #56 = Fieldref           #10.#187      // qb.Kb:I
+   #57 = Fieldref           #10.#189      // qb.Pb:I
+   #58 = Fieldref           #10.#190      // qb.Qb:I
+   #59 = Fieldref           #10.#191      // qb.Rb:I
+   #60 = Fieldref           #11.#180      // midlet.a:Lmidlet;
+   #61 = Fieldref           #12.#144      // tb.g:Z
+   #62 = Fieldref           #15.#282      // rc.h:I
+   #63 = Fieldref           #15.#283      // rc.f:J
+   #64 = Fieldref           #15.#137      // rc.c:Ljavax/microedition/lcdui/Display;
+   #65 = Fieldref           #15.#143      // rc.b:Lrc;
+   #66 = Fieldref           #15.#286      // rc.e:Z
+   #67 = Fieldref           #15.#287      // rc.i:I
+   #68 = Fieldref           #15.#144      // rc.g:Z
+   #69 = Fieldref           #15.#157      // rc.j:I
+   #70 = Fieldref           #15.#158      // rc.k:Z
+   #71 = Fieldref           #15.#290      // rc.m:I
+   #72 = Fieldref           #15.#163      // rc.l:Z
+   #73 = Fieldref           #15.#166      // rc.o:I
+   #74 = Fieldref           #15.#167      // rc.n:Z
+   #75 = Fieldref           #15.#152      // rc.q:I
+   #76 = Fieldref           #15.#169      // rc.d:Z
+   #77 = Fieldref           #15.#292      // rc.r:I
+   #78 = Fieldref           #15.#293      // rc.p:Z
+   #79 = Fieldref           #15.#294      // rc.s:I
+   #80 = Methodref          #1.#149       // ab.c:()V
+   #81 = Methodref          #2.#129       // fb.b:()V
+   #82 = Methodref          #2.#132       // fb.b:(Ljavax/microedition/lcdui/Graphics;)V
+   #83 = Methodref          #2.#133       // fb.b:(ZZ)V
+   #84 = Methodref          #2.#151       // fb.c:(I)V
+   #85 = Methodref          #2.#155       // fb.i:()Z
+   #86 = Methodref          #2.#156       // fb.d:(I)V
+   #87 = Methodref          #2.#171       // fb.p:()V
+   #88 = Methodref          #3.#128       // gb.b:()I
+   #89 = Methodref          #3.#148       // gb.c:()I
+   #90 = Methodref          #3.#150       // gb.j:()Z
+   #91 = Methodref          #3.#159       // gb.r:()Z
+   #92 = Methodref          #5.#147       // java/lang/Math.abs:(I)I
+   #93 = Methodref          #6.#120       // javax/microedition/lcdui/Canvas."<init>":()V
+   #94 = Methodref          #7.#174       // javax/microedition/lcdui/Display.getDisplay:(Ljavax/microedition/midlet/MIDlet;)Ljavax/microedition/lcdui/Display;
+   #95 = Methodref          #7.#193       // javax/microedition/lcdui/Display.setCurrent:(Ljavax/microedition/lcdui/Displayable;)V
+   #96 = Methodref          #7.#196       // javax/microedition/lcdui/Display.vibrate:(I)Z
+   #97 = Methodref          #8.#170       // javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+   #98 = Methodref          #8.#192       // javax/microedition/lcdui/Graphics.setColor:(I)V
+   #99 = Methodref          #8.#194       // javax/microedition/lcdui/Graphics.setFont:(Ljavax/microedition/lcdui/Font;)V
+  #100 = Methodref          #9.#131       // pb.b:(II)V
+  #101 = Methodref          #9.#132       // pb.b:(Ljavax/microedition/lcdui/Graphics;)V
+  #102 = Methodref          #10.#132      // qb.b:(Ljavax/microedition/lcdui/Graphics;)V
+  #103 = Methodref          #10.#151      // qb.c:(I)V
+  #104 = Methodref          #10.#160      // qb.j:(I)V
+  #105 = Methodref          #10.#165      // qb.k:(I)V
+  #106 = Methodref          #11.#129      // midlet.b:()V
+  #107 = Methodref          #12.#130      // tb.b:(I)V
+  #108 = Methodref          #13.#164      // ub.g:()V
+  #109 = Methodref          #13.#168      // ub.h:()V
+  #110 = Methodref          #14.#130      // wb.b:(I)V
+  #111 = Methodref          #14.#132      // wb.b:(Ljavax/microedition/lcdui/Graphics;)V
+  #112 = Methodref          #15.#129      // rc.b:()V
+  #113 = Methodref          #15.#132      // rc.b:(Ljavax/microedition/lcdui/Graphics;)V
+  #114 = Methodref          #15.#175      // rc.getHeight:()I
+  #115 = Methodref          #15.#176      // rc.getWidth:()I
+  #116 = Methodref          #15.#178      // rc.hasPointerEvents:()Z
+  #117 = Methodref          #15.#183      // rc.keyPressed:(I)V
+  #118 = Methodref          #15.#184      // rc.keyReleased:(I)V
+  #119 = Methodref          #15.#195      // rc.setFullScreenMode:(Z)V
+  #120 = NameAndType        #212:#198     // "<init>":()V
+  #121 = NameAndType        #214:#216     // jb:I
+  #122 = NameAndType        #215:#216     // kb:I
+  #123 = NameAndType        #218:#216     // nb:I
+  #124 = NameAndType        #219:#216     // ob:I
+  #125 = NameAndType        #229:#216     // pb:I
+  #126 = NameAndType        #230:#216     // qb:I
+  #127 = NameAndType        #231:#216     // rb:I
+  #128 = NameAndType        #235:#197     // b:()I
+  #129 = NameAndType        #235:#198     // b:()V
+  #130 = NameAndType        #235:#201     // b:(I)V
+  #131 = NameAndType        #235:#203     // b:(II)V
+  #132 = NameAndType        #235:#207     // b:(Ljavax/microedition/lcdui/Graphics;)V
+  #133 = NameAndType        #235:#210     // b:(ZZ)V
+  #134 = NameAndType        #295:#216     // l:I
+  #135 = NameAndType        #215:#217     // kb:J
+  #136 = NameAndType        #296:#220     // A:Lfb;
+  #137 = NameAndType        #237:#221     // c:Ljavax/microedition/lcdui/Display;
+  #138 = NameAndType        #297:#222     // F:Ljavax/microedition/lcdui/Font;
+  #139 = NameAndType        #235:#223     // b:Lpb;
+  #140 = NameAndType        #298:#224     // B:Lqb;
+  #141 = NameAndType        #241:#226     // i:Ltb;
+  #142 = NameAndType        #299:#227     // G:Lub;
+  #143 = NameAndType        #235:#228     // b:Lrc;
+  #144 = NameAndType        #243:#232     // g:Z
+  #145 = NameAndType        #300:#233     // Id:[I
+  #146 = NameAndType        #301:#234     // Db:[Lgb;
+  #147 = NameAndType        #236:#200     // abs:(I)I
+  #148 = NameAndType        #237:#197     // c:()I
+  #149 = NameAndType        #237:#198     // c:()V
+  #150 = NameAndType        #304:#199     // j:()Z
+  #151 = NameAndType        #237:#201     // c:(I)V
+  #152 = NameAndType        #305:#216     // q:I
+  #153 = Utf8               ZKM5.3.2a
+  #154 = NameAndType        #306:#233     // Jd:[I
+  #155 = NameAndType        #241:#199     // i:()Z
+  #156 = NameAndType        #307:#201     // d:(I)V
+  #157 = NameAndType        #304:#216     // j:I
+  #158 = NameAndType        #308:#232     // k:Z
+  #159 = NameAndType        #242:#199     // r:()Z
+  #160 = NameAndType        #304:#201     // j:(I)V
+  #161 = NameAndType        #308:#216     // k:I
+  #162 = NameAndType        #309:#223     // M:Lpb;
+  #163 = NameAndType        #295:#232     // l:Z
+  #164 = NameAndType        #243:#198     // g:()V
+  #165 = NameAndType        #308:#201     // k:(I)V
+  #166 = NameAndType        #311:#216     // o:I
+  #167 = NameAndType        #312:#232     // n:Z
+  #168 = NameAndType        #244:#198     // h:()V
+  #169 = NameAndType        #307:#232     // d:Z
+  #170 = NameAndType        #245:#204     // fillRect:(IIII)V
+  #171 = NameAndType        #246:#198     // p:()V
+  #172 = NameAndType        #313:#216     // D:I
+  #173 = NameAndType        #311:#232     // o:Z
+  #174 = NameAndType        #247:#208     // getDisplay:(Ljavax/microedition/midlet/MIDlet;)Ljavax/microedition/lcdui/Display;
+  #175 = NameAndType        #248:#197     // getHeight:()I
+  #176 = NameAndType        #249:#197     // getWidth:()I
+  #177 = NameAndType        #250:#216     // E:I
+  #178 = NameAndType        #251:#199     // hasPointerEvents:()Z
+  #179 = NameAndType        #253:#216     // Kd:I
+  #180 = NameAndType        #254:#225     // a:Lmidlet;
+  #181 = NameAndType        #255:#216     // Ld:I
+  #182 = NameAndType        #315:#216     // Md:I
+  #183 = NameAndType        #261:#201     // keyPressed:(I)V
+  #184 = NameAndType        #262:#201     // keyReleased:(I)V
+  #185 = NameAndType        #316:#216     // Nd:I
+  #186 = NameAndType        #264:#216     // Cb:I
+  #187 = NameAndType        #317:#216     // Kb:I
+  #188 = NameAndType        #318:#232     // Ib:Z
+  #189 = NameAndType        #319:#216     // Pb:I
+  #190 = NameAndType        #271:#216     // Qb:I
+  #191 = NameAndType        #320:#216     // Rb:I
+  #192 = NameAndType        #273:#201     // setColor:(I)V
+  #193 = NameAndType        #274:#205     // setCurrent:(Ljavax/microedition/lcdui/Displayable;)V
+  #194 = NameAndType        #275:#206     // setFont:(Ljavax/microedition/lcdui/Font;)V
+  #195 = NameAndType        #276:#209     // setFullScreenMode:(Z)V
+  #196 = NameAndType        #279:#202     // vibrate:(I)Z
+  #197 = Utf8               ()I
+  #198 = Utf8               ()V
+  #199 = Utf8               ()Z
+  #200 = Utf8               (I)I
+  #201 = Utf8               (I)V
+  #202 = Utf8               (I)Z
+  #203 = Utf8               (II)V
+  #204 = Utf8               (IIII)V
+  #205 = Utf8               (Ljavax/microedition/lcdui/Displayable;)V
+  #206 = Utf8               (Ljavax/microedition/lcdui/Font;)V
+  #207 = Utf8               (Ljavax/microedition/lcdui/Graphics;)V
+  #208 = Utf8               (Ljavax/microedition/midlet/MIDlet;)Ljavax/microedition/lcdui/Display;
+  #209 = Utf8               (Z)V
+  #210 = Utf8               (ZZ)V
+  #211 = Utf8               <clinit>
+  #212 = Utf8               <init>
+  #213 = Utf8               Code
+  #214 = Utf8               jb
+  #215 = Utf8               kb
+  #216 = Utf8               I
+  #217 = Utf8               J
+  #218 = Utf8               nb
+  #219 = Utf8               ob
+  #220 = Utf8               Lfb;
+  #221 = Utf8               Ljavax/microedition/lcdui/Display;
+  #222 = Utf8               Ljavax/microedition/lcdui/Font;
+  #223 = Utf8               Lpb;
+  #224 = Utf8               Lqb;
+  #225 = Utf8               Lmidlet;
+  #226 = Utf8               Ltb;
+  #227 = Utf8               Lub;
+  #228 = Utf8               Lrc;
+  #229 = Utf8               pb
+  #230 = Utf8               qb
+  #231 = Utf8               rb
+  #232 = Utf8               Z
+  #233 = Utf8               [I
+  #234 = Utf8               [Lgb;
+  #235 = Utf8               b
+  #236 = Utf8               abs
+  #237 = Utf8               c
+  #238 = Utf8               ab
+  #239 = Utf8               fb
+  #240 = Utf8               gb
+  #241 = Utf8               i
+  #242 = Utf8               r
+  #243 = Utf8               g
+  #244 = Utf8               h
+  #245 = Utf8               fillRect
+  #246 = Utf8               p
+  #247 = Utf8               getDisplay
+  #248 = Utf8               getHeight
+  #249 = Utf8               getWidth
+  #250 = Utf8               E
+  #251 = Utf8               hasPointerEvents
+  #252 = Utf8               hideNotify
+  #253 = Utf8               Kd
+  #254 = Utf8               a
+  #255 = Utf8               Ld
+  #256 = Utf8               java/lang/Exception
+  #257 = Utf8               java/lang/Math
+  #258 = Utf8               javax/microedition/lcdui/Canvas
+  #259 = Utf8               javax/microedition/lcdui/Display
+  #260 = Utf8               javax/microedition/lcdui/Graphics
+  #261 = Utf8               keyPressed
+  #262 = Utf8               keyReleased
+  #263 = Utf8               midlet
+  #264 = Utf8               Cb
+  #265 = Utf8               tb
+  #266 = Utf8               paint
+  #267 = Utf8               pointerDragged
+  #268 = Utf8               pointerPressed
+  #269 = Utf8               pointerReleased
+  #270 = Utf8               ub
+  #271 = Utf8               Qb
+  #272 = Utf8               wb
+  #273 = Utf8               setColor
+  #274 = Utf8               setCurrent
+  #275 = Utf8               setFont
+  #276 = Utf8               setFullScreenMode
+  #277 = Utf8               showNotify
+  #278 = Utf8               rc
+  #279 = Utf8               vibrate
+  #280 = Utf8               StackMap
+  #281 = NameAndType        #235:#216     // b:I
+  #282 = NameAndType        #244:#216     // h:I
+  #283 = NameAndType        #303:#217     // f:J
+  #284 = NameAndType        #216:#220     // I:Lfb;
+  #285 = NameAndType        #237:#226     // c:Ltb;
+  #286 = NameAndType        #302:#232     // e:Z
+  #287 = NameAndType        #241:#216     // i:I
+  #288 = NameAndType        #307:#216     // d:I
+  #289 = NameAndType        #302:#216     // e:I
+  #290 = NameAndType        #310:#216     // m:I
+  #291 = NameAndType        #312:#216     // n:I
+  #292 = NameAndType        #242:#216     // r:I
+  #293 = NameAndType        #246:#232     // p:Z
+  #294 = NameAndType        #314:#216     // s:I
+  #295 = Utf8               l
+  #296 = Utf8               A
+  #297 = Utf8               F
+  #298 = Utf8               B
+  #299 = Utf8               G
+  #300 = Utf8               Id
+  #301 = Utf8               Db
+  #302 = Utf8               e
+  #303 = Utf8               f
+  #304 = Utf8               j
+  #305 = Utf8               q
+  #306 = Utf8               Jd
+  #307 = Utf8               d
+  #308 = Utf8               k
+  #309 = Utf8               M
+  #310 = Utf8               m
+  #311 = Utf8               o
+  #312 = Utf8               n
+  #313 = Utf8               D
+  #314 = Utf8               s
+  #315 = Utf8               Md
+  #316 = Utf8               Nd
+  #317 = Utf8               Kb
+  #318 = Utf8               Ib
+  #319 = Utf8               Pb
+  #320 = Utf8               Rb
+  #321 = NameAndType        #322:#232     // xc:Z
+  #322 = Utf8               xc
+  #323 = Fieldref           #1.#321       // ab.xc:Z
+{
+  public static rc b;
+    descriptor: Lrc;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static javax.microedition.lcdui.Display c;
+    descriptor: Ljavax/microedition/lcdui/Display;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  private static boolean d;
+    descriptor: Z
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public static boolean e;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static long f;
+    descriptor: J
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static boolean g;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static int h;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static int i;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static int j;
+    descriptor: I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static boolean k;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static boolean l;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  private static int m;
+    descriptor: I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public boolean n;
+    descriptor: Z
+    flags: (0x0001) ACC_PUBLIC
+
+  private int o;
+    descriptor: I
+    flags: (0x0002) ACC_PRIVATE
+
+  private static boolean p;
+    descriptor: Z
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private static int q;
+    descriptor: I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private static int r;
+    descriptor: I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private static int s;
+    descriptor: I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public rc();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #93                 // Method javax/microedition/lcdui/Canvas."<init>":()V
+         4: aload_0
+         5: iconst_0
+         6: putfield      #74                 // Field n:Z
+         9: aload_0
+        10: iconst_0
+        11: putfield      #73                 // Field o:I
+        14: getstatic     #60                 // Field midlet.a:Lmidlet;
+        17: invokestatic  #94                 // Method javax/microedition/lcdui/Display.getDisplay:(Ljavax/microedition/midlet/MIDlet;)Ljavax/microedition/lcdui/Display;
+        20: dup
+        21: putstatic     #64                 // Field c:Ljavax/microedition/lcdui/Display;
+        24: aload_0
+        25: invokevirtual #95                 // Method javax/microedition/lcdui/Display.setCurrent:(Ljavax/microedition/lcdui/Displayable;)V
+        28: iconst_1
+        29: putstatic     #76                 // Field d:Z
+        32: aload_0
+        33: iconst_1
+        34: invokevirtual #119                // Method setFullScreenMode:(Z)V
+        37: aload_0
+        38: invokevirtual #112                // Method b:()V
+        41: aload_0
+        42: invokevirtual #116                // Method hasPointerEvents:()Z
+        45: putstatic     #66                 // Field e:Z
+        48: aload_0
+        49: putstatic     #65                 // Field b:Lrc;
+        52: return
+        53: pop
+        54: getstatic     #60                 // Field midlet.a:Lmidlet;
+        57: invokevirtual #106                // Method midlet.b:()V
+        60: return
+      Exception table:
+         from    to  target type
+            14    52    53   Class java/lang/Exception
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 53
+          locals = [ class rc ]
+          stack = [ class java/lang/Exception ]
+
+  public final void paint(javax.microedition.lcdui.Graphics);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=3, args_size=2
+         0: getstatic     #323                // Field ab.xc:Z
+         3: istore_2
+         4: aload_0
+         5: getfield      #74                 // Field n:Z
+         8: ifeq          12
+        11: return
+        12: aload_0
+        13: iconst_1
+        14: putfield      #74                 // Field n:Z
+        17: aload_1
+        18: getstatic     #27                 // Field ab.F:Ljavax/microedition/lcdui/Font;
+        21: invokevirtual #99                 // Method javax/microedition/lcdui/Graphics.setFont:(Ljavax/microedition/lcdui/Font;)V
+        24: getstatic     #25                 // Field ab.l:I
+        27: ifne          53
+        30: getstatic     #26                 // Field ab.A:Lfb;
+        33: ifnull        53
+        36: getstatic     #26                 // Field ab.A:Lfb;
+        39: aload_1
+        40: invokevirtual #82                 // Method fb.b:(Ljavax/microedition/lcdui/Graphics;)V
+        43: getstatic     #26                 // Field ab.A:Lfb;
+        46: invokevirtual #87                 // Method fb.p:()V
+        49: iload_2
+        50: ifeq          96
+        53: getstatic     #25                 // Field ab.l:I
+        56: iconst_1
+        57: if_icmpne     77
+        60: getstatic     #28                 // Field ab.B:Lqb;
+        63: ifnull        77
+        66: getstatic     #28                 // Field ab.B:Lqb;
+        69: aload_1
+        70: invokevirtual #102                // Method qb.b:(Ljavax/microedition/lcdui/Graphics;)V
+        73: iload_2
+        74: ifeq          96
+        77: getstatic     #25                 // Field ab.l:I
+        80: iconst_2
+        81: if_icmpne     92
+        84: aload_1
+        85: invokestatic  #111                // Method wb.b:(Ljavax/microedition/lcdui/Graphics;)V
+        88: iload_2
+        89: ifeq          96
+        92: aload_1
+        93: invokestatic  #113                // Method b:(Ljavax/microedition/lcdui/Graphics;)V
+        96: aload_0
+        97: iconst_0
+        98: putfield      #74                 // Field n:Z
+       101: return
+      StackMap: number_of_entries = 5
+        frame_type = 255 offset = 12
+          locals = [ class rc, class javax/microedition/lcdui/Graphics, int ]
+          stack = []
+        frame_type = 255 offset = 53
+          locals = [ class rc, class javax/microedition/lcdui/Graphics, int ]
+          stack = []
+        frame_type = 255 offset = 77
+          locals = [ class rc, class javax/microedition/lcdui/Graphics, int ]
+          stack = []
+        frame_type = 255 offset = 92
+          locals = [ class rc, class javax/microedition/lcdui/Graphics, int ]
+          stack = []
+        frame_type = 255 offset = 96
+          locals = [ class rc, class javax/microedition/lcdui/Graphics, int ]
+          stack = []
+
+  public static void b(javax.microedition.lcdui.Graphics);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=1, args_size=1
+         0: invokestatic  #80                 // Method ab.c:()V
+         3: aload_0
+         4: iconst_0
+         5: invokevirtual #98                 // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+         8: aload_0
+         9: iconst_0
+        10: iconst_0
+        11: getstatic     #31                 // Field ab.D:I
+        14: getstatic     #33                 // Field ab.E:I
+        17: invokevirtual #97                 // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+        20: getstatic     #30                 // Field ab.q:I
+        23: ifle          80
+        26: getstatic     #54                 // Field qb.M:Lpb;
+        29: ifnull        80
+        32: getstatic     #54                 // Field qb.M:Lpb;
+        35: getstatic     #71                 // Field m:I
+        38: bipush        12
+        40: irem
+        41: putfield      #48                 // Field pb.b:I
+        44: getstatic     #54                 // Field qb.M:Lpb;
+        47: getstatic     #31                 // Field ab.D:I
+        50: getstatic     #54                 // Field qb.M:Lpb;
+        53: getfield      #49                 // Field pb.d:I
+        56: isub
+        57: bipush        12
+        59: isub
+        60: bipush        12
+        62: invokevirtual #100                // Method pb.b:(II)V
+        65: getstatic     #54                 // Field qb.M:Lpb;
+        68: aload_0
+        69: invokevirtual #101                // Method pb.b:(Ljavax/microedition/lcdui/Graphics;)V
+        72: getstatic     #71                 // Field m:I
+        75: iconst_1
+        76: iadd
+        77: putstatic     #71                 // Field m:I
+        80: return
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 80
+          locals = [ class javax/microedition/lcdui/Graphics ]
+          stack = []
+
+  public final void keyPressed(int);
+    descriptor: (I)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: getstatic     #76                 // Field d:Z
+         3: ifeq          75
+         6: iload_1
+         7: bipush        -20
+         9: if_icmpne     16
+        12: getstatic     #19                 // Field ab.kb:I
+        15: istore_1
+        16: iload_1
+        17: bipush        -21
+        19: if_icmpne     23
+        22: return
+        23: getstatic     #25                 // Field ab.l:I
+        26: ifne          43
+        29: getstatic     #26                 // Field ab.A:Lfb;
+        32: ifnull        43
+        35: getstatic     #26                 // Field ab.A:Lfb;
+        38: iload_1
+        39: invokevirtual #84                 // Method fb.c:(I)V
+        42: return
+        43: getstatic     #25                 // Field ab.l:I
+        46: iconst_1
+        47: if_icmpne     64
+        50: getstatic     #28                 // Field ab.B:Lqb;
+        53: ifnull        64
+        56: getstatic     #28                 // Field ab.B:Lqb;
+        59: iload_1
+        60: invokevirtual #104                // Method qb.j:(I)V
+        63: return
+        64: getstatic     #25                 // Field ab.l:I
+        67: iconst_2
+        68: if_icmpne     75
+        71: iload_1
+        72: invokestatic  #110                // Method wb.b:(I)V
+        75: return
+      StackMap: number_of_entries = 5
+        frame_type = 255 offset = 16
+          locals = [ class rc, int ]
+          stack = []
+        frame_type = 255 offset = 23
+          locals = [ class rc, int ]
+          stack = []
+        frame_type = 255 offset = 43
+          locals = [ class rc, int ]
+          stack = []
+        frame_type = 255 offset = 64
+          locals = [ class rc, int ]
+          stack = []
+        frame_type = 255 offset = 75
+          locals = [ class rc, int ]
+          stack = []
+
+  public final void keyReleased(int);
+    descriptor: (I)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iload_1
+         1: bipush        -20
+         3: if_icmpne     10
+         6: getstatic     #19                 // Field ab.kb:I
+         9: istore_1
+        10: iload_1
+        11: bipush        -21
+        13: if_icmpne     17
+        16: return
+        17: getstatic     #25                 // Field ab.l:I
+        20: ifne          37
+        23: getstatic     #26                 // Field ab.A:Lfb;
+        26: ifnull        37
+        29: getstatic     #26                 // Field ab.A:Lfb;
+        32: iload_1
+        33: invokevirtual #86                 // Method fb.d:(I)V
+        36: return
+        37: getstatic     #25                 // Field ab.l:I
+        40: iconst_1
+        41: if_icmpne     57
+        44: getstatic     #28                 // Field ab.B:Lqb;
+        47: ifnull        57
+        50: getstatic     #28                 // Field ab.B:Lqb;
+        53: iload_1
+        54: invokevirtual #105                // Method qb.k:(I)V
+        57: return
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 10
+          locals = [ class rc, int ]
+          stack = []
+        frame_type = 255 offset = 17
+          locals = [ class rc, int ]
+          stack = []
+        frame_type = 255 offset = 37
+          locals = [ class rc, int ]
+          stack = []
+        frame_type = 255 offset = 57
+          locals = [ class rc, int ]
+          stack = []
+
+  public final void pointerPressed(int, int);
+    descriptor: (II)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=6, locals=7, args_size=3
+         0: getstatic     #323                // Field ab.xc:Z
+         3: istore        6
+         5: getstatic     #66                 // Field e:Z
+         8: ifeq          1311
+        11: getstatic     #25                 // Field ab.l:I
+        14: ifne          95
+        17: getstatic     #36                 // Field fb.I:Lfb;
+        20: ifnull        95
+        23: getstatic     #36                 // Field fb.I:Lfb;
+        26: getfield      #37                 // Field fb.i:Ltb;
+        29: ifnull        95
+        32: getstatic     #36                 // Field fb.I:Lfb;
+        35: getfield      #37                 // Field fb.i:Ltb;
+        38: getfield      #61                 // Field tb.g:Z
+        41: ifeq          94
+        44: iload_2
+        45: getstatic     #33                 // Field ab.E:I
+        48: iconst_2
+        49: isub
+        50: getstatic     #51                 // Field qb.b:Lpb;
+        53: getfield      #50                 // Field pb.e:I
+        56: isub
+        57: if_icmple     94
+        60: iload_1
+        61: getstatic     #31                 // Field ab.D:I
+        64: iconst_2
+        65: idiv
+        66: if_icmpge     82
+        69: getstatic     #36                 // Field fb.I:Lfb;
+        72: getfield      #37                 // Field fb.i:Ltb;
+        75: getstatic     #18                 // Field ab.jb:I
+        78: invokevirtual #107                // Method tb.b:(I)V
+        81: return
+        82: getstatic     #36                 // Field fb.I:Lfb;
+        85: getfield      #37                 // Field fb.i:Ltb;
+        88: getstatic     #19                 // Field ab.kb:I
+        91: invokevirtual #107                // Method tb.b:(I)V
+        94: return
+        95: getstatic     #25                 // Field ab.l:I
+        98: iconst_1
+        99: if_icmpne     180
+       102: getstatic     #28                 // Field ab.B:Lqb;
+       105: ifnull        180
+       108: getstatic     #28                 // Field ab.B:Lqb;
+       111: getfield      #52                 // Field qb.c:Ltb;
+       114: ifnull        180
+       117: getstatic     #28                 // Field ab.B:Lqb;
+       120: getfield      #52                 // Field qb.c:Ltb;
+       123: getfield      #61                 // Field tb.g:Z
+       126: ifeq          179
+       129: iload_2
+       130: getstatic     #33                 // Field ab.E:I
+       133: iconst_2
+       134: isub
+       135: getstatic     #51                 // Field qb.b:Lpb;
+       138: getfield      #50                 // Field pb.e:I
+       141: isub
+       142: if_icmple     179
+       145: iload_1
+       146: getstatic     #31                 // Field ab.D:I
+       149: iconst_2
+       150: idiv
+       151: if_icmpge     167
+       154: getstatic     #28                 // Field ab.B:Lqb;
+       157: getfield      #52                 // Field qb.c:Ltb;
+       160: getstatic     #18                 // Field ab.jb:I
+       163: invokevirtual #107                // Method tb.b:(I)V
+       166: return
+       167: getstatic     #28                 // Field ab.B:Lqb;
+       170: getfield      #52                 // Field qb.c:Ltb;
+       173: getstatic     #19                 // Field ab.kb:I
+       176: invokevirtual #107                // Method tb.b:(I)V
+       179: return
+       180: iload_1
+       181: putstatic     #75                 // Field q:I
+       184: iload_2
+       185: putstatic     #77                 // Field r:I
+       188: getstatic     #68                 // Field g:Z
+       191: ifeq          220
+       194: getstatic     #35                 // Field fb.kb:J
+       197: ldc2_w        #16                 // long 50l
+       200: ladd
+       201: putstatic     #63                 // Field f:J
+       204: iconst_0
+       205: putstatic     #68                 // Field g:Z
+       208: iconst_0
+       209: putstatic     #67                 // Field i:I
+       212: iconst_2
+       213: putstatic     #62                 // Field h:I
+       216: iconst_m1
+       217: putstatic     #69                 // Field j:I
+       220: aload_0
+       221: iload_1
+       222: iload_2
+       223: istore_2
+       224: istore_1
+       225: iconst_0
+       226: istore_3
+       227: getstatic     #25                 // Field ab.l:I
+       230: ifeq          251
+       233: getstatic     #25                 // Field ab.l:I
+       236: iconst_1
+       237: if_icmpne     734
+       240: getstatic     #28                 // Field ab.B:Lqb;
+       243: getfield      #59                 // Field qb.Rb:I
+       246: bipush        34
+       248: if_icmpne     734
+       251: iload_1
+       252: getstatic     #38                 // Field fb.Id:[I
+       255: iconst_0
+       256: iaload
+       257: if_icmplt     355
+       260: iload_1
+       261: getstatic     #38                 // Field fb.Id:[I
+       264: iconst_0
+       265: iaload
+       266: getstatic     #31                 // Field ab.D:I
+       269: iconst_2
+       270: idiv
+       271: iadd
+       272: if_icmpgt     355
+       275: iload_2
+       276: getstatic     #39                 // Field fb.Jd:[I
+       279: iconst_0
+       280: iaload
+       281: if_icmplt     355
+       284: iload_2
+       285: iconst_2
+       286: getstatic     #39                 // Field fb.Jd:[I
+       289: iconst_0
+       290: iaload
+       291: imul
+       292: getstatic     #39                 // Field fb.Jd:[I
+       295: iconst_1
+       296: iaload
+       297: isub
+       298: if_icmpgt     355
+       301: getstatic     #25                 // Field ab.l:I
+       304: iconst_1
+       305: if_icmpne     333
+       308: getstatic     #28                 // Field ab.B:Lqb;
+       311: getfield      #59                 // Field qb.Rb:I
+       314: bipush        34
+       316: if_icmpne     333
+       319: getstatic     #24                 // Field ab.rb:I
+       322: istore_3
+       323: bipush        -2
+       325: putstatic     #69                 // Field j:I
+       328: iload         6
+       330: ifeq          734
+       333: bipush        48
+       335: istore_3
+       336: getstatic     #70                 // Field k:Z
+       339: ifne          346
+       342: iconst_4
+       343: goto          347
+       346: iconst_0
+       347: putstatic     #69                 // Field j:I
+       350: iload         6
+       352: ifeq          734
+       355: invokestatic  #85                 // Method fb.i:()Z
+       358: ifne          447
+       361: iload_1
+       362: getstatic     #38                 // Field fb.Id:[I
+       365: iconst_1
+       366: iaload
+       367: if_icmplt     447
+       370: iload_1
+       371: getstatic     #38                 // Field fb.Id:[I
+       374: iconst_1
+       375: iaload
+       376: getstatic     #31                 // Field ab.D:I
+       379: iconst_2
+       380: idiv
+       381: iadd
+       382: if_icmpgt     447
+       385: iload_2
+       386: getstatic     #39                 // Field fb.Jd:[I
+       389: iconst_1
+       390: iaload
+       391: if_icmplt     447
+       394: iload_2
+       395: getstatic     #39                 // Field fb.Jd:[I
+       398: iconst_0
+       399: iaload
+       400: if_icmpgt     447
+       403: getstatic     #25                 // Field ab.l:I
+       406: iconst_1
+       407: if_icmpne     435
+       410: getstatic     #28                 // Field ab.B:Lqb;
+       413: getfield      #59                 // Field qb.Rb:I
+       416: bipush        34
+       418: if_icmpne     435
+       421: getstatic     #24                 // Field ab.rb:I
+       424: istore_3
+       425: bipush        -2
+       427: putstatic     #69                 // Field j:I
+       430: iload         6
+       432: ifeq          734
+       435: bipush        57
+       437: istore_3
+       438: iconst_1
+       439: putstatic     #69                 // Field j:I
+       442: iload         6
+       444: ifeq          734
+       447: iload_1
+       448: getstatic     #38                 // Field fb.Id:[I
+       451: iconst_2
+       452: iaload
+       453: if_icmplt     577
+       456: iload_1
+       457: getstatic     #38                 // Field fb.Id:[I
+       460: iconst_2
+       461: iaload
+       462: getstatic     #31                 // Field ab.D:I
+       465: iconst_2
+       466: idiv
+       467: iadd
+       468: if_icmpgt     577
+       471: iload_2
+       472: getstatic     #39                 // Field fb.Jd:[I
+       475: iconst_2
+       476: iaload
+       477: if_icmplt     577
+       480: iload_2
+       481: getstatic     #39                 // Field fb.Jd:[I
+       484: iconst_2
+       485: iaload
+       486: getstatic     #39                 // Field fb.Jd:[I
+       489: iconst_0
+       490: iaload
+       491: iadd
+       492: getstatic     #39                 // Field fb.Jd:[I
+       495: iconst_1
+       496: iaload
+       497: isub
+       498: if_icmpgt     577
+       501: getstatic     #25                 // Field ab.l:I
+       504: iconst_1
+       505: if_icmpne     565
+       508: getstatic     #28                 // Field ab.B:Lqb;
+       511: getfield      #59                 // Field qb.Rb:I
+       514: bipush        34
+       516: if_icmpne     565
+       519: iload_1
+       520: getstatic     #40                 // Field fb.Kd:I
+       523: if_icmplt     565
+       526: iload_1
+       527: getstatic     #40                 // Field fb.Kd:I
+       530: getstatic     #42                 // Field fb.Md:I
+       533: iadd
+       534: if_icmpgt     565
+       537: iload_2
+       538: getstatic     #41                 // Field fb.Ld:I
+       541: if_icmplt     565
+       544: iload_2
+       545: getstatic     #41                 // Field fb.Ld:I
+       548: getstatic     #43                 // Field fb.Nd:I
+       551: iadd
+       552: if_icmpgt     565
+       555: bipush        -2
+       557: putstatic     #69                 // Field j:I
+       560: iload         6
+       562: ifeq          734
+       565: bipush        42
+       567: istore_3
+       568: iconst_2
+       569: putstatic     #69                 // Field j:I
+       572: iload         6
+       574: ifeq          734
+       577: iload_1
+       578: getstatic     #38                 // Field fb.Id:[I
+       581: iconst_3
+       582: iaload
+       583: if_icmplt     707
+       586: iload_1
+       587: getstatic     #38                 // Field fb.Id:[I
+       590: iconst_3
+       591: iaload
+       592: getstatic     #31                 // Field ab.D:I
+       595: iconst_2
+       596: idiv
+       597: iadd
+       598: if_icmpgt     707
+       601: iload_2
+       602: getstatic     #39                 // Field fb.Jd:[I
+       605: iconst_3
+       606: iaload
+       607: if_icmplt     707
+       610: iload_2
+       611: getstatic     #39                 // Field fb.Jd:[I
+       614: iconst_3
+       615: iaload
+       616: getstatic     #39                 // Field fb.Jd:[I
+       619: iconst_0
+       620: iaload
+       621: iadd
+       622: getstatic     #39                 // Field fb.Jd:[I
+       625: iconst_1
+       626: iaload
+       627: isub
+       628: if_icmpgt     707
+       631: getstatic     #25                 // Field ab.l:I
+       634: iconst_1
+       635: if_icmpne     695
+       638: getstatic     #28                 // Field ab.B:Lqb;
+       641: getfield      #59                 // Field qb.Rb:I
+       644: bipush        34
+       646: if_icmpne     695
+       649: iload_1
+       650: getstatic     #40                 // Field fb.Kd:I
+       653: if_icmplt     695
+       656: iload_1
+       657: getstatic     #40                 // Field fb.Kd:I
+       660: getstatic     #42                 // Field fb.Md:I
+       663: iadd
+       664: if_icmpgt     695
+       667: iload_2
+       668: getstatic     #41                 // Field fb.Ld:I
+       671: if_icmplt     695
+       674: iload_2
+       675: getstatic     #41                 // Field fb.Ld:I
+       678: getstatic     #43                 // Field fb.Nd:I
+       681: iadd
+       682: if_icmpgt     695
+       685: bipush        -2
+       687: putstatic     #69                 // Field j:I
+       690: iload         6
+       692: ifeq          734
+       695: bipush        35
+       697: istore_3
+       698: iconst_3
+       699: putstatic     #69                 // Field j:I
+       702: iload         6
+       704: ifeq          734
+       707: getstatic     #25                 // Field ab.l:I
+       710: iconst_1
+       711: if_icmpne     734
+       714: getstatic     #28                 // Field ab.B:Lqb;
+       717: getfield      #59                 // Field qb.Rb:I
+       720: bipush        34
+       722: if_icmpne     734
+       725: getstatic     #24                 // Field ab.rb:I
+       728: istore_3
+       729: bipush        -2
+       731: putstatic     #69                 // Field j:I
+       734: getstatic     #25                 // Field ab.l:I
+       737: iconst_1
+       738: if_icmpne     1292
+       741: iconst_0
+       742: istore        4
+       744: iload         4
+       746: getstatic     #28                 // Field ab.B:Lqb;
+       749: getfield      #53                 // Field qb.Db:[Lgb;
+       752: arraylength
+       753: if_icmpge     1292
+       756: getstatic     #28                 // Field ab.B:Lqb;
+       759: getfield      #53                 // Field qb.Db:[Lgb;
+       762: iload         4
+       764: aaload
+       765: dup
+       766: astore        5
+       768: ifnull        1284
+       771: aload         5
+       773: invokevirtual #90                 // Method gb.j:()Z
+       776: ifeq          1284
+       779: aload         5
+       781: invokevirtual #91                 // Method gb.r:()Z
+       784: ifne          1284
+       787: aload         5
+       789: getfield      #47                 // Field gb.o:I
+       792: bipush        54
+       794: if_icmpeq     1284
+       797: aload         5
+       799: getfield      #46                 // Field gb.n:I
+       802: getstatic     #28                 // Field ab.B:Lqb;
+       805: getfield      #55                 // Field qb.Cb:I
+       808: if_icmpgt     1284
+       811: iload_1
+       812: aload         5
+       814: getfield      #44                 // Field gb.j:I
+       817: if_icmplt     900
+       820: iload_1
+       821: aload         5
+       823: getfield      #44                 // Field gb.j:I
+       826: aload         5
+       828: invokevirtual #88                 // Method gb.b:()I
+       831: iadd
+       832: if_icmpgt     900
+       835: iload_2
+       836: aload         5
+       838: getfield      #45                 // Field gb.k:I
+       841: if_icmplt     900
+       844: iload_2
+       845: aload         5
+       847: getfield      #45                 // Field gb.k:I
+       850: aload         5
+       852: invokevirtual #89                 // Method gb.c:()I
+       855: iadd
+       856: if_icmpgt     900
+       859: aload         5
+       861: getfield      #46                 // Field gb.n:I
+       864: getstatic     #28                 // Field ab.B:Lqb;
+       867: getfield      #56                 // Field qb.Kb:I
+       870: if_icmpne     882
+       873: getstatic     #24                 // Field ab.rb:I
+       876: istore_3
+       877: iload         6
+       879: ifeq          1292
+       882: getstatic     #28                 // Field ab.B:Lqb;
+       885: aload         5
+       887: getfield      #46                 // Field gb.n:I
+       890: invokevirtual #103                // Method qb.c:(I)V
+       893: iconst_0
+       894: istore_3
+       895: iload         6
+       897: ifeq          1292
+       900: iload_1
+       901: aload         5
+       903: getfield      #44                 // Field gb.j:I
+       906: getstatic     #28                 // Field ab.B:Lqb;
+       909: getfield      #57                 // Field qb.Pb:I
+       912: isub
+       913: if_icmplt     990
+       916: iload_1
+       917: aload         5
+       919: getfield      #44                 // Field gb.j:I
+       922: if_icmpgt     990
+       925: iload_2
+       926: aload         5
+       928: getfield      #45                 // Field gb.k:I
+       931: if_icmplt     990
+       934: iload_2
+       935: aload         5
+       937: getfield      #45                 // Field gb.k:I
+       940: aload         5
+       942: invokevirtual #89                 // Method gb.c:()I
+       945: iadd
+       946: if_icmpgt     990
+       949: getstatic     #25                 // Field ab.l:I
+       952: iconst_1
+       953: if_icmpne     967
+       956: getstatic     #28                 // Field ab.B:Lqb;
+       959: getfield      #59                 // Field qb.Rb:I
+       962: bipush        34
+       964: if_icmpeq     990
+       967: aload         5
+       969: getfield      #46                 // Field gb.n:I
+       972: getstatic     #28                 // Field ab.B:Lqb;
+       975: getfield      #56                 // Field qb.Kb:I
+       978: if_icmpne     1284
+       981: getstatic     #21                 // Field ab.ob:I
+       984: istore_3
+       985: iload         6
+       987: ifeq          1292
+       990: iload_1
+       991: aload         5
+       993: getfield      #44                 // Field gb.j:I
+       996: aload         5
+       998: invokevirtual #88                 // Method gb.b:()I
+      1001: iadd
+      1002: if_icmplt     1092
+      1005: iload_1
+      1006: aload         5
+      1008: getfield      #44                 // Field gb.j:I
+      1011: aload         5
+      1013: invokevirtual #88                 // Method gb.b:()I
+      1016: iadd
+      1017: getstatic     #28                 // Field ab.B:Lqb;
+      1020: getfield      #57                 // Field qb.Pb:I
+      1023: iadd
+      1024: if_icmpgt     1092
+      1027: iload_2
+      1028: aload         5
+      1030: getfield      #45                 // Field gb.k:I
+      1033: if_icmplt     1092
+      1036: iload_2
+      1037: aload         5
+      1039: getfield      #45                 // Field gb.k:I
+      1042: aload         5
+      1044: invokevirtual #89                 // Method gb.c:()I
+      1047: iadd
+      1048: if_icmpgt     1092
+      1051: getstatic     #25                 // Field ab.l:I
+      1054: iconst_1
+      1055: if_icmpne     1069
+      1058: getstatic     #28                 // Field ab.B:Lqb;
+      1061: getfield      #59                 // Field qb.Rb:I
+      1064: bipush        34
+      1066: if_icmpeq     1092
+      1069: aload         5
+      1071: getfield      #46                 // Field gb.n:I
+      1074: getstatic     #28                 // Field ab.B:Lqb;
+      1077: getfield      #56                 // Field qb.Kb:I
+      1080: if_icmpne     1284
+      1083: getstatic     #23                 // Field ab.qb:I
+      1086: istore_3
+      1087: iload         6
+      1089: ifeq          1292
+      1092: iload_1
+      1093: aload         5
+      1095: getfield      #44                 // Field gb.j:I
+      1098: if_icmplt     1182
+      1101: iload_1
+      1102: aload         5
+      1104: getfield      #44                 // Field gb.j:I
+      1107: aload         5
+      1109: invokevirtual #88                 // Method gb.b:()I
+      1112: iadd
+      1113: if_icmpgt     1182
+      1116: iload_2
+      1117: aload         5
+      1119: getfield      #45                 // Field gb.k:I
+      1122: getstatic     #28                 // Field ab.B:Lqb;
+      1125: getfield      #58                 // Field qb.Qb:I
+      1128: isub
+      1129: if_icmplt     1182
+      1132: iload_2
+      1133: aload         5
+      1135: getfield      #45                 // Field gb.k:I
+      1138: if_icmpgt     1182
+      1141: getstatic     #25                 // Field ab.l:I
+      1144: iconst_1
+      1145: if_icmpne     1159
+      1148: getstatic     #28                 // Field ab.B:Lqb;
+      1151: getfield      #59                 // Field qb.Rb:I
+      1154: bipush        34
+      1156: if_icmpeq     1182
+      1159: aload         5
+      1161: getfield      #46                 // Field gb.n:I
+      1164: getstatic     #28                 // Field ab.B:Lqb;
+      1167: getfield      #56                 // Field qb.Kb:I
+      1170: if_icmpne     1284
+      1173: getstatic     #22                 // Field ab.pb:I
+      1176: istore_3
+      1177: iload         6
+      1179: ifeq          1292
+      1182: iload_1
+      1183: aload         5
+      1185: getfield      #44                 // Field gb.j:I
+      1188: if_icmplt     1284
+      1191: iload_1
+      1192: aload         5
+      1194: getfield      #44                 // Field gb.j:I
+      1197: aload         5
+      1199: invokevirtual #88                 // Method gb.b:()I
+      1202: iadd
+      1203: if_icmpgt     1284
+      1206: iload_2
+      1207: aload         5
+      1209: getfield      #45                 // Field gb.k:I
+      1212: aload         5
+      1214: invokevirtual #89                 // Method gb.c:()I
+      1217: iadd
+      1218: if_icmplt     1284
+      1221: iload_2
+      1222: aload         5
+      1224: getfield      #45                 // Field gb.k:I
+      1227: aload         5
+      1229: invokevirtual #89                 // Method gb.c:()I
+      1232: iadd
+      1233: getstatic     #28                 // Field ab.B:Lqb;
+      1236: getfield      #58                 // Field qb.Qb:I
+      1239: iadd
+      1240: if_icmpgt     1284
+      1243: getstatic     #25                 // Field ab.l:I
+      1246: iconst_1
+      1247: if_icmpne     1261
+      1250: getstatic     #28                 // Field ab.B:Lqb;
+      1253: getfield      #59                 // Field qb.Rb:I
+      1256: bipush        34
+      1258: if_icmpeq     1284
+      1261: aload         5
+      1263: getfield      #46                 // Field gb.n:I
+      1266: getstatic     #28                 // Field ab.B:Lqb;
+      1269: getfield      #56                 // Field qb.Kb:I
+      1272: if_icmpne     1284
+      1275: getstatic     #20                 // Field ab.nb:I
+      1278: istore_3
+      1279: iload         6
+      1281: ifeq          1292
+      1284: iinc          4, 1
+      1287: iload         6
+      1289: ifeq          744
+      1292: iload_3
+      1293: putfield      #73                 // Field o:I
+      1296: aload_0
+      1297: getfield      #73                 // Field o:I
+      1300: ifeq          1311
+      1303: aload_0
+      1304: aload_0
+      1305: getfield      #73                 // Field o:I
+      1308: invokevirtual #117                // Method keyPressed:(I)V
+      1311: return
+      StackMap: number_of_entries = 32
+        frame_type = 255 offset = 82
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 94
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 95
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 167
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 179
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 180
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 220
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 251
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 333
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 346
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 347
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc, int ]
+        frame_type = 255 offset = 355
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 435
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 447
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 565
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 577
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 695
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 707
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 734
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 744
+          locals = [ class rc, int, int, int, int, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 882
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 900
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 967
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 990
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1069
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1092
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1159
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1182
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1261
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1284
+          locals = [ class rc, int, int, int, int, class gb, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1292
+          locals = [ class rc, int, int, int, top, top, int ]
+          stack = [ class rc ]
+        frame_type = 255 offset = 1311
+          locals = [ class rc, int, int, top, top, top, int ]
+          stack = []
+
+  public final void pointerReleased(int, int);
+    descriptor: (II)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=3, args_size=3
+         0: getstatic     #66                 // Field e:Z
+         3: ifeq          29
+         6: aload_0
+         7: getfield      #73                 // Field o:I
+        10: ifeq          21
+        13: aload_0
+        14: aload_0
+        15: getfield      #73                 // Field o:I
+        18: invokevirtual #118                // Method keyReleased:(I)V
+        21: iconst_0
+        22: putstatic     #78                 // Field p:Z
+        25: iconst_0
+        26: putstatic     #79                 // Field s:I
+        29: return
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 21
+          locals = [ class rc, int, int ]
+          stack = []
+        frame_type = 255 offset = 29
+          locals = [ class rc, int, int ]
+          stack = []
+
+  public final void pointerDragged(int, int);
+    descriptor: (II)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=5, args_size=3
+         0: getstatic     #66                 // Field e:Z
+         3: ifeq          73
+         6: iload_1
+         7: getstatic     #75                 // Field q:I
+        10: isub
+        11: istore_3
+        12: iload_2
+        13: getstatic     #77                 // Field r:I
+        16: isub
+        17: istore        4
+        19: getstatic     #78                 // Field p:Z
+        22: ifne          65
+        25: iload_3
+        26: ifne          34
+        29: iload         4
+        31: ifeq          65
+        34: getstatic     #79                 // Field s:I
+        37: iload_3
+        38: invokestatic  #92                 // Method java/lang/Math.abs:(I)I
+        41: iload         4
+        43: invokestatic  #92                 // Method java/lang/Math.abs:(I)I
+        46: iadd
+        47: iadd
+        48: dup
+        49: putstatic     #79                 // Field s:I
+        52: bipush        25
+        54: if_icmple     65
+        57: iconst_1
+        58: putstatic     #78                 // Field p:Z
+        61: iconst_0
+        62: putstatic     #79                 // Field s:I
+        65: iload_1
+        66: putstatic     #75                 // Field q:I
+        69: iload_2
+        70: putstatic     #77                 // Field r:I
+        73: return
+      StackMap: number_of_entries = 3
+        frame_type = 255 offset = 34
+          locals = [ class rc, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 65
+          locals = [ class rc, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 73
+          locals = [ class rc, int, int ]
+          stack = []
+
+  public static void b(int, int);
+    descriptor: (II)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: getstatic     #34                 // Field ab.Ib:Z
+         3: ifeq          29
+         6: getstatic     #72                 // Field l:Z
+         9: ifne          29
+        12: iload_1
+        13: getstatic     #25                 // Field ab.l:I
+        16: if_icmpne     29
+        19: getstatic     #64                 // Field c:Ljavax/microedition/lcdui/Display;
+        22: iload_0
+        23: invokevirtual #96                 // Method javax/microedition/lcdui/Display.vibrate:(I)Z
+        26: pop
+        27: return
+        28: pop
+        29: return
+      Exception table:
+         from    to  target type
+            19    27    28   Class java/lang/Exception
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 28
+          locals = [ int, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 29
+          locals = [ int, int ]
+          stack = []
+
+  public final void b();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #115                // Method getWidth:()I
+         4: putstatic     #31                 // Field ab.D:I
+         7: aload_0
+         8: invokevirtual #114                // Method getHeight:()I
+        11: putstatic     #33                 // Field ab.E:I
+        14: return
+
+  public final void showNotify();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #72                 // Field l:Z
+         3: ifeq          12
+         6: getstatic     #32                 // Field ab.o:Z
+         9: ifeq          13
+        12: return
+        13: iconst_0
+        14: putstatic     #72                 // Field l:Z
+        17: getstatic     #29                 // Field ab.G:Lub;
+        20: ifnull        29
+        23: getstatic     #29                 // Field ab.G:Lub;
+        26: invokevirtual #109                // Method ub.h:()V
+        29: getstatic     #25                 // Field ab.l:I
+        32: ifne          43
+        35: getstatic     #26                 // Field ab.A:Lfb;
+        38: iconst_0
+        39: iconst_0
+        40: invokevirtual #83                 // Method fb.b:(ZZ)V
+        43: return
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 12
+          locals = [ class rc ]
+          stack = []
+        frame_type = 255 offset = 13
+          locals = [ class rc ]
+          stack = []
+        frame_type = 255 offset = 29
+          locals = [ class rc ]
+          stack = []
+        frame_type = 255 offset = 43
+          locals = [ class rc ]
+          stack = []
+
+  public final void hideNotify();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #72                 // Field l:Z
+         3: ifne          12
+         6: getstatic     #32                 // Field ab.o:Z
+         9: ifeq          13
+        12: return
+        13: iconst_1
+        14: putstatic     #72                 // Field l:Z
+        17: getstatic     #29                 // Field ab.G:Lub;
+        20: ifnull        29
+        23: getstatic     #29                 // Field ab.G:Lub;
+        26: invokevirtual #108                // Method ub.g:()V
+        29: getstatic     #25                 // Field ab.l:I
+        32: ifne          47
+        35: getstatic     #26                 // Field ab.A:Lfb;
+        38: ifnull        47
+        41: getstatic     #26                 // Field ab.A:Lfb;
+        44: invokevirtual #81                 // Method fb.b:()V
+        47: return
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 12
+          locals = [ class rc ]
+          stack = []
+        frame_type = 255 offset = 13
+          locals = [ class rc ]
+          stack = []
+        frame_type = 255 offset = 29
+          locals = [ class rc ]
+          stack = []
+        frame_type = 255 offset = 47
+          locals = [ class rc ]
+          stack = []
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: iconst_0
+         1: putstatic     #66                 // Field e:Z
+         4: lconst_0
+         5: putstatic     #63                 // Field f:J
+         8: iconst_1
+         9: putstatic     #68                 // Field g:Z
+        12: iconst_3
+        13: putstatic     #62                 // Field h:I
+        16: iconst_0
+        17: putstatic     #67                 // Field i:I
+        20: iconst_m1
+        21: putstatic     #69                 // Field j:I
+        24: iconst_0
+        25: putstatic     #70                 // Field k:Z
+        28: iconst_0
+        29: putstatic     #72                 // Field l:Z
+        32: iconst_0
+        33: putstatic     #71                 // Field m:I
+        36: iconst_0
+        37: putstatic     #78                 // Field p:Z
+        40: return
+}

@@ -1,0 +1,176 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/gc.class
+  Last modified Nov 24, 2026; size 733 bytes
+  SHA-256 checksum cd4e201356e64810ad9b5d91276bf8a18b323c057d4026db68131a4a3acaeede
+final class gc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #2                          // gc
+  super_class: #4                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+   #1 = Class              #58            // ab
+   #2 = Class              #59            // gc
+   #3 = Class              #63            // java/lang/Exception
+   #4 = Class              #64            // java/lang/Thread
+   #5 = Class              #65            // java/util/Random
+   #6 = Class              #66            // qb
+   #7 = Class              #71            // rc
+   #8 = Fieldref           #1.#27         // ab.oc:Ljava/util/Random;
+   #9 = Fieldref           #1.#29         // ab.ic:I
+  #10 = Fieldref           #2.#28         // gc.b:Lqb;
+  #11 = Fieldref           #6.#33         // qb.q:I
+  #12 = Fieldref           #6.#39         // qb.yc:I
+  #13 = Methodref          #4.#24         // java/lang/Thread."<init>":()V
+  #14 = Methodref          #4.#38         // java/lang/Thread.sleep:(J)V
+  #15 = Methodref          #5.#36         // java/util/Random.nextInt:(I)I
+  #16 = Methodref          #6.#26         // qb.b:(Lqb;I)I
+  #17 = Methodref          #6.#30         // qb.I:()I
+  #18 = Methodref          #6.#31         // qb.c:(Lqb;I)I
+  #19 = Methodref          #6.#32         // qb.k:(Lqb;)I
+  #20 = Methodref          #6.#34         // qb.e:(Lqb;Z)Z
+  #21 = Methodref          #6.#35         // qb.o:(I)V
+  #22 = Methodref          #6.#37         // qb.G:()V
+  #23 = Methodref          #7.#25         // rc.b:(II)V
+  #24 = NameAndType        #50:#41        // "<init>":()V
+  #25 = NameAndType        #55:#44        // b:(II)V
+  #26 = NameAndType        #55:#48        // b:(Lqb;I)I
+  #27 = NameAndType        #74:#53        // oc:Ljava/util/Random;
+  #28 = NameAndType        #55:#54        // b:Lqb;
+  #29 = NameAndType        #56:#52        // ic:I
+  #30 = NameAndType        #52:#40        // I:()I
+  #31 = NameAndType        #75:#48        // c:(Lqb;I)I
+  #32 = NameAndType        #60:#46        // k:(Lqb;)I
+  #33 = NameAndType        #76:#52        // q:I
+  #34 = NameAndType        #61:#49        // e:(Lqb;Z)Z
+  #35 = NameAndType        #62:#43        // o:(I)V
+  #36 = NameAndType        #67:#42        // nextInt:(I)I
+  #37 = NameAndType        #68:#41        // G:()V
+  #38 = NameAndType        #70:#45        // sleep:(J)V
+  #39 = NameAndType        #72:#52        // yc:I
+  #40 = Utf8               ()I
+  #41 = Utf8               ()V
+  #42 = Utf8               (I)I
+  #43 = Utf8               (I)V
+  #44 = Utf8               (II)V
+  #45 = Utf8               (J)V
+  #46 = Utf8               (Lqb;)I
+  #47 = Utf8               (Lqb;)V
+  #48 = Utf8               (Lqb;I)I
+  #49 = Utf8               (Lqb;Z)Z
+  #50 = Utf8               <init>
+  #51 = Utf8               Code
+  #52 = Utf8               I
+  #53 = Utf8               Ljava/util/Random;
+  #54 = Utf8               Lqb;
+  #55 = Utf8               b
+  #56 = Utf8               ic
+  #57 = Utf8               ZKM5.3.2a
+  #58 = Utf8               ab
+  #59 = Utf8               gc
+  #60 = Utf8               k
+  #61 = Utf8               e
+  #62 = Utf8               o
+  #63 = Utf8               java/lang/Exception
+  #64 = Utf8               java/lang/Thread
+  #65 = Utf8               java/util/Random
+  #66 = Utf8               qb
+  #67 = Utf8               nextInt
+  #68 = Utf8               G
+  #69 = Utf8               run
+  #70 = Utf8               sleep
+  #71 = Utf8               rc
+  #72 = Utf8               yc
+  #73 = Utf8               StackMap
+  #74 = Utf8               oc
+  #75 = Utf8               c
+  #76 = Utf8               q
+{
+  private final qb b;
+    descriptor: Lqb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  gc(qb);
+    descriptor: (Lqb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #13                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #10                 // Field b:Lqb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #8                  // Field ab.oc:Ljava/util/Random;
+         3: sipush        10000
+         6: invokevirtual #15                 // Method java/util/Random.nextInt:(I)I
+         9: sipush        10000
+        12: iadd
+        13: i2l
+        14: invokestatic  #14                 // Method java/lang/Thread.sleep:(J)V
+        17: goto          21
+        20: pop
+        21: sipush        500
+        24: iconst_1
+        25: invokestatic  #23                 // Method rc.b:(II)V
+        28: aload_0
+        29: getfield      #10                 // Field b:Lqb;
+        32: invokevirtual #22                 // Method qb.G:()V
+        35: aload_0
+        36: getfield      #10                 // Field b:Lqb;
+        39: aload_0
+        40: getfield      #10                 // Field b:Lqb;
+        43: invokevirtual #17                 // Method qb.I:()I
+        46: invokevirtual #21                 // Method qb.o:(I)V
+        49: aload_0
+        50: getfield      #10                 // Field b:Lqb;
+        53: aload_0
+        54: getfield      #10                 // Field b:Lqb;
+        57: invokevirtual #17                 // Method qb.I:()I
+        60: invokestatic  #16                 // Method qb.b:(Lqb;I)I
+        63: pop
+        64: aload_0
+        65: getfield      #10                 // Field b:Lqb;
+        68: dup
+        69: getfield      #11                 // Field qb.q:I
+        72: aload_0
+        73: getfield      #10                 // Field b:Lqb;
+        76: invokevirtual #17                 // Method qb.I:()I
+        79: iadd
+        80: putfield      #11                 // Field qb.q:I
+        83: aload_0
+        84: getfield      #10                 // Field b:Lqb;
+        87: invokestatic  #19                 // Method qb.k:(Lqb;)I
+        90: putstatic     #9                  // Field ab.ic:I
+        93: aload_0
+        94: getfield      #10                 // Field b:Lqb;
+        97: iconst_0
+        98: invokestatic  #18                 // Method qb.c:(Lqb;I)I
+       101: pop
+       102: aload_0
+       103: getfield      #10                 // Field b:Lqb;
+       106: iconst_0
+       107: putfield      #12                 // Field qb.yc:I
+       110: aload_0
+       111: getfield      #10                 // Field b:Lqb;
+       114: iconst_0
+       115: invokestatic  #20                 // Method qb.e:(Lqb;Z)Z
+       118: pop
+       119: return
+      Exception table:
+         from    to  target type
+             0    17    20   Class java/lang/Exception
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 20
+          locals = [ class gc ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 21
+          locals = [ class gc ]
+          stack = []
+}

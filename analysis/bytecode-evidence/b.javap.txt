@@ -1,0 +1,2682 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/b.class
+  Last modified Nov 24, 2026; size 11792 bytes
+  SHA-256 checksum 0daccebaec5b75054466f153d7994245a53ed8b9c241079477f7882661c1f01d
+public final class b
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #18                         // b
+  super_class: #25                        // java/lang/Object
+  interfaces: 0, fields: 25, methods: 17, attributes: 0
+Constant pool:
+    #1 = String             #168          //
+    #2 = String             #169          // \n
+    #3 = String             #170          //
+    #4 = String             #203          // .png
+    #5 = String             #204          // /font/icons/ico
+    #6 = String             #205          // 0
+    #7 = String             #206          // 9
+    #8 = String             #207          // :
+    #9 = String             #218          // UTF-8
+   #10 = String             #221          // ^
+   #11 = String             #222          // `
+   #12 = String             #223          // `0~
+   #13 = String             #241          // font chars:
+   #14 = String             #242          // font img:
+   #15 = String             #243          // font widths:
+   #16 = String             #264          // menu/digits.png
+   #17 = String             #272          // ~
+   #18 = Class              #224          // b
+   #19 = Class              #228          // ab
+   #20 = Class              #250          // java/io/ByteArrayOutputStream
+   #21 = Class              #251          // java/io/InputStream
+   #22 = Class              #252          // java/lang/Class
+   #23 = Class              #253          // java/lang/Exception
+   #24 = Class              #254          // java/lang/Integer
+   #25 = Class              #255          // java/lang/Object
+   #26 = Class              #256          // java/lang/String
+   #27 = Class              #257          // java/lang/StringBuffer
+   #28 = Class              #258          // java/util/Vector
+   #29 = Class              #259          // javax/microedition/lcdui/Font
+   #30 = Class              #260          // javax/microedition/lcdui/Graphics
+   #31 = Class              #261          // javax/microedition/lcdui/Image
+   #32 = Class              #262          // pb
+   #33 = Fieldref           #18.#111      // b.g:C
+   #34 = Fieldref           #18.#112      // b.w:I
+   #35 = Fieldref           #18.#113      // b.b:Ljava/lang/String;
+   #36 = Fieldref           #18.#114      // b.s:Ljava/util/Vector;
+   #37 = Fieldref           #18.#116      // b.q:Ljavax/microedition/lcdui/Image;
+   #38 = Fieldref           #18.#117      // b.m:Lpb;
+   #39 = Fieldref           #18.#118      // b.n:[B
+   #40 = Fieldref           #18.#119      // b.p:[I
+   #41 = Fieldref           #18.#127      // b.e:C
+   #42 = Fieldref           #18.#128      // b.x:I
+   #43 = Fieldref           #18.#129      // b.c:Ljava/lang/String;
+   #44 = Fieldref           #18.#130      // b.l:Lpb;
+   #45 = Fieldref           #18.#131      // b.r:[I
+   #46 = Fieldref           #18.#132      // b.f:C
+   #47 = Fieldref           #18.#133      // b.o:I
+   #48 = Fieldref           #18.#134      // b.d:Ljava/lang/String;
+   #49 = Fieldref           #18.#135      // b.t:[I
+   #50 = Fieldref           #18.#140      // b.h:C
+   #51 = Fieldref           #18.#141      // b.v:I
+   #52 = Fieldref           #18.#142      // b.u:[I
+   #53 = Fieldref           #18.#146      // b.i:C
+   #54 = Fieldref           #18.#147      // b.y:I
+   #55 = Fieldref           #18.#149      // b.j:C
+   #56 = Fieldref           #18.#150      // b.z:I
+   #57 = Fieldref           #18.#151      // b.k:C
+   #58 = Fieldref           #19.#115      // ab.F:Ljavax/microedition/lcdui/Font;
+   #59 = Fieldref           #19.#156      // ab.E:I
+   #60 = Fieldref           #32.#275      // pb.b:I
+   #61 = Fieldref           #32.#276      // pb.d:I
+   #62 = Fieldref           #32.#277      // pb.e:I
+   #63 = Methodref          #18.#105      // b.b:(C)I
+   #64 = Methodref          #18.#109      // b.c:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+   #65 = Methodref          #18.#110      // b.b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+   #66 = Methodref          #18.#125      // b.c:(C)I
+   #67 = Methodref          #18.#126      // b.d:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+   #68 = Methodref          #19.#107      // ab.b:(Ljava/lang/String;II)Lpb;
+   #69 = Methodref          #20.#103      // java/io/ByteArrayOutputStream."<init>":()V
+   #70 = Methodref          #20.#163      // java/io/ByteArrayOutputStream.toByteArray:()[B
+   #71 = Methodref          #20.#165      // java/io/ByteArrayOutputStream.write:([BII)V
+   #72 = Methodref          #21.#138      // java/io/InputStream.close:()V
+   #73 = Methodref          #21.#159      // java/io/InputStream.read:()I
+   #74 = Methodref          #21.#160      // java/io/InputStream.read:([B)I
+   #75 = Methodref          #22.#154      // java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+   #76 = Methodref          #24.#158      // java/lang/Integer.parseInt:(Ljava/lang/String;)I
+   #77 = Methodref          #25.#103      // java/lang/Object."<init>":()V
+   #78 = Methodref          #25.#152      // java/lang/Object.getClass:()Ljava/lang/Class;
+   #79 = Methodref          #26.#104      // java/lang/String."<init>":([BLjava/lang/String;)V
+   #80 = Methodref          #26.#136      // java/lang/String.charAt:(I)C
+   #81 = Methodref          #26.#157      // java/lang/String.length:()I
+   #82 = Methodref          #27.#103      // java/lang/StringBuffer."<init>":()V
+   #83 = Methodref          #27.#121      // java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+   #84 = Methodref          #27.#122      // java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+   #85 = Methodref          #27.#123      // java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #86 = Methodref          #27.#124      // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #87 = Methodref          #27.#164      // java/lang/StringBuffer.toString:()Ljava/lang/String;
+   #88 = Methodref          #28.#103      // java/util/Vector."<init>":()V
+   #89 = Methodref          #28.#120      // java/util/Vector.addElement:(Ljava/lang/Object;)V
+   #90 = Methodref          #28.#148      // java/util/Vector.elementAt:(I)Ljava/lang/Object;
+   #91 = Methodref          #28.#161      // java/util/Vector.size:()I
+   #92 = Methodref          #29.#137      // javax/microedition/lcdui/Font.charWidth:(C)I
+   #93 = Methodref          #29.#153      // javax/microedition/lcdui/Font.getHeight:()I
+   #94 = Methodref          #29.#162      // javax/microedition/lcdui/Font.stringWidth:(Ljava/lang/String;)I
+   #95 = Methodref          #30.#143      // javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+   #96 = Methodref          #30.#144      // javax/microedition/lcdui/Graphics.drawRegion:(Ljavax/microedition/lcdui/Image;IIIIIIII)V
+   #97 = Methodref          #30.#145      // javax/microedition/lcdui/Graphics.drawString:(Ljava/lang/String;III)V
+   #98 = Methodref          #31.#139      // javax/microedition/lcdui/Image.createImage:(Ljava/lang/String;)Ljavax/microedition/lcdui/Image;
+   #99 = Methodref          #31.#153      // javax/microedition/lcdui/Image.getHeight:()I
+  #100 = Methodref          #31.#155      // javax/microedition/lcdui/Image.getWidth:()I
+  #101 = Methodref          #32.#106      // pb.b:(II)V
+  #102 = Methodref          #32.#108      // pb.b:(Ljavax/microedition/lcdui/Graphics;)V
+  #103 = NameAndType        #209:#174     // "<init>":()V
+  #104 = NameAndType        #209:#202     // "<init>":([BLjava/lang/String;)V
+  #105 = NameAndType        #224:#176     // b:(C)I
+  #106 = NameAndType        #224:#181     // b:(II)V
+  #107 = NameAndType        #224:#189     // b:(Ljava/lang/String;II)Lpb;
+  #108 = NameAndType        #224:#192     // b:(Ljavax/microedition/lcdui/Graphics;)V
+  #109 = NameAndType        #227:#196     // c:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+  #110 = NameAndType        #224:#197     // b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+  #111 = NameAndType        #278:#210     // g:C
+  #112 = NameAndType        #279:#212     // w:I
+  #113 = NameAndType        #224:#213     // b:Ljava/lang/String;
+  #114 = NameAndType        #280:#214     // s:Ljava/util/Vector;
+  #115 = NameAndType        #281:#215     // F:Ljavax/microedition/lcdui/Font;
+  #116 = NameAndType        #282:#216     // q:Ljavax/microedition/lcdui/Image;
+  #117 = NameAndType        #283:#217     // m:Lpb;
+  #118 = NameAndType        #284:#219     // n:[B
+  #119 = NameAndType        #285:#220     // p:[I
+  #120 = NameAndType        #225:#183     // addElement:(Ljava/lang/Object;)V
+  #121 = NameAndType        #226:#177     // append:(C)Ljava/lang/StringBuffer;
+  #122 = NameAndType        #226:#180     // append:(I)Ljava/lang/StringBuffer;
+  #123 = NameAndType        #226:#182     // append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #124 = NameAndType        #226:#186     // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #125 = NameAndType        #227:#176     // c:(C)I
+  #126 = NameAndType        #286:#196     // d:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+  #127 = NameAndType        #287:#210     // e:C
+  #128 = NameAndType        #288:#212     // x:I
+  #129 = NameAndType        #227:#213     // c:Ljava/lang/String;
+  #130 = NameAndType        #289:#217     // l:Lpb;
+  #131 = NameAndType        #290:#220     // r:[I
+  #132 = NameAndType        #229:#210     // f:C
+  #133 = NameAndType        #291:#212     // o:I
+  #134 = NameAndType        #286:#213     // d:Ljava/lang/String;
+  #135 = NameAndType        #292:#220     // t:[I
+  #136 = NameAndType        #230:#178     // charAt:(I)C
+  #137 = NameAndType        #231:#176     // charWidth:(C)I
+  #138 = NameAndType        #232:#174     // close:()V
+  #139 = NameAndType        #233:#187     // createImage:(Ljava/lang/String;)Ljavax/microedition/lcdui/Image;
+  #140 = NameAndType        #234:#210     // h:C
+  #141 = NameAndType        #293:#212     // v:I
+  #142 = NameAndType        #294:#220     // u:[I
+  #143 = NameAndType        #235:#198     // drawImage:(Ljavax/microedition/lcdui/Image;III)V
+  #144 = NameAndType        #236:#199     // drawRegion:(Ljavax/microedition/lcdui/Image;IIIIIIII)V
+  #145 = NameAndType        #237:#190     // drawString:(Ljava/lang/String;III)V
+  #146 = NameAndType        #238:#210     // i:C
+  #147 = NameAndType        #295:#212     // y:I
+  #148 = NameAndType        #239:#179     // elementAt:(I)Ljava/lang/Object;
+  #149 = NameAndType        #240:#210     // j:C
+  #150 = NameAndType        #296:#212     // z:I
+  #151 = NameAndType        #244:#210     // k:C
+  #152 = NameAndType        #245:#172     // getClass:()Ljava/lang/Class;
+  #153 = NameAndType        #246:#171     // getHeight:()I
+  #154 = NameAndType        #247:#185     // getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+  #155 = NameAndType        #248:#171     // getWidth:()I
+  #156 = NameAndType        #249:#212     // E:I
+  #157 = NameAndType        #263:#171     // length:()I
+  #158 = NameAndType        #265:#184     // parseInt:(Ljava/lang/String;)I
+  #159 = NameAndType        #266:#171     // read:()I
+  #160 = NameAndType        #266:#200     // read:([B)I
+  #161 = NameAndType        #267:#171     // size:()I
+  #162 = NameAndType        #268:#184     // stringWidth:(Ljava/lang/String;)I
+  #163 = NameAndType        #269:#175     // toByteArray:()[B
+  #164 = NameAndType        #270:#173     // toString:()Ljava/lang/String;
+  #165 = NameAndType        #271:#201     // write:([BII)V
+  #166 = Class              #220          // "[I"
+  #167 = Class              #219          // "[B"
+  #168 = Utf8
+  #169 = Utf8               \n
+  #170 = Utf8
+  #171 = Utf8               ()I
+  #172 = Utf8               ()Ljava/lang/Class;
+  #173 = Utf8               ()Ljava/lang/String;
+  #174 = Utf8               ()V
+  #175 = Utf8               ()[B
+  #176 = Utf8               (C)I
+  #177 = Utf8               (C)Ljava/lang/StringBuffer;
+  #178 = Utf8               (I)C
+  #179 = Utf8               (I)Ljava/lang/Object;
+  #180 = Utf8               (I)Ljava/lang/StringBuffer;
+  #181 = Utf8               (II)V
+  #182 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #183 = Utf8               (Ljava/lang/Object;)V
+  #184 = Utf8               (Ljava/lang/String;)I
+  #185 = Utf8               (Ljava/lang/String;)Ljava/io/InputStream;
+  #186 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #187 = Utf8               (Ljava/lang/String;)Ljavax/microedition/lcdui/Image;
+  #188 = Utf8               (Ljava/lang/String;I)I
+  #189 = Utf8               (Ljava/lang/String;II)Lpb;
+  #190 = Utf8               (Ljava/lang/String;III)V
+  #191 = Utf8               (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[I)V
+  #192 = Utf8               (Ljavax/microedition/lcdui/Graphics;)V
+  #193 = Utf8               (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;III)V
+  #194 = Utf8               (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIII)I
+  #195 = Utf8               (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIII)V
+  #196 = Utf8               (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+  #197 = Utf8               (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+  #198 = Utf8               (Ljavax/microedition/lcdui/Image;III)V
+  #199 = Utf8               (Ljavax/microedition/lcdui/Image;IIIIIIII)V
+  #200 = Utf8               ([B)I
+  #201 = Utf8               ([BII)V
+  #202 = Utf8               ([BLjava/lang/String;)V
+  #203 = Utf8               .png
+  #204 = Utf8               /font/icons/ico
+  #205 = Utf8               0
+  #206 = Utf8               9
+  #207 = Utf8               :
+  #208 = Utf8               <clinit>
+  #209 = Utf8               <init>
+  #210 = Utf8               C
+  #211 = Utf8               Code
+  #212 = Utf8               I
+  #213 = Utf8               Ljava/lang/String;
+  #214 = Utf8               Ljava/util/Vector;
+  #215 = Utf8               Ljavax/microedition/lcdui/Font;
+  #216 = Utf8               Ljavax/microedition/lcdui/Image;
+  #217 = Utf8               Lpb;
+  #218 = Utf8               UTF-8
+  #219 = Utf8               [B
+  #220 = Utf8               [I
+  #221 = Utf8               ^
+  #222 = Utf8               `
+  #223 = Utf8               `0~
+  #224 = Utf8               b
+  #225 = Utf8               addElement
+  #226 = Utf8               append
+  #227 = Utf8               c
+  #228 = Utf8               ab
+  #229 = Utf8               f
+  #230 = Utf8               charAt
+  #231 = Utf8               charWidth
+  #232 = Utf8               close
+  #233 = Utf8               createImage
+  #234 = Utf8               h
+  #235 = Utf8               drawImage
+  #236 = Utf8               drawRegion
+  #237 = Utf8               drawString
+  #238 = Utf8               i
+  #239 = Utf8               elementAt
+  #240 = Utf8               j
+  #241 = Utf8               font chars:
+  #242 = Utf8               font img:
+  #243 = Utf8               font widths:
+  #244 = Utf8               k
+  #245 = Utf8               getClass
+  #246 = Utf8               getHeight
+  #247 = Utf8               getResourceAsStream
+  #248 = Utf8               getWidth
+  #249 = Utf8               E
+  #250 = Utf8               java/io/ByteArrayOutputStream
+  #251 = Utf8               java/io/InputStream
+  #252 = Utf8               java/lang/Class
+  #253 = Utf8               java/lang/Exception
+  #254 = Utf8               java/lang/Integer
+  #255 = Utf8               java/lang/Object
+  #256 = Utf8               java/lang/String
+  #257 = Utf8               java/lang/StringBuffer
+  #258 = Utf8               java/util/Vector
+  #259 = Utf8               javax/microedition/lcdui/Font
+  #260 = Utf8               javax/microedition/lcdui/Graphics
+  #261 = Utf8               javax/microedition/lcdui/Image
+  #262 = Utf8               pb
+  #263 = Utf8               length
+  #264 = Utf8               menu/digits.png
+  #265 = Utf8               parseInt
+  #266 = Utf8               read
+  #267 = Utf8               size
+  #268 = Utf8               stringWidth
+  #269 = Utf8               toByteArray
+  #270 = Utf8               toString
+  #271 = Utf8               write
+  #272 = Utf8               ~
+  #273 = Utf8               StackMap
+  #274 = Utf8               ZKM5.3.2a
+  #275 = NameAndType        #224:#212     // b:I
+  #276 = NameAndType        #286:#212     // d:I
+  #277 = NameAndType        #287:#212     // e:I
+  #278 = Utf8               g
+  #279 = Utf8               w
+  #280 = Utf8               s
+  #281 = Utf8               F
+  #282 = Utf8               q
+  #283 = Utf8               m
+  #284 = Utf8               n
+  #285 = Utf8               p
+  #286 = Utf8               d
+  #287 = Utf8               e
+  #288 = Utf8               x
+  #289 = Utf8               l
+  #290 = Utf8               r
+  #291 = Utf8               o
+  #292 = Utf8               t
+  #293 = Utf8               v
+  #294 = Utf8               u
+  #295 = Utf8               y
+  #296 = Utf8               z
+  #297 = NameAndType        #298:#299     // xc:Z
+  #298 = Utf8               xc
+  #299 = Utf8               Z
+  #300 = Fieldref           #19.#297      // ab.xc:Z
+{
+  public java.lang.String b;
+    descriptor: Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  public java.lang.String c;
+    descriptor: Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  public java.lang.String d;
+    descriptor: Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  private static final char e;
+    descriptor: C
+    flags: (0x001a) ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+
+  private static final char f;
+    descriptor: C
+    flags: (0x001a) ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+
+  public static final char g;
+    descriptor: C
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  private static final char h;
+    descriptor: C
+    flags: (0x001a) ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+
+  private static final char i;
+    descriptor: C
+    flags: (0x001a) ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+
+  private static final char j;
+    descriptor: C
+    flags: (0x001a) ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+
+  private static final char k;
+    descriptor: C
+    flags: (0x001a) ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+
+  private static pb l;
+    descriptor: Lpb;
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public static pb m;
+    descriptor: Lpb;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  private byte[] n;
+    descriptor: [B
+    flags: (0x0002) ACC_PRIVATE
+
+  private int o;
+    descriptor: I
+    flags: (0x0002) ACC_PRIVATE
+
+  private int[] p;
+    descriptor: [I
+    flags: (0x0002) ACC_PRIVATE
+
+  private javax.microedition.lcdui.Image q;
+    descriptor: Ljavax/microedition/lcdui/Image;
+    flags: (0x0002) ACC_PRIVATE
+
+  private int[] r;
+    descriptor: [I
+    flags: (0x0002) ACC_PRIVATE
+
+  private static java.util.Vector s;
+    descriptor: Ljava/util/Vector;
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private static int[] t;
+    descriptor: [I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private static int[] u;
+    descriptor: [I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private int v;
+    descriptor: I
+    flags: (0x0002) ACC_PRIVATE
+
+  public int w;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int x;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  private static int y;
+    descriptor: I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private int z;
+    descriptor: I
+    flags: (0x0002) ACC_PRIVATE
+
+  public b(java.lang.String, java.lang.String, java.lang.String, int[]);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[I)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=7, locals=7, args_size=5
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore        6
+         5: aload_0
+         6: invokespecial #77                 // Method java/lang/Object."<init>":()V
+         9: aload_0
+        10: ldc           #12                 // String `0~
+        12: putfield      #35                 // Field b:Ljava/lang/String;
+        15: aload_0
+        16: ldc           #12                 // String `0~
+        18: putfield      #43                 // Field c:Ljava/lang/String;
+        21: aload_0
+        22: ldc           #12                 // String `0~
+        24: putfield      #48                 // Field d:Ljava/lang/String;
+        27: aload_0
+        28: bipush        -2
+        30: putfield      #51                 // Field v:I
+        33: aload_0
+        34: iconst_1
+        35: putfield      #34                 // Field w:I
+        38: aload_0
+        39: iconst_5
+        40: putfield      #42                 // Field x:I
+        43: aload_0
+        44: iconst_0
+        45: putfield      #56                 // Field z:I
+        48: getstatic     #44                 // Field l:Lpb;
+        51: ifnonnull     66
+        54: ldc           #16                 // String menu/digits.png
+        56: bipush        8
+        58: bipush        11
+        60: invokestatic  #68                 // Method ab.b:(Ljava/lang/String;II)Lpb;
+        63: putstatic     #44                 // Field l:Lpb;
+        66: aload_0
+        67: aload_1
+        68: invokestatic  #98                 // Method javax/microedition/lcdui/Image.createImage:(Ljava/lang/String;)Ljavax/microedition/lcdui/Image;
+        71: putfield      #37                 // Field q:Ljavax/microedition/lcdui/Image;
+        74: goto          99
+        77: astore_1
+        78: new           #27                 // class java/lang/StringBuffer
+        81: dup
+        82: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+        85: ldc           #14                 // String font img:
+        87: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        90: aload_1
+        91: invokevirtual #85                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+        94: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        97: pop
+        98: return
+        99: aload_0
+       100: invokevirtual #78                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+       103: aload_2
+       104: invokevirtual #75                 // Method java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+       107: dup
+       108: astore_2
+       109: invokevirtual #73                 // Method java/io/InputStream.read:()I
+       112: pop
+       113: aload_2
+       114: invokevirtual #73                 // Method java/io/InputStream.read:()I
+       117: pop
+       118: aload_2
+       119: invokevirtual #73                 // Method java/io/InputStream.read:()I
+       122: pop
+       123: new           #20                 // class java/io/ByteArrayOutputStream
+       126: dup
+       127: invokespecial #69                 // Method java/io/ByteArrayOutputStream."<init>":()V
+       130: astore        4
+       132: sipush        128
+       135: newarray       byte
+       137: astore        5
+       139: aload_2
+       140: aload         5
+       142: invokevirtual #74                 // Method java/io/InputStream.read:([B)I
+       145: dup
+       146: istore_1
+       147: iconst_2
+       148: if_icmple     167
+       151: aload         4
+       153: aload         5
+       155: iconst_0
+       156: iload_1
+       157: iconst_2
+       158: isub
+       159: invokevirtual #71                 // Method java/io/ByteArrayOutputStream.write:([BII)V
+       162: iload         6
+       164: ifeq          139
+       167: new           #26                 // class java/lang/String
+       170: dup
+       171: aload         4
+       173: invokevirtual #70                 // Method java/io/ByteArrayOutputStream.toByteArray:()[B
+       176: ldc           #9                  // String UTF-8
+       178: invokespecial #79                 // Method java/lang/String."<init>":([BLjava/lang/String;)V
+       181: astore_1
+       182: aload_2
+       183: invokevirtual #72                 // Method java/io/InputStream.close:()V
+       186: goto          211
+       189: astore_2
+       190: new           #27                 // class java/lang/StringBuffer
+       193: dup
+       194: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       197: ldc           #13                 // String font chars:
+       199: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       202: aload_2
+       203: invokevirtual #85                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+       206: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       209: pop
+       210: return
+       211: aload_1
+       212: invokevirtual #81                 // Method java/lang/String.length:()I
+       215: istore_2
+       216: aload_0
+       217: iload_2
+       218: newarray       byte
+       220: putfield      #39                 // Field n:[B
+       223: aload_0
+       224: invokevirtual #78                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+       227: aload_3
+       228: invokevirtual #75                 // Method java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+       231: dup
+       232: astore        4
+       234: aload_0
+       235: getfield      #39                 // Field n:[B
+       238: invokevirtual #74                 // Method java/io/InputStream.read:([B)I
+       241: pop
+       242: aload         4
+       244: invokevirtual #72                 // Method java/io/InputStream.close:()V
+       247: goto          274
+       250: astore        4
+       252: new           #27                 // class java/lang/StringBuffer
+       255: dup
+       256: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       259: ldc           #15                 // String font widths:
+       261: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       264: aload         4
+       266: invokevirtual #85                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+       269: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       272: pop
+       273: return
+       274: aload_0
+       275: sipush        256
+       278: newarray       int
+       280: putfield      #40                 // Field p:[I
+       283: iconst_0
+       284: istore        4
+       286: iload         4
+       288: aload_0
+       289: getfield      #40                 // Field p:[I
+       292: arraylength
+       293: if_icmpge     317
+       296: aload_0
+       297: getfield      #40                 // Field p:[I
+       300: iload         4
+       302: iconst_m1
+       303: iastore
+       304: iinc          4, 1
+       307: iload         6
+       309: ifne          320
+       312: iload         6
+       314: ifeq          286
+       317: iconst_0
+       318: istore        4
+       320: iload         4
+       322: iload_2
+       323: if_icmpge     420
+       326: aload_1
+       327: iload         4
+       329: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+       332: invokestatic  #63                 // Method b:(C)I
+       335: dup
+       336: istore        5
+       338: sipush        255
+       341: iload         6
+       343: ifne          459
+       346: if_icmple     403
+       349: new           #27                 // class java/lang/StringBuffer
+       352: dup
+       353: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       356: ldc           #1                  // String
+       358: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       361: iload         5
+       363: invokevirtual #84                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+       366: ldc           #8                  // String :
+       368: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       371: aload_1
+       372: iload         4
+       374: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+       377: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       380: ldc           #3                  // String
+       382: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       385: aload_1
+       386: iload         4
+       388: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+       391: invokevirtual #84                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+       394: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       397: pop
+       398: iload         6
+       400: ifeq          412
+       403: aload_0
+       404: getfield      #40                 // Field p:[I
+       407: iload         5
+       409: iload         4
+       411: iastore
+       412: iinc          4, 1
+       415: iload         6
+       417: ifeq          320
+       420: aload_0
+       421: aload_0
+       422: getfield      #37                 // Field q:Ljavax/microedition/lcdui/Image;
+       425: invokevirtual #99                 // Method javax/microedition/lcdui/Image.getHeight:()I
+       428: putfield      #47                 // Field o:I
+       431: aload_0
+       432: aload_0
+       433: getfield      #39                 // Field n:[B
+       436: arraylength
+       437: newarray       int
+       439: putfield      #45                 // Field r:[I
+       442: aload_0
+       443: getfield      #45                 // Field r:[I
+       446: iconst_0
+       447: iconst_0
+       448: iastore
+       449: iconst_1
+       450: istore        4
+       452: iload         4
+       454: aload_0
+       455: getfield      #39                 // Field n:[B
+       458: arraylength
+       459: if_icmpge     496
+       462: aload_0
+       463: getfield      #45                 // Field r:[I
+       466: iload         4
+       468: aload_0
+       469: getfield      #45                 // Field r:[I
+       472: iload         4
+       474: iconst_1
+       475: isub
+       476: iaload
+       477: aload_0
+       478: getfield      #39                 // Field n:[B
+       481: iload         4
+       483: iconst_1
+       484: isub
+       485: baload
+       486: iadd
+       487: iastore
+       488: iinc          4, 1
+       491: iload         6
+       493: ifeq          452
+       496: return
+      Exception table:
+         from    to  target type
+            66    74    77   Class java/lang/Exception
+            99   186   189   Class java/lang/Exception
+           223   247   250   Class java/lang/Exception
+      StackMap: number_of_entries = 18
+        frame_type = 255 offset = 66
+          locals = [ class b, class java/lang/String, class java/lang/String, class java/lang/String, class "[I", top, int ]
+          stack = []
+        frame_type = 255 offset = 77
+          locals = [ class b, class java/lang/String, class java/lang/String, class java/lang/String, class "[I", top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 99
+          locals = [ class b, class java/lang/String, class java/lang/String, class java/lang/String, class "[I", top, int ]
+          stack = []
+        frame_type = 255 offset = 139
+          locals = [ class b, top, class java/io/InputStream, class java/lang/String, class java/io/ByteArrayOutputStream, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 167
+          locals = [ class b, int, class java/io/InputStream, class java/lang/String, class java/io/ByteArrayOutputStream, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 189
+          locals = [ class b, top, class java/lang/Object, class java/lang/String, class java/lang/Object, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 211
+          locals = [ class b, class java/lang/String, class java/io/InputStream, class java/lang/String, class java/io/ByteArrayOutputStream, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 250
+          locals = [ class b, class java/lang/String, int, class java/lang/String, class java/lang/Object, class "[B", int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 274
+          locals = [ class b, class java/lang/String, int, class java/lang/String, class java/io/InputStream, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 286
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 317
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 320
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 403
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 412
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 420
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 452
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 459
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, top, int ]
+          stack = [ int, int ]
+        frame_type = 255 offset = 496
+          locals = [ class b, class java/lang/String, int, class java/lang/String, int, top, int ]
+          stack = []
+
+  public static void b();
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=3, args_size=0
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore_2
+         4: new           #28                 // class java/util/Vector
+         7: dup
+         8: invokespecial #88                 // Method java/util/Vector."<init>":()V
+        11: putstatic     #36                 // Field s:Ljava/util/Vector;
+        14: iconst_0
+        15: istore_0
+        16: new           #27                 // class java/lang/StringBuffer
+        19: dup
+        20: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+        23: ldc           #5                  // String /font/icons/ico
+        25: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        28: iload_0
+        29: invokevirtual #84                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+        32: ldc           #4                  // String .png
+        34: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        37: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        40: invokestatic  #98                 // Method javax/microedition/lcdui/Image.createImage:(Ljava/lang/String;)Ljavax/microedition/lcdui/Image;
+        43: astore_1
+        44: getstatic     #36                 // Field s:Ljava/util/Vector;
+        47: aload_1
+        48: invokevirtual #89                 // Method java/util/Vector.addElement:(Ljava/lang/Object;)V
+        51: iinc          0, 1
+        54: goto          16
+        57: pop
+        58: getstatic     #36                 // Field s:Ljava/util/Vector;
+        61: invokevirtual #91                 // Method java/util/Vector.size:()I
+        64: ifle          137
+        67: getstatic     #36                 // Field s:Ljava/util/Vector;
+        70: invokevirtual #91                 // Method java/util/Vector.size:()I
+        73: newarray       int
+        75: putstatic     #49                 // Field t:[I
+        78: getstatic     #36                 // Field s:Ljava/util/Vector;
+        81: invokevirtual #91                 // Method java/util/Vector.size:()I
+        84: newarray       int
+        86: putstatic     #52                 // Field u:[I
+        89: iconst_0
+        90: istore_0
+        91: iload_0
+        92: getstatic     #36                 // Field s:Ljava/util/Vector;
+        95: invokevirtual #91                 // Method java/util/Vector.size:()I
+        98: if_icmpge     137
+       101: getstatic     #36                 // Field s:Ljava/util/Vector;
+       104: iload_0
+       105: invokevirtual #90                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+       108: checkcast     #31                 // class javax/microedition/lcdui/Image
+       111: astore_1
+       112: getstatic     #49                 // Field t:[I
+       115: iload_0
+       116: aload_1
+       117: invokevirtual #100                // Method javax/microedition/lcdui/Image.getWidth:()I
+       120: iastore
+       121: getstatic     #52                 // Field u:[I
+       124: iload_0
+       125: aload_1
+       126: invokevirtual #99                 // Method javax/microedition/lcdui/Image.getHeight:()I
+       129: iastore
+       130: iinc          0, 1
+       133: iload_2
+       134: ifeq          91
+       137: return
+      Exception table:
+         from    to  target type
+            14    57    57   Class java/lang/Exception
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 16
+          locals = [ int, top, int ]
+          stack = []
+        frame_type = 255 offset = 57
+          locals = [ top, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 91
+          locals = [ int, top, int ]
+          stack = []
+        frame_type = 255 offset = 137
+          locals = [ top, top, int ]
+          stack = []
+
+  public final int c();
+    descriptor: ()I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #47                 // Field o:I
+         4: ireturn
+
+  private static int b(char);
+    descriptor: (C)I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: iload_0
+         1: sipush        1025
+         4: if_icmplt     17
+         7: iload_0
+         8: sipush        128
+        11: iadd
+        12: sipush        1025
+        15: isub
+        16: ireturn
+        17: iload_0
+        18: ireturn
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 17
+          locals = [ int ]
+          stack = []
+
+  private int c(char);
+    descriptor: (C)I
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iload_1
+         1: invokestatic  #63                 // Method b:(C)I
+         4: dup
+         5: istore_1
+         6: iflt          16
+         9: iload_1
+        10: sipush        255
+        13: if_icmple     18
+        16: iconst_m1
+        17: ireturn
+        18: aload_0
+        19: getfield      #40                 // Field p:[I
+        22: iload_1
+        23: iaload
+        24: ireturn
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 16
+          locals = [ class b, int ]
+          stack = []
+        frame_type = 255 offset = 18
+          locals = [ class b, int ]
+          stack = []
+
+  public final int b(java.lang.String);
+    descriptor: (Ljava/lang/String;)I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=4, locals=6, args_size=2
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore        5
+         5: iconst_0
+         6: istore        4
+         8: iconst_0
+         9: istore_2
+        10: iload_2
+        11: aload_1
+        12: invokevirtual #81                 // Method java/lang/String.length:()I
+        15: if_icmpge     62
+        18: aload_0
+        19: aload_1
+        20: iload_2
+        21: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        24: invokespecial #66                 // Method c:(C)I
+        27: dup
+        28: istore_3
+        29: iload         5
+        31: ifne          64
+        34: iconst_m1
+        35: if_icmpeq     54
+        38: iload         4
+        40: aload_0
+        41: getfield      #39                 // Field n:[B
+        44: iload_3
+        45: baload
+        46: aload_0
+        47: getfield      #51                 // Field v:I
+        50: iadd
+        51: iadd
+        52: istore        4
+        54: iinc          2, 1
+        57: iload         5
+        59: ifeq          10
+        62: iload         4
+        64: ireturn
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 10
+          locals = [ class b, class java/lang/String, int, top, int, int ]
+          stack = []
+        frame_type = 255 offset = 54
+          locals = [ class b, class java/lang/String, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 62
+          locals = [ class b, class java/lang/String, int, top, int, int ]
+          stack = []
+        frame_type = 255 offset = 64
+          locals = [ class b, class java/lang/String, int, top, int, int ]
+          stack = [ int ]
+
+  private boolean b(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int, int, boolean);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=11, locals=13, args_size=8
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore        12
+         5: iload         4
+         7: aload_0
+         8: dup
+         9: astore        8
+        11: getfield      #47                 // Field o:I
+        14: iadd
+        15: iflt          26
+        18: iload         4
+        20: getstatic     #59                 // Field ab.E:I
+        23: if_icmple     28
+        26: iconst_0
+        27: ireturn
+        28: iload         6
+        30: iconst_1
+        31: if_icmpne     44
+        34: iload_3
+        35: iload         5
+        37: isub
+        38: istore_3
+        39: iload         12
+        41: ifeq          57
+        44: iload         6
+        46: iconst_2
+        47: if_icmpne     57
+        50: iload_3
+        51: iload         5
+        53: iconst_2
+        54: idiv
+        55: isub
+        56: istore_3
+        57: iload         7
+        59: ifne          413
+        62: aload_0
+        63: aload_1
+        64: aload_2
+        65: iload_3
+        66: iload         4
+        68: istore        5
+        70: istore        4
+        72: astore_3
+        73: astore_2
+        74: astore_1
+        75: iconst_0
+        76: istore        9
+        78: iconst_0
+        79: istore        10
+        81: ldc           #1                  // String
+        83: astore        11
+        85: iconst_0
+        86: istore        6
+        88: iload         6
+        90: aload_3
+        91: invokevirtual #81                 // Method java/lang/String.length:()I
+        94: if_icmpge     413
+        97: aload_3
+        98: iload         6
+       100: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+       103: istore        8
+       105: iload         9
+       107: iload         12
+       109: ifne          414
+       112: ifeq          269
+       115: iload         8
+       117: getstatic     #50                 // Field h:C
+       120: if_icmplt     164
+       123: iload         8
+       125: getstatic     #53                 // Field i:C
+       128: if_icmpgt     164
+       131: new           #27                 // class java/lang/StringBuffer
+       134: dup
+       135: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       138: aload         11
+       140: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       143: iload         8
+       145: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       148: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       151: astore        11
+       153: iload         6
+       155: aload_3
+       156: invokevirtual #81                 // Method java/lang/String.length:()I
+       159: iconst_1
+       160: isub
+       161: if_icmplt     405
+       164: aload         11
+       166: invokestatic  #76                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+       169: istore        7
+       171: iload         10
+       173: ifeq          239
+       176: iload         7
+       178: getstatic     #36                 // Field s:Ljava/util/Vector;
+       181: invokevirtual #91                 // Method java/util/Vector.size:()I
+       184: if_icmpge     239
+       187: aload_2
+       188: getstatic     #36                 // Field s:Ljava/util/Vector;
+       191: iload         7
+       193: invokevirtual #90                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+       196: checkcast     #31                 // class javax/microedition/lcdui/Image
+       199: iload         4
+       201: iload         5
+       203: getstatic     #52                 // Field u:[I
+       206: iload         7
+       208: iaload
+       209: aload_1
+       210: getfield      #47                 // Field o:I
+       213: isub
+       214: iconst_2
+       215: idiv
+       216: isub
+       217: iconst_1
+       218: isub
+       219: iconst_0
+       220: invokevirtual #95                 // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+       223: iload         4
+       225: getstatic     #49                 // Field t:[I
+       228: iload         7
+       230: iaload
+       231: aload_1
+       232: getfield      #51                 // Field v:I
+       235: iadd
+       236: iadd
+       237: istore        4
+       239: iconst_0
+       240: istore        9
+       242: iload         6
+       244: aload_3
+       245: invokevirtual #81                 // Method java/lang/String.length:()I
+       248: iconst_1
+       249: isub
+       250: if_icmpge     405
+       253: iload         8
+       255: getstatic     #57                 // Field k:C
+       258: if_icmpeq     405
+       261: iinc          6, -1
+       264: iload         12
+       266: ifeq          405
+       269: iload         8
+       271: getstatic     #33                 // Field g:C
+       274: if_icmpeq     285
+       277: iload         8
+       279: getstatic     #55                 // Field j:C
+       282: if_icmpne     312
+       285: iload         8
+       287: getstatic     #33                 // Field g:C
+       290: if_icmpne     297
+       293: iconst_1
+       294: goto          298
+       297: iconst_0
+       298: istore        10
+       300: iconst_1
+       301: istore        9
+       303: ldc           #1                  // String
+       305: astore        11
+       307: iload         12
+       309: ifeq          405
+       312: iload         8
+       314: getstatic     #41                 // Field e:C
+       317: if_icmpne     334
+       320: iload         4
+       322: aload_1
+       323: getfield      #42                 // Field x:I
+       326: iadd
+       327: istore        4
+       329: iload         12
+       331: ifeq          405
+       334: iload         8
+       336: getstatic     #57                 // Field k:C
+       339: if_icmpeq     405
+       342: aload_1
+       343: iload         8
+       345: invokespecial #66                 // Method c:(C)I
+       348: dup
+       349: istore        7
+       351: iconst_m1
+       352: if_icmpeq     405
+       355: aload_2
+       356: aload_1
+       357: getfield      #37                 // Field q:Ljavax/microedition/lcdui/Image;
+       360: aload_1
+       361: getfield      #45                 // Field r:[I
+       364: iload         7
+       366: iaload
+       367: iconst_0
+       368: aload_1
+       369: getfield      #39                 // Field n:[B
+       372: iload         7
+       374: baload
+       375: aload_1
+       376: getfield      #47                 // Field o:I
+       379: iconst_0
+       380: iload         4
+       382: iload         5
+       384: iconst_0
+       385: invokevirtual #96                 // Method javax/microedition/lcdui/Graphics.drawRegion:(Ljavax/microedition/lcdui/Image;IIIIIIII)V
+       388: iload         4
+       390: aload_1
+       391: getfield      #39                 // Field n:[B
+       394: iload         7
+       396: baload
+       397: aload_1
+       398: getfield      #51                 // Field v:I
+       401: iadd
+       402: iadd
+       403: istore        4
+       405: iinc          6, 1
+       408: iload         12
+       410: ifeq          88
+       413: iconst_1
+       414: ireturn
+      StackMap: number_of_entries = 16
+        frame_type = 255 offset = 26
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class b, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 28
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class b, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 44
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class b, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 57
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class b, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 88
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, top, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 164
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 239
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 269
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 285
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 297
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 298
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 312
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 334
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 405
+          locals = [ class b, class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 413
+          locals = [ class b, class java/lang/Object, class java/lang/Object, top, int, int, int, int, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 414
+          locals = [ class b, class java/lang/Object, class java/lang/Object, top, int, int, int, int, top, top, top, top, int ]
+          stack = [ int ]
+
+  public final int b(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int, int);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIII)I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=8, locals=7, args_size=7
+         0: aload_0
+         1: aload_1
+         2: aload_2
+         3: iload_3
+         4: iload         4
+         6: iload         5
+         8: iload         6
+        10: iconst_0
+        11: invokespecial #64                 // Method c:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+        14: ireturn
+
+  private int c(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int, int, boolean);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=9, locals=22, args_size=8
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore        21
+         5: ldc           #1                  // String
+         7: astore        11
+         9: ldc           #1                  // String
+        11: astore        12
+        13: iconst_0
+        14: istore        13
+        16: iconst_0
+        17: istore        14
+        19: aload_0
+        20: getfield      #47                 // Field o:I
+        23: istore        15
+        25: iconst_0
+        26: istore        16
+        28: iconst_0
+        29: istore        17
+        31: iconst_0
+        32: istore        18
+        34: iconst_0
+        35: istore        19
+        37: ldc           #1                  // String
+        39: astore        20
+        41: iconst_0
+        42: istore        8
+        44: iload         8
+        46: aload_2
+        47: invokevirtual #81                 // Method java/lang/String.length:()I
+        50: if_icmpge     1042
+        53: aload_2
+        54: iload         8
+        56: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        59: istore        10
+        61: iload         17
+        63: iload         21
+        65: ifne          1044
+        68: ifeq          271
+        71: iload         10
+        73: getstatic     #50                 // Field h:C
+        76: if_icmplt     120
+        79: iload         10
+        81: getstatic     #53                 // Field i:C
+        84: if_icmpgt     120
+        87: new           #27                 // class java/lang/StringBuffer
+        90: dup
+        91: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+        94: aload         20
+        96: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        99: iload         10
+       101: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       104: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       107: astore        20
+       109: iload         8
+       111: aload_2
+       112: invokevirtual #81                 // Method java/lang/String.length:()I
+       115: iconst_1
+       116: isub
+       117: if_icmplt     1034
+       120: aload         20
+       122: invokestatic  #76                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+       125: istore        9
+       127: iload         18
+       129: ifeq          207
+       132: iload         9
+       134: getstatic     #36                 // Field s:Ljava/util/Vector;
+       137: invokevirtual #91                 // Method java/util/Vector.size:()I
+       140: if_icmpge     241
+       143: iload         13
+       145: ifle          157
+       148: iload         13
+       150: aload_0
+       151: getfield      #51                 // Field v:I
+       154: iadd
+       155: istore        13
+       157: iload         13
+       159: getstatic     #49                 // Field t:[I
+       162: iload         9
+       164: iaload
+       165: iadd
+       166: istore        13
+       168: new           #27                 // class java/lang/StringBuffer
+       171: dup
+       172: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       175: aload         11
+       177: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       180: getstatic     #33                 // Field g:C
+       183: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       186: aload         20
+       188: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       191: getstatic     #57                 // Field k:C
+       194: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       197: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       200: astore        11
+       202: iload         21
+       204: ifeq          241
+       207: new           #27                 // class java/lang/StringBuffer
+       210: dup
+       211: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       214: aload         11
+       216: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       219: getstatic     #55                 // Field j:C
+       222: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       225: aload         20
+       227: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       230: getstatic     #57                 // Field k:C
+       233: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       236: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       239: astore        11
+       241: iconst_0
+       242: istore        17
+       244: iload         8
+       246: aload_2
+       247: invokevirtual #81                 // Method java/lang/String.length:()I
+       250: iconst_1
+       251: isub
+       252: if_icmpge     1034
+       255: iload         10
+       257: getstatic     #57                 // Field k:C
+       260: if_icmpeq     1034
+       263: iinc          8, -1
+       266: iload         21
+       268: ifeq          1034
+       271: iload         10
+       273: getstatic     #41                 // Field e:C
+       276: if_icmpne     541
+       279: iload         13
+       281: ifne          337
+       284: new           #27                 // class java/lang/StringBuffer
+       287: dup
+       288: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       291: aload         12
+       293: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       296: iload         10
+       298: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       301: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       304: astore        12
+       306: iload         14
+       308: ifle          320
+       311: iload         14
+       313: aload_0
+       314: getfield      #51                 // Field v:I
+       317: iadd
+       318: istore        14
+       320: iload         14
+       322: aload_0
+       323: getfield      #42                 // Field x:I
+       326: iadd
+       327: istore        14
+       329: iconst_0
+       330: istore        16
+       332: iload         21
+       334: ifeq          1034
+       337: iload         14
+       339: ifle          518
+       342: iload         14
+       344: iload         13
+       346: iadd
+       347: aload_0
+       348: getfield      #51                 // Field v:I
+       351: iadd
+       352: istore        10
+       354: iload         16
+       356: ifeq          405
+       359: iload         10
+       361: aload_0
+       362: getfield      #42                 // Field x:I
+       365: aload_0
+       366: getfield      #51                 // Field v:I
+       369: iadd
+       370: iadd
+       371: istore        10
+       373: new           #27                 // class java/lang/StringBuffer
+       376: dup
+       377: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       380: aload         12
+       382: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       385: ldc           #3                  // String
+       387: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       390: aload         11
+       392: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       395: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       398: astore        9
+       400: iload         21
+       402: ifeq          427
+       405: new           #27                 // class java/lang/StringBuffer
+       408: dup
+       409: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       412: aload         12
+       414: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       417: aload         11
+       419: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       422: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       425: astore        9
+       427: iload         5
+       429: iflt          505
+       432: iload         10
+       434: iload         5
+       436: if_icmple     505
+       439: aload_0
+       440: aload_1
+       441: aload         12
+       443: iload_3
+       444: iload         4
+       446: iload         14
+       448: iload         6
+       450: iload         7
+       452: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+       455: istore        9
+       457: iload         19
+       459: ifne          467
+       462: iload         9
+       464: ifeq          471
+       467: iconst_1
+       468: goto          472
+       471: iconst_0
+       472: istore        19
+       474: iload         4
+       476: aload_0
+       477: getfield      #47                 // Field o:I
+       480: aload_0
+       481: getfield      #34                 // Field w:I
+       484: iadd
+       485: iadd
+       486: istore        4
+       488: iload         15
+       490: aload_0
+       491: getfield      #47                 // Field o:I
+       494: aload_0
+       495: getfield      #34                 // Field w:I
+       498: iadd
+       499: iadd
+       500: istore        15
+       502: goto          518
+       505: aload         9
+       507: astore        12
+       509: iload         10
+       511: istore        14
+       513: iload         21
+       515: ifeq          526
+       518: aload         11
+       520: astore        12
+       522: iload         13
+       524: istore        14
+       526: iconst_1
+       527: istore        16
+       529: ldc           #1                  // String
+       531: astore        11
+       533: iconst_0
+       534: istore        13
+       536: iload         21
+       538: ifeq          1034
+       541: iload         10
+       543: getstatic     #46                 // Field f:C
+       546: if_icmpne     922
+       549: iload         13
+       551: ifne          594
+       554: aload_0
+       555: aload_1
+       556: aload         12
+       558: iload_3
+       559: iload         4
+       561: iload         14
+       563: iload         6
+       565: iload         7
+       567: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+       570: istore        9
+       572: iload         19
+       574: ifne          582
+       577: iload         9
+       579: ifeq          586
+       582: iconst_1
+       583: goto          587
+       586: iconst_0
+       587: istore        19
+       589: iload         21
+       591: ifeq          872
+       594: iload         14
+       596: ifle          837
+       599: iload         14
+       601: iload         13
+       603: iadd
+       604: aload_0
+       605: getfield      #51                 // Field v:I
+       608: iadd
+       609: istore        10
+       611: iload         16
+       613: ifeq          662
+       616: iload         10
+       618: aload_0
+       619: getfield      #42                 // Field x:I
+       622: aload_0
+       623: getfield      #51                 // Field v:I
+       626: iadd
+       627: iadd
+       628: istore        10
+       630: new           #27                 // class java/lang/StringBuffer
+       633: dup
+       634: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       637: aload         12
+       639: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       642: ldc           #3                  // String
+       644: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       647: aload         11
+       649: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       652: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       655: astore        9
+       657: iload         21
+       659: ifeq          684
+       662: new           #27                 // class java/lang/StringBuffer
+       665: dup
+       666: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       669: aload         12
+       671: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       674: aload         11
+       676: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       679: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       682: astore        9
+       684: iload         5
+       686: iflt          797
+       689: iload         10
+       691: iload         5
+       693: if_icmple     797
+       696: aload_0
+       697: aload_1
+       698: aload         12
+       700: iload_3
+       701: iload         4
+       703: iload         14
+       705: iload         6
+       707: iload         7
+       709: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+       712: istore        9
+       714: iload         19
+       716: ifne          724
+       719: iload         9
+       721: ifeq          728
+       724: iconst_1
+       725: goto          729
+       728: iconst_0
+       729: istore        19
+       731: iload         4
+       733: aload_0
+       734: getfield      #47                 // Field o:I
+       737: aload_0
+       738: getfield      #34                 // Field w:I
+       741: iadd
+       742: iadd
+       743: istore        4
+       745: iload         15
+       747: aload_0
+       748: getfield      #47                 // Field o:I
+       751: aload_0
+       752: getfield      #34                 // Field w:I
+       755: iadd
+       756: iadd
+       757: istore        15
+       759: aload_0
+       760: aload_1
+       761: aload         11
+       763: iload_3
+       764: iload         4
+       766: iload         13
+       768: iload         6
+       770: iload         7
+       772: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+       775: istore        9
+       777: iload         19
+       779: ifne          787
+       782: iload         9
+       784: ifeq          791
+       787: iconst_1
+       788: goto          792
+       791: iconst_0
+       792: istore        19
+       794: goto          872
+       797: aload_0
+       798: aload_1
+       799: aload         9
+       801: iload_3
+       802: iload         4
+       804: iload         10
+       806: iload         6
+       808: iload         7
+       810: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+       813: istore        9
+       815: iload         19
+       817: ifne          825
+       820: iload         9
+       822: ifeq          829
+       825: iconst_1
+       826: goto          830
+       829: iconst_0
+       830: istore        19
+       832: iload         21
+       834: ifeq          872
+       837: aload_0
+       838: aload_1
+       839: aload         11
+       841: iload_3
+       842: iload         4
+       844: iload         13
+       846: iload         6
+       848: iload         7
+       850: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+       853: istore        9
+       855: iload         19
+       857: ifne          865
+       860: iload         9
+       862: ifeq          869
+       865: iconst_1
+       866: goto          870
+       869: iconst_0
+       870: istore        19
+       872: iload         4
+       874: aload_0
+       875: getfield      #47                 // Field o:I
+       878: aload_0
+       879: getfield      #34                 // Field w:I
+       882: iadd
+       883: iadd
+       884: istore        4
+       886: iload         15
+       888: aload_0
+       889: getfield      #47                 // Field o:I
+       892: aload_0
+       893: getfield      #34                 // Field w:I
+       896: iadd
+       897: iadd
+       898: istore        15
+       900: ldc           #1                  // String
+       902: astore        12
+       904: iconst_0
+       905: istore        14
+       907: ldc           #1                  // String
+       909: astore        11
+       911: iconst_0
+       912: istore        13
+       914: iconst_0
+       915: istore        16
+       917: iload         21
+       919: ifeq          1034
+       922: iload         10
+       924: getstatic     #33                 // Field g:C
+       927: if_icmpeq     938
+       930: iload         10
+       932: getstatic     #55                 // Field j:C
+       935: if_icmpne     965
+       938: iload         10
+       940: getstatic     #33                 // Field g:C
+       943: if_icmpne     950
+       946: iconst_1
+       947: goto          951
+       950: iconst_0
+       951: istore        18
+       953: iconst_1
+       954: istore        17
+       956: ldc           #1                  // String
+       958: astore        20
+       960: iload         21
+       962: ifeq          1034
+       965: iload         10
+       967: getstatic     #57                 // Field k:C
+       970: if_icmpeq     1034
+       973: aload_0
+       974: iload         10
+       976: invokespecial #66                 // Method c:(C)I
+       979: dup
+       980: istore        9
+       982: iconst_m1
+       983: if_icmpeq     1034
+       986: new           #27                 // class java/lang/StringBuffer
+       989: dup
+       990: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       993: aload         11
+       995: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       998: iload         10
+      1000: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+      1003: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+      1006: astore        11
+      1008: iload         13
+      1010: ifle          1022
+      1013: iload         13
+      1015: aload_0
+      1016: getfield      #51                 // Field v:I
+      1019: iadd
+      1020: istore        13
+      1022: iload         13
+      1024: aload_0
+      1025: getfield      #39                 // Field n:[B
+      1028: iload         9
+      1030: baload
+      1031: iadd
+      1032: istore        13
+      1034: iinc          8, 1
+      1037: iload         21
+      1039: ifeq          44
+      1042: iload         13
+      1044: ifne          1087
+      1047: aload_0
+      1048: aload_1
+      1049: aload         12
+      1051: iload_3
+      1052: iload         4
+      1054: iload         14
+      1056: iload         6
+      1058: iload         7
+      1060: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+      1063: istore        9
+      1065: iload         19
+      1067: ifne          1075
+      1070: iload         9
+      1072: ifeq          1079
+      1075: iconst_1
+      1076: goto          1080
+      1079: iconst_0
+      1080: istore        19
+      1082: iload         21
+      1084: ifeq          1365
+      1087: iload         14
+      1089: ifle          1330
+      1092: iload         14
+      1094: iload         13
+      1096: iadd
+      1097: aload_0
+      1098: getfield      #51                 // Field v:I
+      1101: iadd
+      1102: istore        10
+      1104: iload         16
+      1106: ifeq          1155
+      1109: iload         10
+      1111: aload_0
+      1112: getfield      #42                 // Field x:I
+      1115: aload_0
+      1116: getfield      #51                 // Field v:I
+      1119: iadd
+      1120: iadd
+      1121: istore        10
+      1123: new           #27                 // class java/lang/StringBuffer
+      1126: dup
+      1127: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+      1130: aload         12
+      1132: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+      1135: ldc           #3                  // String
+      1137: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+      1140: aload         11
+      1142: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+      1145: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+      1148: astore        9
+      1150: iload         21
+      1152: ifeq          1177
+      1155: new           #27                 // class java/lang/StringBuffer
+      1158: dup
+      1159: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+      1162: aload         12
+      1164: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+      1167: aload         11
+      1169: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+      1172: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+      1175: astore        9
+      1177: iload         5
+      1179: iflt          1290
+      1182: iload         10
+      1184: iload         5
+      1186: if_icmple     1290
+      1189: aload_0
+      1190: aload_1
+      1191: aload         12
+      1193: iload_3
+      1194: iload         4
+      1196: iload         14
+      1198: iload         6
+      1200: iload         7
+      1202: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+      1205: istore        9
+      1207: iload         19
+      1209: ifne          1217
+      1212: iload         9
+      1214: ifeq          1221
+      1217: iconst_1
+      1218: goto          1222
+      1221: iconst_0
+      1222: istore        19
+      1224: iload         4
+      1226: aload_0
+      1227: getfield      #47                 // Field o:I
+      1230: aload_0
+      1231: getfield      #34                 // Field w:I
+      1234: iadd
+      1235: iadd
+      1236: istore        4
+      1238: iload         15
+      1240: aload_0
+      1241: getfield      #47                 // Field o:I
+      1244: aload_0
+      1245: getfield      #34                 // Field w:I
+      1248: iadd
+      1249: iadd
+      1250: istore        15
+      1252: aload_0
+      1253: aload_1
+      1254: aload         11
+      1256: iload_3
+      1257: iload         4
+      1259: iload         13
+      1261: iload         6
+      1263: iload         7
+      1265: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+      1268: istore        9
+      1270: iload         19
+      1272: ifne          1280
+      1275: iload         9
+      1277: ifeq          1284
+      1280: iconst_1
+      1281: goto          1285
+      1284: iconst_0
+      1285: istore        19
+      1287: goto          1365
+      1290: aload_0
+      1291: aload_1
+      1292: aload         9
+      1294: iload_3
+      1295: iload         4
+      1297: iload         10
+      1299: iload         6
+      1301: iload         7
+      1303: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+      1306: istore        9
+      1308: iload         19
+      1310: ifne          1318
+      1313: iload         9
+      1315: ifeq          1322
+      1318: iconst_1
+      1319: goto          1323
+      1322: iconst_0
+      1323: istore        19
+      1325: iload         21
+      1327: ifeq          1365
+      1330: aload_0
+      1331: aload_1
+      1332: aload         11
+      1334: iload_3
+      1335: iload         4
+      1337: iload         13
+      1339: iload         6
+      1341: iload         7
+      1343: invokespecial #65                 // Method b:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)Z
+      1346: istore        9
+      1348: iload         19
+      1350: ifne          1358
+      1353: iload         9
+      1355: ifeq          1362
+      1358: iconst_1
+      1359: goto          1363
+      1362: iconst_0
+      1363: istore        19
+      1365: iload         19
+      1367: ifne          1375
+      1370: iload         7
+      1372: ifeq          1378
+      1375: iload         15
+      1377: ireturn
+      1378: iconst_m1
+      1379: ireturn
+      StackMap: number_of_entries = 70
+        frame_type = 255 offset = 44
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 120
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 157
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 207
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 241
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 271
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 320
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 337
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 405
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 427
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, class java/lang/String, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 467
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 471
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 472
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 505
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, class java/lang/String, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 518
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 526
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 541
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 582
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 586
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 587
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 594
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 662
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 684
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, class java/lang/String, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 724
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 728
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 729
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 787
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 791
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 792
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 797
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, class java/lang/String, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 825
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 829
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 830
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 837
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 865
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 869
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 870
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 872
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 922
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 938
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 950
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 951
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 965
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1022
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1034
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1042
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1044
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 1075
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1079
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1080
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 1087
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1155
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1177
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, class java/lang/String, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1217
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1221
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1222
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 1280
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1284
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1285
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 1290
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, class java/lang/String, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1318
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1322
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1323
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, int, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 1330
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, top, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1358
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1362
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1363
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 1365
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1375
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+        frame_type = 255 offset = 1378
+          locals = [ class b, class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int, int, top, class java/lang/String, class java/lang/String, int, int, int, int, int, int, int, class java/lang/String, int ]
+          stack = []
+
+  public final int b(java.lang.String, int);
+    descriptor: (Ljava/lang/String;I)I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=8, locals=3, args_size=3
+         0: aload_0
+         1: aconst_null
+         2: aload_1
+         3: iconst_0
+         4: iconst_0
+         5: iload_2
+         6: iconst_0
+         7: iconst_1
+         8: invokespecial #64                 // Method c:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+        11: ireturn
+
+  private static int d(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int, int, boolean);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=6, locals=17, args_size=7
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore        16
+         5: getstatic     #58                 // Field ab.F:Ljavax/microedition/lcdui/Font;
+         8: astore        7
+        10: iload         5
+        12: dup
+        13: istore        5
+        15: iconst_2
+        16: if_icmpne     24
+        19: bipush        17
+        21: goto          36
+        24: iload         5
+        26: iconst_1
+        27: if_icmpne     35
+        30: bipush        24
+        32: goto          36
+        35: iconst_0
+        36: istore        5
+        38: ldc           #1                  // String
+        40: astore        8
+        42: ldc           #1                  // String
+        44: astore        10
+        46: aload         7
+        48: invokevirtual #93                 // Method javax/microedition/lcdui/Font.getHeight:()I
+        51: istore        12
+        53: iconst_0
+        54: istore        9
+        56: iconst_0
+        57: istore        14
+        59: iconst_0
+        60: istore        15
+        62: iload         15
+        64: aload_1
+        65: invokevirtual #81                 // Method java/lang/String.length:()I
+        68: if_icmpgt     392
+        71: iload         15
+        73: iload         16
+        75: ifne          394
+        78: aload_1
+        79: invokevirtual #81                 // Method java/lang/String.length:()I
+        82: if_icmpne     95
+        85: getstatic     #46                 // Field f:C
+        88: istore        11
+        90: iload         16
+        92: ifeq          103
+        95: aload_1
+        96: iload         15
+        98: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+       101: istore        11
+       103: iload         11
+       105: getstatic     #41                 // Field e:C
+       108: if_icmpeq     119
+       111: iload         11
+       113: getstatic     #46                 // Field f:C
+       116: if_icmpne     350
+       119: iload         14
+       121: iload         9
+       123: iadd
+       124: istore        13
+       126: iload         14
+       128: ifeq          179
+       131: iload         9
+       133: ifeq          179
+       136: iload         13
+       138: aload         7
+       140: getstatic     #41                 // Field e:C
+       143: invokevirtual #92                 // Method javax/microedition/lcdui/Font.charWidth:(C)I
+       146: iadd
+       147: istore        13
+       149: new           #27                 // class java/lang/StringBuffer
+       152: dup
+       153: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       156: aload         8
+       158: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       161: ldc           #3                  // String
+       163: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       166: aload         10
+       168: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       171: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       174: astore        9
+       176: goto          201
+       179: new           #27                 // class java/lang/StringBuffer
+       182: dup
+       183: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       186: aload         8
+       188: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       191: aload         10
+       193: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       196: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       199: astore        9
+       201: iload         13
+       203: iload         4
+       205: if_icmple     265
+       208: iload         4
+       210: ifle          265
+       213: iload         6
+       215: ifne          228
+       218: aload_0
+       219: aload         8
+       221: iload_2
+       222: iload_3
+       223: iload         5
+       225: invokevirtual #97                 // Method javax/microedition/lcdui/Graphics.drawString:(Ljava/lang/String;III)V
+       228: iload_3
+       229: aload         7
+       231: invokevirtual #93                 // Method javax/microedition/lcdui/Font.getHeight:()I
+       234: getstatic     #54                 // Field y:I
+       237: iadd
+       238: iadd
+       239: istore_3
+       240: iload         12
+       242: aload         7
+       244: invokevirtual #93                 // Method javax/microedition/lcdui/Font.getHeight:()I
+       247: getstatic     #54                 // Field y:I
+       250: iadd
+       251: iadd
+       252: istore        12
+       254: aload         10
+       256: astore        8
+       258: iload         14
+       260: istore        9
+       262: goto          273
+       265: aload         9
+       267: astore        8
+       269: iload         13
+       271: istore        9
+       273: iload         11
+       275: getstatic     #46                 // Field f:C
+       278: if_icmpne     338
+       281: iload         6
+       283: ifne          296
+       286: aload_0
+       287: aload         8
+       289: iload_2
+       290: iload_3
+       291: iload         5
+       293: invokevirtual #97                 // Method javax/microedition/lcdui/Graphics.drawString:(Ljava/lang/String;III)V
+       296: iload         15
+       298: aload_1
+       299: invokevirtual #81                 // Method java/lang/String.length:()I
+       302: if_icmpeq     331
+       305: iload_3
+       306: aload         7
+       308: invokevirtual #93                 // Method javax/microedition/lcdui/Font.getHeight:()I
+       311: getstatic     #54                 // Field y:I
+       314: iadd
+       315: iadd
+       316: istore_3
+       317: iload         12
+       319: aload         7
+       321: invokevirtual #93                 // Method javax/microedition/lcdui/Font.getHeight:()I
+       324: getstatic     #54                 // Field y:I
+       327: iadd
+       328: iadd
+       329: istore        12
+       331: ldc           #1                  // String
+       333: astore        8
+       335: iconst_0
+       336: istore        9
+       338: ldc           #1                  // String
+       340: astore        10
+       342: iconst_0
+       343: istore        14
+       345: iload         16
+       347: ifeq          384
+       350: new           #27                 // class java/lang/StringBuffer
+       353: dup
+       354: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       357: aload         10
+       359: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       362: iload         11
+       364: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       367: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       370: astore        10
+       372: iload         14
+       374: aload         7
+       376: iload         11
+       378: invokevirtual #92                 // Method javax/microedition/lcdui/Font.charWidth:(C)I
+       381: iadd
+       382: istore        14
+       384: iinc          15, 1
+       387: iload         16
+       389: ifeq          62
+       392: iload         12
+       394: ireturn
+      StackMap: number_of_entries = 19
+        frame_type = 255 offset = 24
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, top, top, top, top, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 35
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, top, top, top, top, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 36
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, top, top, top, top, top, top, top, top, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 62
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, top, int, top, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 95
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, top, int, top, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 103
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, top, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 119
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, top, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 179
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 201
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, class java/lang/String, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 228
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, class java/lang/String, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 265
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, class java/lang/String, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 273
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 296
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 331
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 338
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 350
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, top, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 384
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, int, int, top, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 392
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, top, int, top, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 394
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, class javax/microedition/lcdui/Font, class java/lang/String, int, class java/lang/String, top, int, top, int, int, int ]
+          stack = [ int ]
+
+  public static void c(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int, int);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIII)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=7, locals=6, args_size=6
+         0: aload_0
+         1: aload_1
+         2: iload_2
+         3: iload_3
+         4: iload         4
+         6: iload         5
+         8: iconst_0
+         9: invokestatic  #67                 // Method d:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+        12: pop
+        13: return
+
+  public static int c(java.lang.String, int);
+    descriptor: (Ljava/lang/String;I)I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=7, locals=2, args_size=2
+         0: aconst_null
+         1: aload_0
+         2: iconst_0
+         3: iconst_0
+         4: iload_1
+         5: iconst_0
+         6: iconst_1
+         7: invokestatic  #67                 // Method d:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;IIIIZ)I
+        10: ireturn
+
+  public static int c(java.lang.String);
+    descriptor: (Ljava/lang/String;)I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #58                 // Field ab.F:Ljavax/microedition/lcdui/Font;
+         3: aload_0
+         4: invokevirtual #94                 // Method javax/microedition/lcdui/Font.stringWidth:(Ljava/lang/String;)I
+         7: ireturn
+
+  public static void b(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;III)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=8, args_size=5
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore        7
+         5: iload_2
+         6: aload_1
+         7: invokevirtual #81                 // Method java/lang/String.length:()I
+        10: getstatic     #44                 // Field l:Lpb;
+        13: getfield      #61                 // Field pb.d:I
+        16: imul
+        17: aload_1
+        18: invokevirtual #81                 // Method java/lang/String.length:()I
+        21: iconst_1
+        22: isub
+        23: iconst_1
+        24: ishl
+        25: isub
+        26: isub
+        27: istore_2
+        28: iconst_0
+        29: istore        4
+        31: iload         4
+        33: aload_1
+        34: invokevirtual #81                 // Method java/lang/String.length:()I
+        37: if_icmpge     175
+        40: aload_1
+        41: iload         4
+        43: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        46: istore        6
+        48: iconst_m1
+        49: istore        5
+        51: iload         6
+        53: bipush        48
+        55: if_icmplt     77
+        58: iload         6
+        60: bipush        57
+        62: if_icmpgt     77
+        65: iload         6
+        67: bipush        48
+        69: isub
+        70: istore        5
+        72: iload         7
+        74: ifeq          120
+        77: iload         6
+        79: bipush        43
+        81: if_icmpne     93
+        84: bipush        10
+        86: istore        5
+        88: iload         7
+        90: ifeq          120
+        93: iload         6
+        95: bipush        45
+        97: if_icmpne     109
+       100: bipush        11
+       102: istore        5
+       104: iload         7
+       106: ifeq          120
+       109: iload         6
+       111: bipush        47
+       113: if_icmpne     120
+       116: bipush        12
+       118: istore        5
+       120: iload         5
+       122: iconst_m1
+       123: if_icmpeq     167
+       126: getstatic     #44                 // Field l:Lpb;
+       129: iload         5
+       131: putfield      #60                 // Field pb.b:I
+       134: getstatic     #44                 // Field l:Lpb;
+       137: iload_2
+       138: iload_3
+       139: invokevirtual #101                // Method pb.b:(II)V
+       142: getstatic     #44                 // Field l:Lpb;
+       145: aload_0
+       146: invokevirtual #102                // Method pb.b:(Ljavax/microedition/lcdui/Graphics;)V
+       149: getstatic     #44                 // Field l:Lpb;
+       152: dup
+       153: astore        5
+       155: getfield      #61                 // Field pb.d:I
+       158: istore        5
+       160: iload_2
+       161: iload         5
+       163: iconst_2
+       164: isub
+       165: iadd
+       166: istore_2
+       167: iinc          4, 1
+       170: iload         7
+       172: ifeq          31
+       175: return
+      StackMap: number_of_entries = 7
+        frame_type = 255 offset = 31
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 77
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 93
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 109
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 120
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 167
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 175
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, top, top, int ]
+          stack = []
+
+  public static void c(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;III)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=6, locals=9, args_size=5
+         0: getstatic     #300                // Field ab.xc:Z
+         3: istore        8
+         5: iconst_0
+         6: istore        5
+         8: ldc           #1                  // String
+        10: astore        6
+        12: iconst_0
+        13: istore        7
+        15: iload         7
+        17: aload_1
+        18: invokevirtual #81                 // Method java/lang/String.length:()I
+        21: if_icmpge     213
+        24: aload_1
+        25: iload         7
+        27: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        30: dup
+        31: istore        4
+        33: getstatic     #33                 // Field g:C
+        36: if_icmpne     47
+        39: iconst_1
+        40: istore        5
+        42: iload         8
+        44: ifeq          205
+        47: iload         4
+        49: getstatic     #57                 // Field k:C
+        52: if_icmpne     115
+        55: iconst_0
+        56: istore        5
+        58: getstatic     #36                 // Field s:Ljava/util/Vector;
+        61: aload         6
+        63: invokestatic  #76                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+        66: invokevirtual #90                 // Method java/util/Vector.elementAt:(I)Ljava/lang/Object;
+        69: checkcast     #31                 // class javax/microedition/lcdui/Image
+        72: astore        4
+        74: iload_3
+        75: aload         4
+        77: invokevirtual #99                 // Method javax/microedition/lcdui/Image.getHeight:()I
+        80: iconst_1
+        81: ishr
+        82: isub
+        83: istore_3
+        84: aload_0
+        85: aload         4
+        87: iload_2
+        88: iload_3
+        89: iconst_0
+        90: invokevirtual #95                 // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+        93: iload_2
+        94: aload         4
+        96: invokevirtual #100                // Method javax/microedition/lcdui/Image.getWidth:()I
+        99: iadd
+       100: istore_2
+       101: iload_3
+       102: getstatic     #38                 // Field m:Lpb;
+       105: getfield      #62                 // Field pb.e:I
+       108: iconst_1
+       109: ishr
+       110: iadd
+       111: istore_3
+       112: goto          205
+       115: iload         5
+       117: ifne          183
+       120: iload         4
+       122: getstatic     #50                 // Field h:C
+       125: if_icmpne     141
+       128: getstatic     #38                 // Field m:Lpb;
+       131: bipush        9
+       133: putfield      #60                 // Field pb.b:I
+       136: iload         8
+       138: ifeq          152
+       141: getstatic     #38                 // Field m:Lpb;
+       144: iload         4
+       146: bipush        49
+       148: isub
+       149: putfield      #60                 // Field pb.b:I
+       152: getstatic     #38                 // Field m:Lpb;
+       155: iload_2
+       156: iload_3
+       157: invokevirtual #101                // Method pb.b:(II)V
+       160: getstatic     #38                 // Field m:Lpb;
+       163: aload_0
+       164: invokevirtual #102                // Method pb.b:(Ljavax/microedition/lcdui/Graphics;)V
+       167: iload_2
+       168: getstatic     #38                 // Field m:Lpb;
+       171: getfield      #61                 // Field pb.d:I
+       174: iconst_4
+       175: isub
+       176: iadd
+       177: istore_2
+       178: iload         8
+       180: ifeq          205
+       183: new           #27                 // class java/lang/StringBuffer
+       186: dup
+       187: invokespecial #82                 // Method java/lang/StringBuffer."<init>":()V
+       190: aload         6
+       192: invokevirtual #86                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       195: iload         4
+       197: invokevirtual #83                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       200: invokevirtual #87                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       203: astore        6
+       205: iinc          7, 1
+       208: iload         8
+       210: ifeq          15
+       213: return
+      StackMap: number_of_entries = 8
+        frame_type = 255 offset = 15
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, top, int, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 47
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 115
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 141
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 152
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 183
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, int, int, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 205
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, top, int, class java/lang/String, int, int ]
+          stack = []
+        frame_type = 255 offset = 213
+          locals = [ class javax/microedition/lcdui/Graphics, class java/lang/String, int, int, top, int, class java/lang/String, int, int ]
+          stack = []
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: ldc           #3                  // String
+         2: iconst_0
+         3: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+         6: putstatic     #41                 // Field e:C
+         9: ldc           #2                  // String \n
+        11: iconst_0
+        12: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        15: putstatic     #46                 // Field f:C
+        18: ldc           #10                 // String ^
+        20: iconst_0
+        21: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        24: putstatic     #33                 // Field g:C
+        27: ldc           #6                  // String 0
+        29: iconst_0
+        30: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        33: putstatic     #50                 // Field h:C
+        36: ldc           #7                  // String 9
+        38: iconst_0
+        39: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        42: putstatic     #53                 // Field i:C
+        45: ldc           #11                 // String `
+        47: iconst_0
+        48: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        51: putstatic     #55                 // Field j:C
+        54: ldc           #17                 // String ~
+        56: iconst_0
+        57: invokevirtual #80                 // Method java/lang/String.charAt:(I)C
+        60: putstatic     #57                 // Field k:C
+        63: aconst_null
+        64: putstatic     #44                 // Field l:Lpb;
+        67: aconst_null
+        68: putstatic     #38                 // Field m:Lpb;
+        71: iconst_m1
+        72: putstatic     #54                 // Field y:I
+        75: return
+}

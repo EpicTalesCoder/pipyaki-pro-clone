@@ -1,0 +1,409 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/lb.class
+  Last modified Nov 24, 2026; size 1861 bytes
+  SHA-256 checksum 125aa826b59fef3fe76bd5af7439e34ed9a662a83e8d122f0a004b03a2eeec87
+public class lb
+  minor version: 0
+  major version: 47
+  flags: (0x0001) ACC_PUBLIC
+  this_class: #24                         // lb
+  super_class: #27                        // java/lang/Object
+  interfaces: 0, fields: 5, methods: 4, attributes: 0
+Constant pool:
+    #1 = String             #60           // Nokia
+    #2 = String             #61           // SOFT
+    #3 = String             #62           // SonyEricsson
+    #4 = String             #67           // com.motorola.graphics.j3d.Effect3D
+    #5 = String             #68           // com.motorola.multimedia.FunLight
+    #6 = String             #69           // com.motorola.multimedia.Lighting
+    #7 = String             #70           // com.motorola.multimedia.Vibrator
+    #8 = String             #71           // com.samsung.util.Vibration
+    #9 = String             #72           // com.siemens.mp.io.File
+   #10 = String             #73           // device.model
+   #11 = String             #80           // j2me
+   #12 = String             #86           // lg
+   #13 = String             #87           // microedition.platform
+   #14 = String             #88           // mmpp.lang.MathFP
+   #15 = String             #89           // mmpp.media.BackLight
+   #16 = String             #90           // mmpp.media.MediaPlayer
+   #17 = String             #91           // mmpp.phone.Phone
+   #18 = String             #92           // motorola
+   #19 = String             #93           // nokia
+   #20 = String             #94           // samsung
+   #21 = String             #95           // siemens
+   #22 = String             #96           // sonyericsson
+   #23 = Class              #66           // ab
+   #24 = Class              #75           // lb
+   #25 = Class              #81           // java/lang/Class
+   #26 = Class              #82           // java/lang/Exception
+   #27 = Class              #83           // java/lang/Object
+   #28 = Class              #84           // java/lang/String
+   #29 = Class              #85           // java/lang/System
+   #30 = Class              #98           // rc
+   #31 = Fieldref           #23.#40       // ab.z:Lrc;
+   #32 = Methodref          #25.#42       // java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+   #33 = Methodref          #27.#39       // java/lang/Object."<init>":()V
+   #34 = Methodref          #28.#41       // java/lang/String.equals:(Ljava/lang/Object;)Z
+   #35 = Methodref          #28.#45       // java/lang/String.indexOf:(Ljava/lang/String;)I
+   #36 = Methodref          #28.#46       // java/lang/String.toUpperCase:()Ljava/lang/String;
+   #37 = Methodref          #29.#44       // java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+   #38 = Methodref          #30.#43       // rc.getKeyName:(I)Ljava/lang/String;
+   #39 = NameAndType        #55:#48       // "<init>":()V
+   #40 = NameAndType        #64:#59       // z:Lrc;
+   #41 = NameAndType        #74:#51       // equals:(Ljava/lang/Object;)Z
+   #42 = NameAndType        #76:#53       // forName:(Ljava/lang/String;)Ljava/lang/Class;
+   #43 = NameAndType        #77:#49       // getKeyName:(I)Ljava/lang/String;
+   #44 = NameAndType        #78:#54       // getProperty:(Ljava/lang/String;)Ljava/lang/String;
+   #45 = NameAndType        #79:#52       // indexOf:(Ljava/lang/String;)I
+   #46 = NameAndType        #97:#47       // toUpperCase:()Ljava/lang/String;
+   #47 = Utf8               ()Ljava/lang/String;
+   #48 = Utf8               ()V
+   #49 = Utf8               (I)Ljava/lang/String;
+   #50 = Utf8               (Lfb;)V
+   #51 = Utf8               (Ljava/lang/Object;)Z
+   #52 = Utf8               (Ljava/lang/String;)I
+   #53 = Utf8               (Ljava/lang/String;)Ljava/lang/Class;
+   #54 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+   #55 = Utf8               <init>
+   #56 = Utf8               Code
+   #57 = Utf8               I
+   #58 = Utf8               Lj;
+   #59 = Utf8               Lrc;
+   #60 = Utf8               Nokia
+   #61 = Utf8               SOFT
+   #62 = Utf8               SonyEricsson
+   #63 = Utf8               [I
+   #64 = Utf8               z
+   #65 = Utf8               c
+   #66 = Utf8               ab
+   #67 = Utf8               com.motorola.graphics.j3d.Effect3D
+   #68 = Utf8               com.motorola.multimedia.FunLight
+   #69 = Utf8               com.motorola.multimedia.Lighting
+   #70 = Utf8               com.motorola.multimedia.Vibrator
+   #71 = Utf8               com.samsung.util.Vibration
+   #72 = Utf8               com.siemens.mp.io.File
+   #73 = Utf8               device.model
+   #74 = Utf8               equals
+   #75 = Utf8               lb
+   #76 = Utf8               forName
+   #77 = Utf8               getKeyName
+   #78 = Utf8               getProperty
+   #79 = Utf8               indexOf
+   #80 = Utf8               j2me
+   #81 = Utf8               java/lang/Class
+   #82 = Utf8               java/lang/Exception
+   #83 = Utf8               java/lang/Object
+   #84 = Utf8               java/lang/String
+   #85 = Utf8               java/lang/System
+   #86 = Utf8               lg
+   #87 = Utf8               microedition.platform
+   #88 = Utf8               mmpp.lang.MathFP
+   #89 = Utf8               mmpp.media.BackLight
+   #90 = Utf8               mmpp.media.MediaPlayer
+   #91 = Utf8               mmpp.phone.Phone
+   #92 = Utf8               motorola
+   #93 = Utf8               nokia
+   #94 = Utf8               samsung
+   #95 = Utf8               siemens
+   #96 = Utf8               sonyericsson
+   #97 = Utf8               toUpperCase
+   #98 = Utf8               rc
+   #99 = Utf8               StackMap
+  #100 = Utf8               ZKM5.3.2a
+  #101 = Utf8               b
+  #102 = Utf8               d
+  #103 = Utf8               e
+  #104 = Utf8               f
+{
+  public int b;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int c;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public j d;
+    descriptor: Lj;
+    flags: (0x0001) ACC_PUBLIC
+
+  public int[] e;
+    descriptor: [I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int[] f;
+    descriptor: [I
+    flags: (0x0001) ACC_PUBLIC
+
+  public lb(fb);
+    descriptor: (Lfb;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #33                 // Method java/lang/Object."<init>":()V
+         4: return
+
+  public lb();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #33                 // Method java/lang/Object."<init>":()V
+         4: return
+
+  public static java.lang.String b();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=0
+         0: ldc           #13                 // String microedition.platform
+         2: invokestatic  #37                 // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+         5: dup
+         6: astore_0
+         7: ldc           #1                  // String Nokia
+         9: invokevirtual #35                 // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+        12: iconst_m1
+        13: if_icmpeq     19
+        16: ldc           #19                 // String nokia
+        18: areturn
+        19: aload_0
+        20: ldc           #3                  // String SonyEricsson
+        22: invokevirtual #35                 // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+        25: iconst_m1
+        26: if_icmpeq     32
+        29: ldc           #22                 // String sonyericsson
+        31: areturn
+        32: goto          36
+        35: pop
+        36: ldc           #8                  // String com.samsung.util.Vibration
+        38: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+        41: pop
+        42: ldc           #20                 // String samsung
+        44: areturn
+        45: pop
+        46: ldc           #7                  // String com.motorola.multimedia.Vibrator
+        48: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+        51: pop
+        52: ldc           #18                 // String motorola
+        54: areturn
+        55: pop
+        56: ldc           #4                  // String com.motorola.graphics.j3d.Effect3D
+        58: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+        61: pop
+        62: ldc           #18                 // String motorola
+        64: areturn
+        65: pop
+        66: ldc           #6                  // String com.motorola.multimedia.Lighting
+        68: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+        71: pop
+        72: ldc           #18                 // String motorola
+        74: areturn
+        75: pop
+        76: ldc           #5                  // String com.motorola.multimedia.FunLight
+        78: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+        81: pop
+        82: ldc           #18                 // String motorola
+        84: areturn
+        85: pop
+        86: getstatic     #31                 // Field ab.z:Lrc;
+        89: ifnull        170
+        92: getstatic     #31                 // Field ab.z:Lrc;
+        95: bipush        -21
+        97: invokevirtual #38                 // Method rc.getKeyName:(I)Ljava/lang/String;
+       100: invokevirtual #36                 // Method java/lang/String.toUpperCase:()Ljava/lang/String;
+       103: ldc           #2                  // String SOFT
+       105: invokevirtual #35                 // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+       108: iflt          114
+       111: ldc           #18                 // String motorola
+       113: areturn
+       114: goto          170
+       117: pop
+       118: getstatic     #31                 // Field ab.z:Lrc;
+       121: bipush        21
+       123: invokevirtual #38                 // Method rc.getKeyName:(I)Ljava/lang/String;
+       126: invokevirtual #36                 // Method java/lang/String.toUpperCase:()Ljava/lang/String;
+       129: ldc           #2                  // String SOFT
+       131: invokevirtual #35                 // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+       134: iflt          140
+       137: ldc           #18                 // String motorola
+       139: areturn
+       140: goto          170
+       143: pop
+       144: getstatic     #31                 // Field ab.z:Lrc;
+       147: bipush        -20
+       149: invokevirtual #38                 // Method rc.getKeyName:(I)Ljava/lang/String;
+       152: invokevirtual #36                 // Method java/lang/String.toUpperCase:()Ljava/lang/String;
+       155: ldc           #2                  // String SOFT
+       157: invokevirtual #35                 // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+       160: iflt          166
+       163: ldc           #18                 // String motorola
+       165: areturn
+       166: goto          170
+       169: pop
+       170: ldc           #9                  // String com.siemens.mp.io.File
+       172: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+       175: pop
+       176: ldc           #21                 // String siemens
+       178: areturn
+       179: pop
+       180: ldc           #16                 // String mmpp.media.MediaPlayer
+       182: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+       185: pop
+       186: ldc           #12                 // String lg
+       188: areturn
+       189: pop
+       190: ldc           #17                 // String mmpp.phone.Phone
+       192: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+       195: pop
+       196: ldc           #12                 // String lg
+       198: areturn
+       199: pop
+       200: ldc           #14                 // String mmpp.lang.MathFP
+       202: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+       205: pop
+       206: ldc           #12                 // String lg
+       208: areturn
+       209: pop
+       210: ldc           #15                 // String mmpp.media.BackLight
+       212: invokestatic  #32                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+       215: pop
+       216: ldc           #12                 // String lg
+       218: areturn
+       219: pop
+       220: ldc           #13                 // String microedition.platform
+       222: invokestatic  #37                 // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       225: dup
+       226: astore_0
+       227: ifnull        241
+       230: aload_0
+       231: ldc           #11                 // String j2me
+       233: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       236: ifeq          241
+       239: aconst_null
+       240: astore_0
+       241: aload_0
+       242: areturn
+      Exception table:
+         from    to  target type
+             0    18    35   Class java/lang/Exception
+            19    31    35   Class java/lang/Exception
+            36    44    45   Class java/lang/Exception
+            46    54    55   Class java/lang/Exception
+            56    64    65   Class java/lang/Exception
+            66    74    75   Class java/lang/Exception
+            76    84    85   Class java/lang/Exception
+            92   113   117   Class java/lang/Exception
+           118   139   143   Class java/lang/Exception
+           144   165   169   Class java/lang/Exception
+           170   178   179   Class java/lang/Exception
+           180   188   189   Class java/lang/Exception
+           190   198   199   Class java/lang/Exception
+           200   208   209   Class java/lang/Exception
+           210   218   219   Class java/lang/Exception
+      StackMap: number_of_entries = 22
+        frame_type = 255 offset = 19
+          locals = [ class java/lang/String ]
+          stack = []
+        frame_type = 255 offset = 32
+          locals = [ class java/lang/String ]
+          stack = []
+        frame_type = 255 offset = 35
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 36
+          locals = []
+          stack = []
+        frame_type = 255 offset = 45
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 55
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 65
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 75
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 85
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 114
+          locals = []
+          stack = []
+        frame_type = 255 offset = 117
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 140
+          locals = []
+          stack = []
+        frame_type = 255 offset = 143
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 166
+          locals = []
+          stack = []
+        frame_type = 255 offset = 169
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 170
+          locals = []
+          stack = []
+        frame_type = 255 offset = 179
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 189
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 199
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 209
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 219
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 241
+          locals = [ class java/lang/String ]
+          stack = []
+
+  public static java.lang.String c();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=0
+         0: ldc           #13                 // String microedition.platform
+         2: invokestatic  #37                 // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+         5: dup
+         6: astore_0
+         7: ifnull        21
+        10: aload_0
+        11: ldc           #11                 // String j2me
+        13: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        16: ifeq          21
+        19: aconst_null
+        20: astore_0
+        21: ldc           #10                 // String device.model
+        23: invokestatic  #37                 // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+        26: astore_1
+        27: aload_0
+        28: ifnonnull     35
+        31: aload_1
+        32: goto          36
+        35: aload_0
+        36: dup
+        37: astore_0
+        38: areturn
+      StackMap: number_of_entries = 3
+        frame_type = 255 offset = 21
+          locals = [ class java/lang/String ]
+          stack = []
+        frame_type = 255 offset = 35
+          locals = [ class java/lang/String, class java/lang/String ]
+          stack = []
+        frame_type = 255 offset = 36
+          locals = [ class java/lang/String, class java/lang/String ]
+          stack = [ class java/lang/String ]
+}

@@ -1,0 +1,450 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/z.class
+  Last modified Nov 24, 2026; size 2413 bytes
+  SHA-256 checksum cc3428758252b00bfe50b594efc660c14dd1b2e0482cb698744466ba7dbd7b1b
+public final class z implements javax.microedition.media.protocol.SourceStream
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #4                          // z
+  super_class: #11                        // java/lang/Object
+  interfaces: 1, fields: 4, methods: 10, attributes: 0
+Constant pool:
+    #1 = String             #53           // !!! not found:
+    #2 = String             #78           // MS in const
+    #3 = String             #106          // stream created. size =
+    #4 = Class              #84           // z
+    #5 = Class              #93           // java/io/ByteArrayOutputStream
+    #6 = Class              #94           // java/io/InputStream
+    #7 = Class              #95           // java/lang/Class
+    #8 = Class              #96           // java/lang/Exception
+    #9 = Class              #97           // java/lang/IndexOutOfBoundsException
+   #10 = Class              #98           // java/lang/NullPointerException
+   #11 = Class              #99           // java/lang/Object
+   #12 = Class              #100          // java/lang/StringBuffer
+   #13 = Class              #101          // java/lang/System
+   #14 = Class              #102          // javax/microedition/media/protocol/ContentDescriptor
+   #15 = Class              #103          // javax/microedition/media/protocol/SourceStream
+   #16 = Fieldref           #4.#38        // z.b:J
+   #17 = Fieldref           #4.#39        // z.d:Ljavax/microedition/media/protocol/ContentDescriptor;
+   #18 = Fieldref           #4.#40        // z.e:[B
+   #19 = Fieldref           #4.#45        // z.c:J
+   #20 = Methodref          #5.#36        // java/io/ByteArrayOutputStream."<init>":()V
+   #21 = Methodref          #5.#49        // java/io/ByteArrayOutputStream.toByteArray:()[B
+   #22 = Methodref          #5.#51        // java/io/ByteArrayOutputStream.write:([BII)V
+   #23 = Methodref          #6.#48        // java/io/InputStream.read:([B)I
+   #24 = Methodref          #7.#47        // java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+   #25 = Methodref          #9.#36        // java/lang/IndexOutOfBoundsException."<init>":()V
+   #26 = Methodref          #10.#36       // java/lang/NullPointerException."<init>":()V
+   #27 = Methodref          #11.#36       // java/lang/Object."<init>":()V
+   #28 = Methodref          #11.#46       // java/lang/Object.getClass:()Ljava/lang/Class;
+   #29 = Methodref          #12.#36       // java/lang/StringBuffer."<init>":()V
+   #30 = Methodref          #12.#41       // java/lang/StringBuffer.append:(J)Ljava/lang/StringBuffer;
+   #31 = Methodref          #12.#42       // java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #32 = Methodref          #12.#43       // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #33 = Methodref          #12.#50       // java/lang/StringBuffer.toString:()Ljava/lang/String;
+   #34 = Methodref          #13.#44       // java/lang/System.arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+   #35 = Methodref          #14.#37       // javax/microedition/media/protocol/ContentDescriptor."<init>":(Ljava/lang/String;)V
+   #36 = NameAndType        #74:#59       // "<init>":()V
+   #37 = NameAndType        #74:#69       // "<init>":(Ljava/lang/String;)V
+   #38 = NameAndType        #80:#76       // b:J
+   #39 = NameAndType        #113:#77      // d:Ljavax/microedition/media/protocol/ContentDescriptor;
+   #40 = NameAndType        #114:#79      // e:[B
+   #41 = NameAndType        #81:#63       // append:(J)Ljava/lang/StringBuffer;
+   #42 = NameAndType        #81:#64       // append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #43 = NameAndType        #81:#67       // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #44 = NameAndType        #82:#65       // arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+   #45 = NameAndType        #83:#76       // c:J
+   #46 = NameAndType        #85:#56       // getClass:()Ljava/lang/Class;
+   #47 = NameAndType        #90:#66       // getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+   #48 = NameAndType        #104:#71      // read:([B)I
+   #49 = NameAndType        #108:#60      // toByteArray:()[B
+   #50 = NameAndType        #109:#57      // toString:()Ljava/lang/String;
+   #51 = NameAndType        #110:#73      // write:([BII)V
+   #52 = Class              #79           // "[B"
+   #53 = Utf8               !!! not found:
+   #54 = Utf8               ()I
+   #55 = Utf8               ()J
+   #56 = Utf8               ()Ljava/lang/Class;
+   #57 = Utf8               ()Ljava/lang/String;
+   #58 = Utf8               ()Ljavax/microedition/media/protocol/ContentDescriptor;
+   #59 = Utf8               ()V
+   #60 = Utf8               ()[B
+   #61 = Utf8               ()[Ljavax/microedition/media/Control;
+   #62 = Utf8               (J)J
+   #63 = Utf8               (J)Ljava/lang/StringBuffer;
+   #64 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #65 = Utf8               (Ljava/lang/Object;ILjava/lang/Object;II)V
+   #66 = Utf8               (Ljava/lang/String;)Ljava/io/InputStream;
+   #67 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #68 = Utf8               (Ljava/lang/String;)Ljavax/microedition/media/Control;
+   #69 = Utf8               (Ljava/lang/String;)V
+   #70 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+   #71 = Utf8               ([B)I
+   #72 = Utf8               ([BII)I
+   #73 = Utf8               ([BII)V
+   #74 = Utf8               <init>
+   #75 = Utf8               Code
+   #76 = Utf8               J
+   #77 = Utf8               Ljavax/microedition/media/protocol/ContentDescriptor;
+   #78 = Utf8               MS in const
+   #79 = Utf8               [B
+   #80 = Utf8               b
+   #81 = Utf8               append
+   #82 = Utf8               arraycopy
+   #83 = Utf8               c
+   #84 = Utf8               z
+   #85 = Utf8               getClass
+   #86 = Utf8               getContentDescriptor
+   #87 = Utf8               getContentLength
+   #88 = Utf8               getControl
+   #89 = Utf8               getControls
+   #90 = Utf8               getResourceAsStream
+   #91 = Utf8               getSeekType
+   #92 = Utf8               getTransferSize
+   #93 = Utf8               java/io/ByteArrayOutputStream
+   #94 = Utf8               java/io/InputStream
+   #95 = Utf8               java/lang/Class
+   #96 = Utf8               java/lang/Exception
+   #97 = Utf8               java/lang/IndexOutOfBoundsException
+   #98 = Utf8               java/lang/NullPointerException
+   #99 = Utf8               java/lang/Object
+  #100 = Utf8               java/lang/StringBuffer
+  #101 = Utf8               java/lang/System
+  #102 = Utf8               javax/microedition/media/protocol/ContentDescriptor
+  #103 = Utf8               javax/microedition/media/protocol/SourceStream
+  #104 = Utf8               read
+  #105 = Utf8               seek
+  #106 = Utf8               stream created. size =
+  #107 = Utf8               tell
+  #108 = Utf8               toByteArray
+  #109 = Utf8               toString
+  #110 = Utf8               write
+  #111 = Utf8               StackMap
+  #112 = Utf8               ZKM5.3.2a
+  #113 = Utf8               d
+  #114 = Utf8               e
+  #115 = Class              #116          // ab
+  #116 = Utf8               ab
+  #117 = NameAndType        #118:#119     // xc:Z
+  #118 = Utf8               xc
+  #119 = Utf8               Z
+  #120 = Fieldref           #115.#117     // ab.xc:Z
+{
+  public long b;
+    descriptor: J
+    flags: (0x0001) ACC_PUBLIC
+
+  private long c;
+    descriptor: J
+    flags: (0x0002) ACC_PRIVATE
+
+  private javax.microedition.media.protocol.ContentDescriptor d;
+    descriptor: Ljavax/microedition/media/protocol/ContentDescriptor;
+    flags: (0x0002) ACC_PRIVATE
+
+  private byte[] e;
+    descriptor: [B
+    flags: (0x0002) ACC_PRIVATE
+
+  public z(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=5, locals=6, args_size=3
+         0: getstatic     #120                // Field ab.xc:Z
+         3: istore        5
+         5: aload_0
+         6: invokespecial #27                 // Method java/lang/Object."<init>":()V
+         9: aload_0
+        10: lconst_0
+        11: putfield      #16                 // Field b:J
+        14: aload_0
+        15: lconst_0
+        16: putfield      #19                 // Field c:J
+        19: aload_0
+        20: aconst_null
+        21: putfield      #18                 // Field e:[B
+        24: aload_0
+        25: new           #14                 // class javax/microedition/media/protocol/ContentDescriptor
+        28: dup
+        29: aload_2
+        30: invokespecial #35                 // Method javax/microedition/media/protocol/ContentDescriptor."<init>":(Ljava/lang/String;)V
+        33: putfield      #17                 // Field d:Ljavax/microedition/media/protocol/ContentDescriptor;
+        36: aload_0
+        37: invokevirtual #28                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        40: aload_1
+        41: invokevirtual #24                 // Method java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+        44: astore_2
+        45: new           #5                  // class java/io/ByteArrayOutputStream
+        48: dup
+        49: invokespecial #20                 // Method java/io/ByteArrayOutputStream."<init>":()V
+        52: astore_3
+        53: sipush        128
+        56: newarray       byte
+        58: astore        4
+        60: aload_2
+        61: ifnonnull     84
+        64: new           #12                 // class java/lang/StringBuffer
+        67: dup
+        68: invokespecial #29                 // Method java/lang/StringBuffer."<init>":()V
+        71: ldc           #1                  // String !!! not found:
+        73: invokevirtual #32                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        76: aload_1
+        77: invokevirtual #32                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        80: invokevirtual #33                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        83: pop
+        84: aload_2
+        85: aload         4
+        87: invokevirtual #23                 // Method java/io/InputStream.read:([B)I
+        90: dup
+        91: istore_1
+        92: ifle          113
+        95: aload_3
+        96: aload         4
+        98: iconst_0
+        99: iload_1
+       100: invokevirtual #22                 // Method java/io/ByteArrayOutputStream.write:([BII)V
+       103: iload         5
+       105: ifne          159
+       108: iload         5
+       110: ifeq          84
+       113: aload_0
+       114: aload_3
+       115: invokevirtual #21                 // Method java/io/ByteArrayOutputStream.toByteArray:()[B
+       118: putfield      #18                 // Field e:[B
+       121: aload_0
+       122: aload_0
+       123: getfield      #18                 // Field e:[B
+       126: arraylength
+       127: i2l
+       128: putfield      #19                 // Field c:J
+       131: aload_0
+       132: lconst_0
+       133: putfield      #16                 // Field b:J
+       136: new           #12                 // class java/lang/StringBuffer
+       139: dup
+       140: invokespecial #29                 // Method java/lang/StringBuffer."<init>":()V
+       143: ldc           #3                  // String stream created. size =
+       145: invokevirtual #32                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       148: aload_0
+       149: getfield      #19                 // Field c:J
+       152: invokevirtual #30                 // Method java/lang/StringBuffer.append:(J)Ljava/lang/StringBuffer;
+       155: invokevirtual #33                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       158: pop
+       159: return
+       160: astore_2
+       161: new           #12                 // class java/lang/StringBuffer
+       164: dup
+       165: invokespecial #29                 // Method java/lang/StringBuffer."<init>":()V
+       168: ldc           #2                  // String MS in const
+       170: invokevirtual #32                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       173: aload_2
+       174: invokevirtual #31                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+       177: invokevirtual #33                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       180: pop
+       181: return
+      Exception table:
+         from    to  target type
+            24   159   160   Class java/lang/Exception
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 84
+          locals = [ class z, top, class java/io/InputStream, class java/io/ByteArrayOutputStream, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 113
+          locals = [ class z, int, class java/io/InputStream, class java/io/ByteArrayOutputStream, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 159
+          locals = [ class z, int, class java/io/InputStream, class java/io/ByteArrayOutputStream, class "[B", int ]
+          stack = []
+        frame_type = 255 offset = 160
+          locals = [ class z, top, class java/lang/Object, top, top, int ]
+          stack = [ class java/lang/Exception ]
+
+  public final javax.microedition.media.protocol.ContentDescriptor getContentDescriptor();
+    descriptor: ()Ljavax/microedition/media/protocol/ContentDescriptor;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #17                 // Field d:Ljavax/microedition/media/protocol/ContentDescriptor;
+         4: areturn
+
+  public final long getContentLength();
+    descriptor: ()J
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #19                 // Field c:J
+         4: lreturn
+
+  public final int read(byte[], int, int);
+    descriptor: ([BII)I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=6, locals=4, args_size=4
+         0: aload_1
+         1: ifnonnull     12
+         4: new           #10                 // class java/lang/NullPointerException
+         7: dup
+         8: invokespecial #26                 // Method java/lang/NullPointerException."<init>":()V
+        11: athrow
+        12: iload_2
+        13: iflt          28
+        16: iload_3
+        17: iflt          28
+        20: iload_2
+        21: iload_3
+        22: iadd
+        23: aload_1
+        24: arraylength
+        25: if_icmple     36
+        28: new           #9                  // class java/lang/IndexOutOfBoundsException
+        31: dup
+        32: invokespecial #25                 // Method java/lang/IndexOutOfBoundsException."<init>":()V
+        35: athrow
+        36: iload_3
+        37: ifne          42
+        40: iconst_0
+        41: ireturn
+        42: aload_0
+        43: getfield      #16                 // Field b:J
+        46: iload_3
+        47: i2l
+        48: ladd
+        49: aload_0
+        50: getfield      #19                 // Field c:J
+        53: lcmp
+        54: ifle          74
+        57: aload_0
+        58: getfield      #19                 // Field c:J
+        61: aload_0
+        62: getfield      #16                 // Field b:J
+        65: lsub
+        66: l2i
+        67: istore_3
+        68: getstatic     #120                // Field ab.xc:Z
+        71: ifeq          76
+        74: iload_3
+        75: istore_3
+        76: iload_3
+        77: ifgt          82
+        80: iconst_m1
+        81: ireturn
+        82: aload_0
+        83: getfield      #18                 // Field e:[B
+        86: aload_0
+        87: getfield      #16                 // Field b:J
+        90: l2i
+        91: aload_1
+        92: iload_2
+        93: iload_3
+        94: invokestatic  #34                 // Method java/lang/System.arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+        97: aload_0
+        98: dup
+        99: getfield      #16                 // Field b:J
+       102: iload_3
+       103: i2l
+       104: ladd
+       105: putfield      #16                 // Field b:J
+       108: iload_3
+       109: ireturn
+      StackMap: number_of_entries = 7
+        frame_type = 255 offset = 12
+          locals = [ class z, class "[B", int, int ]
+          stack = []
+        frame_type = 255 offset = 28
+          locals = [ class z, class "[B", int, int ]
+          stack = []
+        frame_type = 255 offset = 36
+          locals = [ class z, class "[B", int, int ]
+          stack = []
+        frame_type = 255 offset = 42
+          locals = [ class z, class "[B", int, int ]
+          stack = []
+        frame_type = 255 offset = 74
+          locals = [ class z, class "[B", int, int ]
+          stack = []
+        frame_type = 255 offset = 76
+          locals = [ class z, class "[B", int, int ]
+          stack = []
+        frame_type = 255 offset = 82
+          locals = [ class z, class "[B", int, int ]
+          stack = []
+
+  public final javax.microedition.media.Control getControl(java.lang.String);
+    descriptor: (Ljava/lang/String;)Ljavax/microedition/media/Control;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aconst_null
+         1: areturn
+
+  public final javax.microedition.media.Control[] getControls();
+    descriptor: ()[Ljavax/microedition/media/Control;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public final int getTransferSize();
+    descriptor: ()I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_m1
+         1: ireturn
+
+  public final long seek(long);
+    descriptor: (J)J
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=4, locals=3, args_size=2
+         0: lload_1
+         1: aload_0
+         2: getfield      #19                 // Field c:J
+         5: lcmp
+         6: iflt          16
+         9: aload_0
+        10: getfield      #19                 // Field c:J
+        13: lconst_1
+        14: lsub
+        15: lstore_1
+        16: lload_1
+        17: lconst_0
+        18: lcmp
+        19: ifge          24
+        22: lconst_0
+        23: lstore_1
+        24: aload_0
+        25: lload_1
+        26: putfield      #16                 // Field b:J
+        29: aload_0
+        30: getfield      #16                 // Field b:J
+        33: lreturn
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 16
+          locals = [ class z, long ]
+          stack = []
+        frame_type = 255 offset = 24
+          locals = [ class z, long ]
+          stack = []
+
+  public final long tell();
+    descriptor: ()J
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #16                 // Field b:J
+         4: lreturn
+
+  public final int getSeekType();
+    descriptor: ()I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_2
+         1: ireturn
+}

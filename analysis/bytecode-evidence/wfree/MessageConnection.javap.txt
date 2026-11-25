@@ -1,0 +1,79 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/wfree/MessageConnection.class
+  Last modified Nov 24, 2026; size 592 bytes
+  SHA-256 checksum 672899721103894db63a10e6fb2a7fb02b2f8b7ce0034d62f4a4518192daccd5
+public interface wfree.MessageConnection extends javax.microedition.io.Connection
+  minor version: 0
+  major version: 47
+  flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+  this_class: #2                          // wfree/MessageConnection
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 3, methods: 6, attributes: 0
+Constant pool:
+   #1 = Utf8               wfree/MessageConnection
+   #2 = Class              #1             // wfree/MessageConnection
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               javax/microedition/io/Connection
+   #6 = Class              #5             // javax/microedition/io/Connection
+   #7 = Utf8               newMessage
+   #8 = Utf8               (Ljava/lang/String;)Lwfree/Message;
+   #9 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Lwfree/Message;
+  #10 = Utf8               numberOfSegments
+  #11 = Utf8               (Lwfree/Message;)I
+  #12 = Utf8               receive
+  #13 = Utf8               ()Lwfree/Message;
+  #14 = Utf8               send
+  #15 = Utf8               (Lwfree/Message;)V
+  #16 = Utf8               setMessageListener
+  #17 = Utf8               (Lwfree/MessageListener;)V
+  #18 = Utf8               text
+  #19 = String             #18            // text
+  #20 = Utf8               ConstantValue
+  #21 = Utf8               TEXT_MESSAGE
+  #22 = Utf8               Ljava/lang/String;
+  #23 = Utf8               binary
+  #24 = String             #23            // binary
+  #25 = Utf8               BINARY_MESSAGE
+  #26 = Utf8               multipart
+  #27 = String             #26            // multipart
+  #28 = Utf8               MULTIPART_MESSAGE
+{
+  public static final java.lang.String TEXT_MESSAGE;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: String text
+
+  public static final java.lang.String BINARY_MESSAGE;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: String binary
+
+  public static final java.lang.String MULTIPART_MESSAGE;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: String multipart
+
+  public abstract wfree.Message newMessage(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lwfree/Message;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract wfree.Message newMessage(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Lwfree/Message;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract int numberOfSegments(wfree.Message);
+    descriptor: (Lwfree/Message;)I
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract wfree.Message receive();
+    descriptor: ()Lwfree/Message;
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void send(wfree.Message);
+    descriptor: (Lwfree/Message;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract void setMessageListener(wfree.MessageListener);
+    descriptor: (Lwfree/MessageListener;)V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+}

@@ -1,0 +1,342 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/dc.class
+  Last modified Nov 24, 2026; size 1395 bytes
+  SHA-256 checksum 628dd0f779c189796b6a85ba2d321a4f014995ef1fc5ad22ac587565c9e31677
+final class dc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dc
+  super_class: #8                         // java/lang/Thread
+  interfaces: 0, fields: 0, methods: 2, attributes: 0
+Constant pool:
+   #1 = String             #50            //
+   #2 = Class              #67            // dc
+   #3 = Class              #70            // ab
+   #4 = Class              #71            // hb
+   #5 = Class              #76            // java/lang/Exception
+   #6 = Class              #77            // java/lang/String
+   #7 = Class              #78            // java/lang/StringBuffer
+   #8 = Class              #79            // java/lang/Thread
+   #9 = Class              #80            // qb
+  #10 = Class              #82            // midlet
+  #11 = Class              #84            // wb
+  #12 = Fieldref           #3.#35         // ab.l:I
+  #13 = Fieldref           #3.#36         // ab.B:Lqb;
+  #14 = Fieldref           #3.#43         // ab.p:Z
+  #15 = Fieldref           #10.#45        // midlet.a:Lmidlet;
+  #16 = Methodref          #3.#33         // ab.b:()V
+  #17 = Methodref          #4.#40         // hb.g:()V
+  #18 = Methodref          #6.#41         // java/lang/String.charAt:(I)C
+  #19 = Methodref          #6.#46         // java/lang/String.length:()I
+  #20 = Methodref          #6.#47         // java/lang/String.substring:(II)Ljava/lang/String;
+  #21 = Methodref          #7.#32         // java/lang/StringBuffer."<init>":()V
+  #22 = Methodref          #7.#37         // java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+  #23 = Methodref          #7.#38         // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #24 = Methodref          #7.#48         // java/lang/StringBuffer.toString:()Ljava/lang/String;
+  #25 = Methodref          #8.#32         // java/lang/Thread."<init>":()V
+  #26 = Methodref          #9.#32         // qb."<init>":()V
+  #27 = Methodref          #9.#34         // qb.b:(Z)V
+  #28 = Methodref          #9.#39         // qb.a:()V
+  #29 = Methodref          #10.#42        // midlet.getAppProperty:(Ljava/lang/String;)Ljava/lang/String;
+  #30 = Methodref          #10.#39        // midlet.a:()V
+  #31 = Methodref          #11.#89        // wb.d:()V
+  #32 = NameAndType        #60:#53        // "<init>":()V
+  #33 = NameAndType        #66:#53        // b:()V
+  #34 = NameAndType        #66:#59        // b:(Z)V
+  #35 = NameAndType        #90:#62        // l:I
+  #36 = NameAndType        #91:#63        // B:Lqb;
+  #37 = NameAndType        #68:#54        // append:(C)Ljava/lang/StringBuffer;
+  #38 = NameAndType        #68:#58        // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #39 = NameAndType        #69:#53        // a:()V
+  #40 = NameAndType        #72:#53        // g:()V
+  #41 = NameAndType        #73:#55        // charAt:(I)C
+  #42 = NameAndType        #74:#57        // getAppProperty:(Ljava/lang/String;)Ljava/lang/String;
+  #43 = NameAndType        #75:#65        // p:Z
+  #44 = Utf8               ZKM5.3.2a
+  #45 = NameAndType        #69:#64        // a:Lmidlet;
+  #46 = NameAndType        #81:#51        // length:()I
+  #47 = NameAndType        #85:#56        // substring:(II)Ljava/lang/String;
+  #48 = NameAndType        #86:#52        // toString:()Ljava/lang/String;
+  #49 = Class              #88            // "[I"
+  #50 = Utf8
+  #51 = Utf8               ()I
+  #52 = Utf8               ()Ljava/lang/String;
+  #53 = Utf8               ()V
+  #54 = Utf8               (C)Ljava/lang/StringBuffer;
+  #55 = Utf8               (I)C
+  #56 = Utf8               (II)Ljava/lang/String;
+  #57 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #58 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #59 = Utf8               (Z)V
+  #60 = Utf8               <init>
+  #61 = Utf8               Code
+  #62 = Utf8               I
+  #63 = Utf8               Lqb;
+  #64 = Utf8               Lmidlet;
+  #65 = Utf8               Z
+  #66 = Utf8               b
+  #67 = Utf8               dc
+  #68 = Utf8               append
+  #69 = Utf8               a
+  #70 = Utf8               ab
+  #71 = Utf8               hb
+  #72 = Utf8               g
+  #73 = Utf8               charAt
+  #74 = Utf8               getAppProperty
+  #75 = Utf8               p
+  #76 = Utf8               java/lang/Exception
+  #77 = Utf8               java/lang/String
+  #78 = Utf8               java/lang/StringBuffer
+  #79 = Utf8               java/lang/Thread
+  #80 = Utf8               qb
+  #81 = Utf8               length
+  #82 = Utf8               midlet
+  #83 = Utf8               run
+  #84 = Utf8               wb
+  #85 = Utf8               substring
+  #86 = Utf8               toString
+  #87 = Utf8               StackMap
+  #88 = Utf8               [I
+  #89 = NameAndType        #92:#53        // d:()V
+  #90 = Utf8               l
+  #91 = Utf8               B
+  #92 = Utf8               d
+  #93 = NameAndType        #94:#65        // xc:Z
+  #94 = Utf8               xc
+  #95 = Fieldref           #3.#93         // ab.xc:Z
+{
+  dc();
+    descriptor: ()V
+    flags: (0x0000)
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #25                 // Method java/lang/Thread."<init>":()V
+         4: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=5, locals=7, args_size=1
+         0: getstatic     #95                 // Field ab.xc:Z
+         3: istore        6
+         5: iconst_1
+         6: putstatic     #14                 // Field ab.p:Z
+         9: iconst_1
+        10: istore_1
+        11: bipush        8
+        13: newarray       int
+        15: dup
+        16: iconst_0
+        17: bipush        77
+        19: iastore
+        20: dup
+        21: iconst_1
+        22: bipush        73
+        24: iastore
+        25: dup
+        26: iconst_2
+        27: bipush        68
+        29: iastore
+        30: dup
+        31: iconst_3
+        32: bipush        108
+        34: iastore
+        35: dup
+        36: iconst_4
+        37: bipush        101
+        39: iastore
+        40: dup
+        41: iconst_5
+        42: bipush        116
+        44: iastore
+        45: dup
+        46: bipush        6
+        48: bipush        45
+        50: iastore
+        51: dup
+        52: bipush        7
+        54: bipush        49
+        56: iastore
+        57: astore_2
+        58: ldc           #1                  // String
+        60: astore_3
+        61: iconst_0
+        62: istore        4
+        64: iload         4
+        66: aload_2
+        67: arraylength
+        68: if_icmpge     107
+        71: new           #7                  // class java/lang/StringBuffer
+        74: dup
+        75: invokespecial #21                 // Method java/lang/StringBuffer."<init>":()V
+        78: aload_3
+        79: invokevirtual #23                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        82: aload_2
+        83: iload         4
+        85: iaload
+        86: i2c
+        87: invokevirtual #22                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+        90: invokevirtual #24                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        93: astore_3
+        94: iinc          4, 1
+        97: iload         6
+        99: ifne          266
+       102: iload         6
+       104: ifeq          64
+       107: getstatic     #15                 // Field midlet.a:Lmidlet;
+       110: aload_3
+       111: invokevirtual #29                 // Method midlet.getAppProperty:(Ljava/lang/String;)Ljava/lang/String;
+       114: dup
+       115: astore_3
+       116: ifnull        264
+       119: aload_3
+       120: aload_3
+       121: invokevirtual #19                 // Method java/lang/String.length:()I
+       124: bipush        6
+       126: isub
+       127: aload_3
+       128: invokevirtual #19                 // Method java/lang/String.length:()I
+       131: invokevirtual #20                 // Method java/lang/String.substring:(II)Ljava/lang/String;
+       134: astore_3
+       135: iconst_0
+       136: istore        4
+       138: iconst_0
+       139: istore        5
+       141: iload         5
+       143: aload_3
+       144: invokevirtual #19                 // Method java/lang/String.length:()I
+       147: if_icmpge     174
+       150: iload         4
+       152: aload_3
+       153: iload         5
+       155: invokevirtual #18                 // Method java/lang/String.charAt:(I)C
+       158: iadd
+       159: istore        4
+       161: iinc          5, 1
+       164: iload         6
+       166: ifne          186
+       169: iload         6
+       171: ifeq          141
+       174: iload         4
+       176: sipush        639
+       179: if_icmpne     186
+       182: iconst_1
+       183: goto          187
+       186: iconst_0
+       187: istore_1
+       188: aload_2
+       189: bipush        7
+       191: dup2
+       192: iaload
+       193: iconst_1
+       194: iadd
+       195: iastore
+       196: ldc           #1                  // String
+       198: astore_3
+       199: iconst_0
+       200: istore        5
+       202: iload         5
+       204: aload_2
+       205: arraylength
+       206: if_icmpge     245
+       209: new           #7                  // class java/lang/StringBuffer
+       212: dup
+       213: invokespecial #21                 // Method java/lang/StringBuffer."<init>":()V
+       216: aload_3
+       217: invokevirtual #23                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       220: aload_2
+       221: iload         5
+       223: iaload
+       224: i2c
+       225: invokevirtual #22                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       228: invokevirtual #24                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       231: astore_3
+       232: iinc          5, 1
+       235: iload         6
+       237: ifne          259
+       240: iload         6
+       242: ifeq          202
+       245: getstatic     #15                 // Field midlet.a:Lmidlet;
+       248: aload_3
+       249: invokevirtual #29                 // Method midlet.getAppProperty:(Ljava/lang/String;)Ljava/lang/String;
+       252: dup
+       253: astore_3
+       254: ifnull        259
+       257: iconst_0
+       258: istore_1
+       259: iload         6
+       261: ifeq          270
+       264: iconst_0
+       265: istore_1
+       266: goto          270
+       269: pop
+       270: iload_1
+       271: ifeq          318
+       274: getstatic     #15                 // Field midlet.a:Lmidlet;
+       277: invokevirtual #30                 // Method midlet.a:()V
+       280: invokestatic  #16                 // Method ab.b:()V
+       283: invokestatic  #17                 // Method hb.g:()V
+       286: new           #9                  // class qb
+       289: dup
+       290: invokespecial #26                 // Method qb."<init>":()V
+       293: dup
+       294: putstatic     #13                 // Field ab.B:Lqb;
+       297: invokevirtual #28                 // Method qb.a:()V
+       300: iconst_1
+       301: putstatic     #12                 // Field ab.l:I
+       304: getstatic     #13                 // Field ab.B:Lqb;
+       307: iconst_0
+       308: invokevirtual #27                 // Method qb.b:(Z)V
+       311: invokestatic  #31                 // Method wb.d:()V
+       314: iconst_0
+       315: putstatic     #14                 // Field ab.p:Z
+       318: return
+      Exception table:
+         from    to  target type
+            11   266   269   Class java/lang/Exception
+      StackMap: number_of_entries = 14
+        frame_type = 255 offset = 64
+          locals = [ class dc, int, class "[I", class java/lang/String, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 107
+          locals = [ class dc, int, class "[I", class java/lang/String, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 141
+          locals = [ class dc, int, class "[I", class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 174
+          locals = [ class dc, int, class "[I", class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 186
+          locals = [ class dc, int, class "[I", class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 187
+          locals = [ class dc, int, class "[I", class java/lang/String, int, int, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 202
+          locals = [ class dc, int, class "[I", class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 245
+          locals = [ class dc, int, class "[I", class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 259
+          locals = [ class dc, int, class "[I", class java/lang/String, int, int, int ]
+          stack = []
+        frame_type = 255 offset = 264
+          locals = [ class dc, int, class "[I", class java/lang/String, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 266
+          locals = [ class dc, int, class "[I", class java/lang/String, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 269
+          locals = [ class dc, int, top, top, top, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 270
+          locals = [ class dc, int, top, top, top, top, int ]
+          stack = []
+        frame_type = 255 offset = 318
+          locals = [ class dc, int, top, top, top, top, int ]
+          stack = []
+}

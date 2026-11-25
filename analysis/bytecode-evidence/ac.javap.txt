@@ -1,0 +1,113 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/ac.class
+  Last modified Nov 24, 2026; size 472 bytes
+  SHA-256 checksum 04f63c873522e39babf1f7e30241487bf0400919010edd9f3f4ecc4e0ae25f65
+final class ac extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #2                          // ac
+  super_class: #4                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+   #1 = Class              #32            // e
+   #2 = Class              #33            // ac
+   #3 = Class              #35            // java/lang/Exception
+   #4 = Class              #36            // java/lang/Thread
+   #5 = Class              #37            // qb
+   #6 = Long               2000l
+   #8 = Fieldref           #2.#18         // ac.b:Lqb;
+   #9 = Fieldref           #5.#17         // qb.Yb:Le;
+  #10 = Fieldref           #5.#21         // qb.pc:I
+  #11 = Methodref          #1.#19         // e.f:()V
+  #12 = Methodref          #4.#15         // java/lang/Thread."<init>":()V
+  #13 = Methodref          #4.#20         // java/lang/Thread.sleep:(J)V
+  #14 = Methodref          #5.#16         // qb.b:(ZZ)V
+  #15 = NameAndType        #26:#22        // "<init>":()V
+  #16 = NameAndType        #31:#25        // b:(ZZ)V
+  #17 = NameAndType        #43:#29        // Yb:Le;
+  #18 = NameAndType        #31:#30        // b:Lqb;
+  #19 = NameAndType        #34:#22        // f:()V
+  #20 = NameAndType        #39:#23        // sleep:(J)V
+  #21 = NameAndType        #40:#28        // pc:I
+  #22 = Utf8               ()V
+  #23 = Utf8               (J)V
+  #24 = Utf8               (Lqb;)V
+  #25 = Utf8               (ZZ)V
+  #26 = Utf8               <init>
+  #27 = Utf8               Code
+  #28 = Utf8               I
+  #29 = Utf8               Le;
+  #30 = Utf8               Lqb;
+  #31 = Utf8               b
+  #32 = Utf8               e
+  #33 = Utf8               ac
+  #34 = Utf8               f
+  #35 = Utf8               java/lang/Exception
+  #36 = Utf8               java/lang/Thread
+  #37 = Utf8               qb
+  #38 = Utf8               run
+  #39 = Utf8               sleep
+  #40 = Utf8               pc
+  #41 = Utf8               StackMap
+  #42 = Utf8               ZKM5.3.2a
+  #43 = Utf8               Yb
+{
+  private final qb b;
+    descriptor: Lqb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  ac(qb);
+    descriptor: (Lqb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #12                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #8                  // Field b:Lqb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=4, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #8                  // Field b:Lqb;
+         4: getfield      #9                  // Field qb.Yb:Le;
+         7: invokevirtual #11                 // Method e.f:()V
+        10: ldc2_w        #6                  // long 2000l
+        13: invokestatic  #13                 // Method java/lang/Thread.sleep:(J)V
+        16: goto          20
+        19: pop
+        20: aload_0
+        21: getfield      #8                  // Field b:Lqb;
+        24: iconst_1
+        25: aload_0
+        26: getfield      #8                  // Field b:Lqb;
+        29: getfield      #10                 // Field qb.pc:I
+        32: bipush        -3
+        34: if_icmpne     41
+        37: iconst_1
+        38: goto          42
+        41: iconst_0
+        42: invokevirtual #14                 // Method qb.b:(ZZ)V
+        45: return
+      Exception table:
+         from    to  target type
+            10    16    19   Class java/lang/Exception
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 19
+          locals = [ class ac ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 20
+          locals = [ class ac ]
+          stack = []
+        frame_type = 255 offset = 41
+          locals = [ class ac ]
+          stack = [ class qb, int ]
+        frame_type = 255 offset = 42
+          locals = [ class ac ]
+          stack = [ class qb, int, int ]
+}

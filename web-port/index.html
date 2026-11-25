@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Pipyaki Pro — J2ME 1:1 Web Port</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="viewport-stage" id="viewport-stage" aria-label="Pipyaki Pro">
+      <canvas id="game" width="240" height="320" aria-label="Pipyaki Pro"></canvas>
+      <div class="floating-toolbar" aria-label="Window tools">
+        <span class="runtime-badge"><span></span> 240×320</span>
+        <button type="button" id="btn-mp-lobby" title="Chơi nhiều người 2–4 người (Online / Đa Tab)">⚔️ Phòng MP (2–4P)</button>
+        <button type="button" id="btn-sound" title="Bật / Tắt Âm thanh">🔊 Âm thanh</button>
+        <button type="button" id="btn-lang" title="Đổi ngôn ngữ Tiếng Việt / English">🌐 VI</button>
+        <button type="button" id="btn-fullscreen" title="Toàn màn hình">⛶ Toàn màn hình</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="mp-lobby" class="mp-lobby-overlay" role="dialog" aria-modal="true" aria-labelledby="mp-title" hidden>
+    <div class="mp-card">
+      <header class="mp-head">
+        <div>
+          <h2 id="mp-title">⚔️ ĐẤU TRƯỜNG PIPYAKI (2–4P)</h2>
+          <p id="mp-subtitle" class="mp-sub">2–4 người chơi · Online / Cùng mạng / Đa Tab</p>
+        </div>
+        <button type="button" id="btn-mp-close" class="mp-icon-btn" aria-label="Đóng">✕</button>
+      </header>
+
+      <div id="mp-home-view" class="mp-section">
+        <label class="mp-field">
+          <span id="mp-name-label">TÊN NHÂN VẬT</span>
+          <input type="text" id="mp-name-input" maxlength="12" value="Pipyaka" autocomplete="off" />
+        </label>
+        <button type="button" id="btn-mp-create" class="mp-btn mp-btn-primary">⚔️ TẠO PHÒNG MỚI</button>
+        <div class="mp-divider"><span id="mp-or-label">HOẶC VÀO PHÒNG CÓ SẴN</span></div>
+        <div class="mp-join-row">
+          <input type="text" id="mp-code-input" maxlength="8" placeholder="MÃ PHÒNG (VD: PK4829)" autocomplete="off" />
+          <button type="button" id="btn-mp-join" class="mp-btn mp-btn-accent">VÀO PHÒNG</button>
+        </div>
+        <p id="mp-home-error" class="mp-error" hidden></p>
+      </div>
+
+      <div id="mp-room-view" class="mp-section" hidden>
+        <div class="mp-room-bar">
+          <div class="mp-code-group">
+            <span id="mp-code-label" class="mp-muted">MÃ PHÒNG:</span>
+            <strong id="mp-room-code" class="mp-code-badge">PK0000</strong>
+            <span id="mp-transport-badge" class="mp-transport-pill">Local</span>
+          </div>
+          <div class="mp-code-actions">
+            <button type="button" id="btn-mp-copy" class="mp-btn mp-btn-sm">📋 Copy Link</button>
+            <button type="button" id="btn-mp-tab2" class="mp-btn mp-btn-sm">↗️ Mở Tab 2</button>
+          </div>
+        </div>
+
+        <div class="mp-config-grid">
+          <label class="mp-field">
+            <span id="mp-mode-label">CHẾ ĐỘ</span>
+            <select id="mp-mode-select"></select>
+          </label>
+          <label class="mp-field">
+            <span id="mp-level-label">BẢN ĐỒ</span>
+            <select id="mp-level-select"></select>
+          </label>
+          <label class="mp-field">
+            <span id="mp-bots-label">BOT AI</span>
+            <select id="mp-bots-select">
+              <option value="0">0 Bot</option>
+              <option value="1">1 Bot</option>
+              <option value="2" selected>2 Bot</option>
+              <option value="3">3 Bot</option>
+            </select>
+          </label>
+          <label class="mp-field">
+            <span id="mp-limit-label">MỤC TIÊU</span>
+            <input type="number" id="mp-limit-input" min="1" max="50" value="10" />
+          </label>
+        </div>
+
+        <div class="mp-teams-grid">
+          <button type="button" class="mp-team-btn active" data-team="0">🟦 Xanh</button>
+          <button type="button" class="mp-team-btn" data-team="1">🟥 Đỏ</button>
+          <button type="button" class="mp-team-btn" data-team="2">🟩 Lá</button>
+          <button type="button" class="mp-team-btn" data-team="3">🟨 Vàng</button>
+        </div>
+
+        <div id="mp-players-list" class="mp-players-list"></div>
+
+        <div class="mp-footer">
+          <button type="button" id="btn-mp-leave" class="mp-btn mp-btn-danger">Rời phòng</button>
+          <button type="button" id="btn-mp-ready" class="mp-btn mp-btn-primary">SẴN SÀNG</button>
+          <button type="button" id="btn-mp-start-now" class="mp-btn mp-btn-accent" hidden>▶ BẮT ĐẦU NGAY</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/jc.class
+  Last modified Nov 24, 2026; size 412 bytes
+  SHA-256 checksum 8557568b7045773c39980e0ee8a0aa0fe6c84554044b61b5de51309ce4840ac3
+final class jc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #2                          // jc
+  super_class: #4                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+   #1 = Class              #27            // db
+   #2 = Class              #28            // jc
+   #3 = Class              #29            // java/lang/Exception
+   #4 = Class              #30            // java/lang/Thread
+   #5 = Long               5000l
+   #7 = Fieldref           #2.#16         // jc.b:Ldb;
+   #8 = Methodref          #1.#14         // db.c:(Ldb;)V
+   #9 = Methodref          #1.#15         // db.b:(Ldb;)Z
+  #10 = Methodref          #4.#13         // java/lang/Thread."<init>":()V
+  #11 = Methodref          #4.#17         // java/lang/Thread.sleep:(J)V
+  #12 = Methodref          #4.#18         // java/lang/Thread.yield:()V
+  #13 = NameAndType        #23:#19        // "<init>":()V
+  #14 = NameAndType        #26:#21        // c:(Ldb;)V
+  #15 = NameAndType        #36:#22        // b:(Ldb;)Z
+  #16 = NameAndType        #36:#25        // b:Ldb;
+  #17 = NameAndType        #32:#20        // sleep:(J)V
+  #18 = NameAndType        #33:#19        // yield:()V
+  #19 = Utf8               ()V
+  #20 = Utf8               (J)V
+  #21 = Utf8               (Ldb;)V
+  #22 = Utf8               (Ldb;)Z
+  #23 = Utf8               <init>
+  #24 = Utf8               Code
+  #25 = Utf8               Ldb;
+  #26 = Utf8               c
+  #27 = Utf8               db
+  #28 = Utf8               jc
+  #29 = Utf8               java/lang/Exception
+  #30 = Utf8               java/lang/Thread
+  #31 = Utf8               run
+  #32 = Utf8               sleep
+  #33 = Utf8               yield
+  #34 = Utf8               StackMap
+  #35 = Utf8               ZKM5.3.2a
+  #36 = Utf8               b
+{
+  private final db b;
+    descriptor: Ldb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  jc(db);
+    descriptor: (Ldb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #10                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #7                  // Field b:Ldb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=1, args_size=1
+         0: invokestatic  #12                 // Method java/lang/Thread.yield:()V
+         3: ldc2_w        #5                  // long 5000l
+         6: invokestatic  #11                 // Method java/lang/Thread.sleep:(J)V
+         9: goto          13
+        12: pop
+        13: aload_0
+        14: getfield      #7                  // Field b:Ldb;
+        17: invokestatic  #9                  // Method db.b:(Ldb;)Z
+        20: ifne          30
+        23: aload_0
+        24: getfield      #7                  // Field b:Ldb;
+        27: invokestatic  #8                  // Method db.c:(Ldb;)V
+        30: return
+      Exception table:
+         from    to  target type
+             0     9    12   Class java/lang/Exception
+      StackMap: number_of_entries = 3
+        frame_type = 255 offset = 12
+          locals = [ class jc ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 13
+          locals = [ class jc ]
+          stack = []
+        frame_type = 255 offset = 30
+          locals = [ class jc ]
+          stack = []
+}

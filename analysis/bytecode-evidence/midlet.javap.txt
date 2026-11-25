@@ -1,0 +1,244 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/midlet.class
+  Last modified Nov 24, 2026; size 1323 bytes
+  SHA-256 checksum e5f331adc07d33b9c585c9c688f5676adea6078c01a419cf517a23534267ca97
+public class midlet extends javax.microedition.midlet.MIDlet
+  minor version: 0
+  major version: 47
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #10                         // midlet
+  super_class: #8                         // javax/microedition/midlet/MIDlet
+  interfaces: 0, fields: 2, methods: 6, attributes: 0
+Constant pool:
+    #1 = String             #61           //
+    #2 = String             #78           // MIDlet-Version
+    #3 = Class              #82           // ab
+    #4 = Class              #83           // hb
+    #5 = Class              #92           // java/util/Random
+    #6 = Class              #93           // javax/microedition/lcdui/Display
+    #7 = Class              #94           // javax/microedition/lcdui/Font
+    #8 = Class              #95           // javax/microedition/midlet/MIDlet
+    #9 = Class              #96           // qb
+   #10 = Class              #97           // midlet
+   #11 = Class              #100          // ub
+   #12 = Class              #101          // wb
+   #13 = Class              #104          // rc
+   #14 = Fieldref           #3.#42        // ab.l:I
+   #15 = Fieldref           #3.#43        // ab.A:Lfb;
+   #16 = Fieldref           #3.#44        // ab.f:Ljava/lang/String;
+   #17 = Fieldref           #3.#45        // ab.oc:Ljava/util/Random;
+   #18 = Fieldref           #3.#47        // ab.F:Ljavax/microedition/lcdui/Font;
+   #19 = Fieldref           #3.#48        // ab.G:Lub;
+   #20 = Fieldref           #3.#49        // ab.z:Lrc;
+   #21 = Fieldref           #3.#53        // ab.o:Z
+   #22 = Fieldref           #10.#57       // midlet.a:Lmidlet;
+   #23 = Fieldref           #10.#59       // midlet.b:Z
+   #24 = Fieldref           #13.#46       // rc.c:Ljavax/microedition/lcdui/Display;
+   #25 = Methodref          #3.#50        // ab.c:()V
+   #26 = Methodref          #4.#51        // hb.g:()V
+   #27 = Methodref          #5.#40        // java/util/Random."<init>":()V
+   #28 = Methodref          #6.#60        // javax/microedition/lcdui/Display.setCurrent:(Ljavax/microedition/lcdui/Displayable;)V
+   #29 = Methodref          #7.#55        // javax/microedition/lcdui/Font.getFont:(III)Ljavax/microedition/lcdui/Font;
+   #30 = Methodref          #8.#40        // javax/microedition/midlet/MIDlet."<init>":()V
+   #31 = Methodref          #9.#56        // qb.n:()V
+   #32 = Methodref          #10.#52       // midlet.destroyApp:(Z)V
+   #33 = Methodref          #10.#54       // midlet.getAppProperty:(Ljava/lang/String;)Ljava/lang/String;
+   #34 = Methodref          #10.#58       // midlet.notifyDestroyed:()V
+   #35 = Methodref          #11.#40       // ub."<init>":()V
+   #36 = Methodref          #11.#106      // ub.d:()V
+   #37 = Methodref          #12.#41       // wb.b:()V
+   #38 = Methodref          #12.#50       // wb.c:()V
+   #39 = Methodref          #13.#40       // rc."<init>":()V
+   #40 = NameAndType        #67:#62       // "<init>":()V
+   #41 = NameAndType        #80:#62       // b:()V
+   #42 = NameAndType        #107:#69      // l:I
+   #43 = NameAndType        #108:#70      // A:Lfb;
+   #44 = NameAndType        #109:#71      // f:Ljava/lang/String;
+   #45 = NameAndType        #110:#72      // oc:Ljava/util/Random;
+   #46 = NameAndType        #81:#73       // c:Ljavax/microedition/lcdui/Display;
+   #47 = NameAndType        #111:#74      // F:Ljavax/microedition/lcdui/Font;
+   #48 = NameAndType        #112:#76      // G:Lub;
+   #49 = NameAndType        #113:#77      // z:Lrc;
+   #50 = NameAndType        #81:#62       // c:()V
+   #51 = NameAndType        #84:#62       // g:()V
+   #52 = NameAndType        #85:#66       // destroyApp:(Z)V
+   #53 = NameAndType        #87:#79       // o:Z
+   #54 = NameAndType        #88:#64       // getAppProperty:(Ljava/lang/String;)Ljava/lang/String;
+   #55 = NameAndType        #89:#63       // getFont:(III)Ljavax/microedition/lcdui/Font;
+   #56 = NameAndType        #90:#62       // n:()V
+   #57 = NameAndType        #91:#75       // a:Lmidlet;
+   #58 = NameAndType        #98:#62       // notifyDestroyed:()V
+   #59 = NameAndType        #80:#79       // b:Z
+   #60 = NameAndType        #102:#65      // setCurrent:(Ljavax/microedition/lcdui/Displayable;)V
+   #61 = Utf8
+   #62 = Utf8               ()V
+   #63 = Utf8               (III)Ljavax/microedition/lcdui/Font;
+   #64 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+   #65 = Utf8               (Ljavax/microedition/lcdui/Displayable;)V
+   #66 = Utf8               (Z)V
+   #67 = Utf8               <init>
+   #68 = Utf8               Code
+   #69 = Utf8               I
+   #70 = Utf8               Lfb;
+   #71 = Utf8               Ljava/lang/String;
+   #72 = Utf8               Ljava/util/Random;
+   #73 = Utf8               Ljavax/microedition/lcdui/Display;
+   #74 = Utf8               Ljavax/microedition/lcdui/Font;
+   #75 = Utf8               Lmidlet;
+   #76 = Utf8               Lub;
+   #77 = Utf8               Lrc;
+   #78 = Utf8               MIDlet-Version
+   #79 = Utf8               Z
+   #80 = Utf8               b
+   #81 = Utf8               c
+   #82 = Utf8               ab
+   #83 = Utf8               hb
+   #84 = Utf8               g
+   #85 = Utf8               destroyApp
+   #86 = Utf8               ZKM5.3.2a
+   #87 = Utf8               o
+   #88 = Utf8               getAppProperty
+   #89 = Utf8               getFont
+   #90 = Utf8               n
+   #91 = Utf8               a
+   #92 = Utf8               java/util/Random
+   #93 = Utf8               javax/microedition/lcdui/Display
+   #94 = Utf8               javax/microedition/lcdui/Font
+   #95 = Utf8               javax/microedition/midlet/MIDlet
+   #96 = Utf8               qb
+   #97 = Utf8               midlet
+   #98 = Utf8               notifyDestroyed
+   #99 = Utf8               pauseApp
+  #100 = Utf8               ub
+  #101 = Utf8               wb
+  #102 = Utf8               setCurrent
+  #103 = Utf8               startApp
+  #104 = Utf8               rc
+  #105 = Utf8               StackMap
+  #106 = NameAndType        #114:#62      // d:()V
+  #107 = Utf8               l
+  #108 = Utf8               A
+  #109 = Utf8               f
+  #110 = Utf8               oc
+  #111 = Utf8               F
+  #112 = Utf8               G
+  #113 = Utf8               z
+  #114 = Utf8               d
+{
+  public static midlet a;
+    descriptor: Lmidlet;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public static boolean b;
+    descriptor: Z
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+
+  public midlet();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #30                 // Method javax/microedition/midlet/MIDlet."<init>":()V
+         4: return
+
+  protected void startApp();
+    descriptor: ()V
+    flags: (0x0004) ACC_PROTECTED
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #23                 // Field b:Z
+         3: ifne          70
+         6: iconst_1
+         7: putstatic     #23                 // Field b:Z
+        10: aload_0
+        11: putstatic     #22                 // Field a:Lmidlet;
+        14: new           #5                  // class java/util/Random
+        17: dup
+        18: invokespecial #27                 // Method java/util/Random."<init>":()V
+        21: putstatic     #17                 // Field ab.oc:Ljava/util/Random;
+        24: iconst_0
+        25: iconst_0
+        26: bipush        8
+        28: invokestatic  #29                 // Method javax/microedition/lcdui/Font.getFont:(III)Ljavax/microedition/lcdui/Font;
+        31: putstatic     #18                 // Field ab.F:Ljavax/microedition/lcdui/Font;
+        34: new           #13                 // class rc
+        37: dup
+        38: invokespecial #39                 // Method rc."<init>":()V
+        41: putstatic     #20                 // Field ab.z:Lrc;
+        44: invokestatic  #38                 // Method wb.c:()V
+        47: iconst_2
+        48: putstatic     #14                 // Field ab.l:I
+        51: new           #11                 // class ub
+        54: dup
+        55: invokespecial #35                 // Method ub."<init>":()V
+        58: putstatic     #19                 // Field ab.G:Lub;
+        61: invokestatic  #26                 // Method hb.g:()V
+        64: invokestatic  #31                 // Method qb.n:()V
+        67: invokestatic  #37                 // Method wb.b:()V
+        70: return
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 70
+          locals = [ class midlet ]
+          stack = []
+
+  protected void pauseApp();
+    descriptor: ()V
+    flags: (0x0004) ACC_PROTECTED
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  protected void destroyApp(boolean);
+    descriptor: (Z)V
+    flags: (0x0004) ACC_PROTECTED
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iconst_1
+         1: putstatic     #21                 // Field ab.o:Z
+         4: getstatic     #24                 // Field rc.c:Ljavax/microedition/lcdui/Display;
+         7: aconst_null
+         8: invokevirtual #28                 // Method javax/microedition/lcdui/Display.setCurrent:(Ljavax/microedition/lcdui/Displayable;)V
+        11: aconst_null
+        12: putstatic     #15                 // Field ab.A:Lfb;
+        15: getstatic     #19                 // Field ab.G:Lub;
+        18: ifnull        27
+        21: getstatic     #19                 // Field ab.G:Lub;
+        24: invokevirtual #36                 // Method ub.d:()V
+        27: return
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 27
+          locals = [ class midlet, int ]
+          stack = []
+
+  public void a();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: ldc           #2                  // String MIDlet-Version
+         3: invokevirtual #33                 // Method getAppProperty:(Ljava/lang/String;)Ljava/lang/String;
+         6: dup
+         7: putstatic     #16                 // Field ab.f:Ljava/lang/String;
+        10: ifnonnull     18
+        13: ldc           #1                  // String
+        15: putstatic     #16                 // Field ab.f:Ljava/lang/String;
+        18: invokestatic  #25                 // Method ab.c:()V
+        21: return
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 18
+          locals = [ class midlet ]
+          stack = []
+
+  public void b();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #34                 // Method notifyDestroyed:()V
+         4: aload_0
+         5: iconst_1
+         6: invokevirtual #32                 // Method destroyApp:(Z)V
+         9: return
+}

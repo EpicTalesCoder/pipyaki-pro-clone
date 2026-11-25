@@ -1,0 +1,32 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/a.class
+  Last modified Nov 24, 2026; size 142 bytes
+  SHA-256 checksum 9102b0a1a978aba82da98e3a7249d9fa3ee8fa3cc6c9aa804e6747ee34388205
+public final class a extends java.lang.Exception
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #1                          // a
+  super_class: #2                         // java/lang/Exception
+  interfaces: 0, fields: 0, methods: 1, attributes: 0
+Constant pool:
+   #1 = Class              #8             // a
+   #2 = Class              #9             // java/lang/Exception
+   #3 = Methodref          #2.#4          // java/lang/Exception."<init>":()V
+   #4 = NameAndType        #6:#5          // "<init>":()V
+   #5 = Utf8               ()V
+   #6 = Utf8               <init>
+   #7 = Utf8               Code
+   #8 = Utf8               a
+   #9 = Utf8               java/lang/Exception
+  #10 = Utf8               ZKM5.3.2a
+  #11 = Utf8               StackMap
+{
+  public a();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #3                  // Method java/lang/Exception."<init>":()V
+         4: return
+}

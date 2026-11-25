@@ -1,0 +1,188 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/kc.class
+  Last modified Nov 24, 2026; size 1117 bytes
+  SHA-256 checksum 9f5c0276547bd2177db41d9a6c0a3f5c222a2084b59413a064a2332b6b4d3e0e
+final class kc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #4                          // kc
+  super_class: #7                         // java/lang/Thread
+  interfaces: 0, fields: 1, methods: 2, attributes: 0
+Constant pool:
+   #1 = String             #77            // ss ex
+   #2 = Class              #64            // f
+   #3 = Class              #67            // db
+   #4 = Class              #69            // kc
+   #5 = Class              #70            // java/lang/Exception
+   #6 = Class              #71            // java/lang/StringBuffer
+   #7 = Class              #72            // java/lang/Thread
+   #8 = Class              #73            // javax/bluetooth/DiscoveryAgent
+   #9 = Long               5000l
+  #11 = Fieldref           #2.#36         // f.h:[Ljavax/bluetooth/UUID;
+  #12 = Fieldref           #4.#35         // kc.b:Ldb;
+  #13 = Methodref          #3.#30         // db.g:(Ldb;)Ldb;
+  #14 = Methodref          #3.#31         // db.h:(Ldb;)Ljavax/bluetooth/DiscoveryAgent;
+  #15 = Methodref          #3.#32         // db.f:(Ldb;)Ljavax/bluetooth/RemoteDevice;
+  #16 = Methodref          #3.#33         // db.b:(Ldb;I)I
+  #17 = Methodref          #3.#34         // db.b:(Ldb;Z)Z
+  #18 = Methodref          #3.#39         // db.i:(Ldb;)V
+  #19 = Methodref          #3.#40         // db.d:(Ldb;)Z
+  #20 = Methodref          #3.#41         // db.c:(Ldb;Z)Z
+  #21 = Methodref          #3.#42         // db.e:(Ldb;)Z
+  #22 = Methodref          #4.#44         // kc.sleep:(J)V
+  #23 = Methodref          #6.#29         // java/lang/StringBuffer."<init>":()V
+  #24 = Methodref          #6.#37         // java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #25 = Methodref          #6.#38         // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #26 = Methodref          #6.#45         // java/lang/StringBuffer.toString:()Ljava/lang/String;
+  #27 = Methodref          #7.#29         // java/lang/Thread."<init>":()V
+  #28 = Methodref          #8.#43         // javax/bluetooth/DiscoveryAgent.searchServices:([I[Ljavax/bluetooth/UUID;Ljavax/bluetooth/RemoteDevice;Ljavax/bluetooth/DiscoveryListener;)I
+  #29 = NameAndType        #59:#47        // "<init>":()V
+  #30 = NameAndType        #63:#49        // g:(Ldb;)Ldb;
+  #31 = NameAndType        #81:#50        // h:(Ldb;)Ljavax/bluetooth/DiscoveryAgent;
+  #32 = NameAndType        #64:#51        // f:(Ldb;)Ljavax/bluetooth/RemoteDevice;
+  #33 = NameAndType        #82:#54        // b:(Ldb;I)I
+  #34 = NameAndType        #82:#55        // b:(Ldb;Z)Z
+  #35 = NameAndType        #82:#61        // b:Ldb;
+  #36 = NameAndType        #81:#62        // h:[Ljavax/bluetooth/UUID;
+  #37 = NameAndType        #65:#56        // append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #38 = NameAndType        #65:#57        // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #39 = NameAndType        #66:#52        // i:(Ldb;)V
+  #40 = NameAndType        #83:#53        // d:(Ldb;)Z
+  #41 = NameAndType        #84:#55        // c:(Ldb;Z)Z
+  #42 = NameAndType        #68:#53        // e:(Ldb;)Z
+  #43 = NameAndType        #75:#58        // searchServices:([I[Ljavax/bluetooth/UUID;Ljavax/bluetooth/RemoteDevice;Ljavax/bluetooth/DiscoveryListener;)I
+  #44 = NameAndType        #76:#48        // sleep:(J)V
+  #45 = NameAndType        #78:#46        // toString:()Ljava/lang/String;
+  #46 = Utf8               ()Ljava/lang/String;
+  #47 = Utf8               ()V
+  #48 = Utf8               (J)V
+  #49 = Utf8               (Ldb;)Ldb;
+  #50 = Utf8               (Ldb;)Ljavax/bluetooth/DiscoveryAgent;
+  #51 = Utf8               (Ldb;)Ljavax/bluetooth/RemoteDevice;
+  #52 = Utf8               (Ldb;)V
+  #53 = Utf8               (Ldb;)Z
+  #54 = Utf8               (Ldb;I)I
+  #55 = Utf8               (Ldb;Z)Z
+  #56 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuffer;
+  #57 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #58 = Utf8               ([I[Ljavax/bluetooth/UUID;Ljavax/bluetooth/RemoteDevice;Ljavax/bluetooth/DiscoveryListener;)I
+  #59 = Utf8               <init>
+  #60 = Utf8               Code
+  #61 = Utf8               Ldb;
+  #62 = Utf8               [Ljavax/bluetooth/UUID;
+  #63 = Utf8               g
+  #64 = Utf8               f
+  #65 = Utf8               append
+  #66 = Utf8               i
+  #67 = Utf8               db
+  #68 = Utf8               e
+  #69 = Utf8               kc
+  #70 = Utf8               java/lang/Exception
+  #71 = Utf8               java/lang/StringBuffer
+  #72 = Utf8               java/lang/Thread
+  #73 = Utf8               javax/bluetooth/DiscoveryAgent
+  #74 = Utf8               run
+  #75 = Utf8               searchServices
+  #76 = Utf8               sleep
+  #77 = Utf8               ss ex
+  #78 = Utf8               toString
+  #79 = Utf8               StackMap
+  #80 = Utf8               ZKM5.3.2a
+  #81 = Utf8               h
+  #82 = Utf8               b
+  #83 = Utf8               d
+  #84 = Utf8               c
+{
+  private final db b;
+    descriptor: Ldb;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  kc(db);
+    descriptor: (Ldb;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #27                 // Method java/lang/Thread."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #12                 // Field b:Ldb;
+         9: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=6, locals=2, args_size=1
+         0: aload_0
+         1: getfield      #12                 // Field b:Ldb;
+         4: invokestatic  #19                 // Method db.d:(Ldb;)Z
+         7: ifeq          20
+        10: ldc2_w        #9                  // long 5000l
+        13: invokestatic  #22                 // Method sleep:(J)V
+        16: goto          20
+        19: pop
+        20: aload_0
+        21: getfield      #12                 // Field b:Ldb;
+        24: invokestatic  #21                 // Method db.e:(Ldb;)Z
+        27: ifeq          31
+        30: return
+        31: aload_0
+        32: getfield      #12                 // Field b:Ldb;
+        35: iconst_1
+        36: invokestatic  #17                 // Method db.b:(Ldb;Z)Z
+        39: pop
+        40: aload_0
+        41: getfield      #12                 // Field b:Ldb;
+        44: aload_0
+        45: getfield      #12                 // Field b:Ldb;
+        48: invokestatic  #14                 // Method db.h:(Ldb;)Ljavax/bluetooth/DiscoveryAgent;
+        51: aconst_null
+        52: getstatic     #11                 // Field f.h:[Ljavax/bluetooth/UUID;
+        55: aload_0
+        56: getfield      #12                 // Field b:Ldb;
+        59: invokestatic  #15                 // Method db.f:(Ldb;)Ljavax/bluetooth/RemoteDevice;
+        62: aload_0
+        63: getfield      #12                 // Field b:Ldb;
+        66: invokestatic  #13                 // Method db.g:(Ldb;)Ldb;
+        69: invokevirtual #28                 // Method javax/bluetooth/DiscoveryAgent.searchServices:([I[Ljavax/bluetooth/UUID;Ljavax/bluetooth/RemoteDevice;Ljavax/bluetooth/DiscoveryListener;)I
+        72: invokestatic  #16                 // Method db.b:(Ldb;I)I
+        75: pop
+        76: aload_0
+        77: getfield      #12                 // Field b:Ldb;
+        80: iconst_1
+        81: invokestatic  #20                 // Method db.c:(Ldb;Z)Z
+        84: pop
+        85: return
+        86: astore_1
+        87: new           #6                  // class java/lang/StringBuffer
+        90: dup
+        91: invokespecial #23                 // Method java/lang/StringBuffer."<init>":()V
+        94: ldc           #1                  // String ss ex
+        96: invokevirtual #25                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        99: aload_1
+       100: invokevirtual #24                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+       103: invokevirtual #26                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       106: pop
+       107: aload_0
+       108: getfield      #12                 // Field b:Ldb;
+       111: invokestatic  #18                 // Method db.i:(Ldb;)V
+       114: return
+      Exception table:
+         from    to  target type
+            10    16    19   Class java/lang/Exception
+            40    85    86   Class java/lang/Exception
+      StackMap: number_of_entries = 4
+        frame_type = 255 offset = 19
+          locals = [ class kc ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 20
+          locals = [ class kc ]
+          stack = []
+        frame_type = 255 offset = 31
+          locals = [ class kc ]
+          stack = []
+        frame_type = 255 offset = 86
+          locals = [ class kc ]
+          stack = [ class java/lang/Exception ]
+}

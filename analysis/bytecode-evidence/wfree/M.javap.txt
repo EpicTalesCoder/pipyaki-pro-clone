@@ -1,0 +1,291 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/wfree/M.class
+  Last modified Nov 24, 2026; size 1757 bytes
+  SHA-256 checksum 48abaaef0cbc1abf08ec9041fb0d6c8a0366464615539012032acb8955643e25
+public class wfree.M implements wfree.TextMessage,wfree.BinaryMessage,wfree.MultipartMessage
+  minor version: 0
+  major version: 47
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #2                          // wfree/M
+  super_class: #4                         // java/lang/Object
+  interfaces: 3, fields: 3, methods: 25, attributes: 0
+Constant pool:
+   #1 = Utf8               wfree/M
+   #2 = Class              #1             // wfree/M
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               wfree/TextMessage
+   #6 = Class              #5             // wfree/TextMessage
+   #7 = Utf8               wfree/BinaryMessage
+   #8 = Class              #7             // wfree/BinaryMessage
+   #9 = Utf8               wfree/MultipartMessage
+  #10 = Class              #9             // wfree/MultipartMessage
+  #11 = Utf8               <init>
+  #12 = Utf8               ()V
+  #13 = NameAndType        #11:#12        // "<init>":()V
+  #14 = Methodref          #4.#13         // java/lang/Object."<init>":()V
+  #15 = Utf8               Code
+  #16 = Utf8               a
+  #17 = Utf8               Ljava/lang/String;
+  #18 = NameAndType        #16:#17        // a:Ljava/lang/String;
+  #19 = Fieldref           #2.#18         // wfree/M.a:Ljava/lang/String;
+  #20 = Utf8               getAddress
+  #21 = Utf8               ()Ljava/lang/String;
+  #22 = Utf8               setAddress
+  #23 = Utf8               (Ljava/lang/String;)V
+  #24 = Utf8               t
+  #25 = NameAndType        #24:#17        // t:Ljava/lang/String;
+  #26 = Fieldref           #2.#25         // wfree/M.t:Ljava/lang/String;
+  #27 = Utf8               getPayloadText
+  #28 = Utf8               setPayloadText
+  #29 = Utf8               d
+  #30 = Utf8               [B
+  #31 = NameAndType        #29:#30        // d:[B
+  #32 = Fieldref           #2.#31         // wfree/M.d:[B
+  #33 = Utf8               getPayloadData
+  #34 = Utf8               ()[B
+  #35 = Utf8               setPayloadData
+  #36 = Utf8               ([B)V
+  #37 = Utf8               getTimestamp
+  #38 = Utf8               ()Ljava/util/Date;
+  #39 = Utf8               addAddress
+  #40 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Z
+  #41 = Utf8               addMessagePart
+  #42 = Utf8               (Lwfree/MessagePart;)V
+  #43 = Utf8               getAddresses
+  #44 = Utf8               (Ljava/lang/String;)[Ljava/lang/String;
+  #45 = Utf8               getHeader
+  #46 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #47 = Utf8               getMessagePart
+  #48 = Utf8               (Ljava/lang/String;)Lwfree/MessagePart;
+  #49 = Utf8               getMessageParts
+  #50 = Utf8               ()[Lwfree/MessagePart;
+  #51 = Utf8               getStartContentId
+  #52 = Utf8               getSubject
+  #53 = Utf8               removeAddress
+  #54 = Utf8               removeAddresses
+  #55 = Utf8               removeMessagePart
+  #56 = Utf8               (Lwfree/MessagePart;)Z
+  #57 = Utf8               removeMessagePartId
+  #58 = Utf8               (Ljava/lang/String;)Z
+  #59 = Utf8               removeMessagePartLocation
+  #60 = Utf8               setHeader
+  #61 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+  #62 = Utf8               setStartContentId
+  #63 = Utf8               setSubject
+{
+  java.lang.String a;
+    descriptor: Ljava/lang/String;
+    flags: (0x0000)
+
+  java.lang.String t;
+    descriptor: Ljava/lang/String;
+    flags: (0x0000)
+
+  byte[] d;
+    descriptor: [B
+    flags: (0x0000)
+
+  public wfree.M();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #14                 // Method java/lang/Object."<init>":()V
+         4: return
+
+  public java.lang.String getAddress();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #19                 // Field a:Ljava/lang/String;
+         4: areturn
+
+  public void setAddress(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #19                 // Field a:Ljava/lang/String;
+         5: return
+
+  public java.lang.String getPayloadText();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #26                 // Field t:Ljava/lang/String;
+         4: areturn
+
+  public void setPayloadText(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #26                 // Field t:Ljava/lang/String;
+         5: return
+
+  public byte[] getPayloadData();
+    descriptor: ()[B
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #32                 // Field d:[B
+         4: areturn
+
+  public void setPayloadData(byte[]);
+    descriptor: ([B)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #32                 // Field d:[B
+         5: return
+
+  public java.util.Date getTimestamp();
+    descriptor: ()Ljava/util/Date;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public boolean addAddress(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Z
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=3, args_size=3
+         0: iconst_1
+         1: ireturn
+
+  public void addMessagePart(wfree.MessagePart);
+    descriptor: (Lwfree/MessagePart;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=2, args_size=2
+         0: return
+
+  public java.lang.String[] getAddresses(java.lang.String);
+    descriptor: (Ljava/lang/String;)[Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aconst_null
+         1: areturn
+
+  public java.lang.String getHeader(java.lang.String);
+    descriptor: (Ljava/lang/String;)Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aconst_null
+         1: areturn
+
+  public wfree.MessagePart getMessagePart(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lwfree/MessagePart;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aconst_null
+         1: areturn
+
+  public wfree.MessagePart[] getMessageParts();
+    descriptor: ()[Lwfree/MessagePart;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public java.lang.String getStartContentId();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public java.lang.String getSubject();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aconst_null
+         1: areturn
+
+  public boolean removeAddress(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Z
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=3, args_size=3
+         0: iconst_0
+         1: ireturn
+
+  public void removeAddresses();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+
+  public void removeAddresses(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=2, args_size=2
+         0: return
+
+  public boolean removeMessagePart(wfree.MessagePart);
+    descriptor: (Lwfree/MessagePart;)Z
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: iconst_0
+         1: ireturn
+
+  public boolean removeMessagePartId(java.lang.String);
+    descriptor: (Ljava/lang/String;)Z
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: iconst_0
+         1: ireturn
+
+  public boolean removeMessagePartLocation(java.lang.String);
+    descriptor: (Ljava/lang/String;)Z
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: iconst_0
+         1: ireturn
+
+  public void setHeader(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=3, args_size=3
+         0: return
+
+  public void setStartContentId(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=2, args_size=2
+         0: return
+
+  public void setSubject(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=2, args_size=2
+         0: return
+}

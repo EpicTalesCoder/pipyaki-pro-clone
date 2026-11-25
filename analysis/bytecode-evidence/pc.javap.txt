@@ -1,0 +1,46 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/pc.class
+  Last modified Nov 24, 2026; size 198 bytes
+  SHA-256 checksum 9ac474663843be9f5d411e8716d8df3428c3f40a702bbb7a2ee3b6ebf5349191
+final class pc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #3                          // pc
+  super_class: #1                         // java/lang/Thread
+  interfaces: 0, fields: 0, methods: 2, attributes: 0
+Constant pool:
+   #1 = Class              #11            // java/lang/Thread
+   #2 = Class              #12            // qb
+   #3 = Class              #15            // pc
+   #4 = Methodref          #1.#6          // java/lang/Thread."<init>":()V
+   #5 = Methodref          #2.#7          // qb.N:()V
+   #6 = NameAndType        #9:#8          // "<init>":()V
+   #7 = NameAndType        #14:#8         // N:()V
+   #8 = Utf8               ()V
+   #9 = Utf8               <init>
+  #10 = Utf8               Code
+  #11 = Utf8               java/lang/Thread
+  #12 = Utf8               qb
+  #13 = Utf8               run
+  #14 = Utf8               N
+  #15 = Utf8               pc
+  #16 = Utf8               ZKM5.3.2a
+  #17 = Utf8               StackMap
+{
+  pc();
+    descriptor: ()V
+    flags: (0x0000)
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #4                  // Method java/lang/Thread."<init>":()V
+         4: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #5                  // Method qb.N:()V
+         3: return
+}

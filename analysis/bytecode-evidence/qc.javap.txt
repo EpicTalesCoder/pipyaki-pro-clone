@@ -1,0 +1,332 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/qc.class
+  Last modified Nov 24, 2026; size 1374 bytes
+  SHA-256 checksum bb51ffe81099f666f90d35413d3df02d36e091555ffcae1e305cdcb45a72f959
+final class qc extends java.lang.Thread
+  minor version: 0
+  major version: 47
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #21                         // qc
+  super_class: #20                        // java/lang/Thread
+  interfaces: 0, fields: 0, methods: 2, attributes: 0
+Constant pool:
+    #1 = String             #86           // autosave
+    #2 = String             #90           // coins
+    #3 = String             #91           // cur level
+    #4 = String             #97           // lc
+    #5 = String             #98           // levels completed
+    #6 = String             #99           // picount
+    #7 = String             #100          // piknown
+    #8 = String             #101          // pitypes
+    #9 = String             #102          // primr
+   #10 = String             #104          // secnd
+   #11 = String             #105          // sk
+   #12 = String             #106          // sks
+   #13 = String             #108          // wcount
+   #14 = String             #109          // wknown
+   #15 = String             #110          // wtypes
+   #16 = String             #111          // xpn
+   #17 = Class              #85           // n
+   #18 = Class              #88           // ab
+   #19 = Class              #95           // java/lang/StringBuffer
+   #20 = Class              #96           // java/lang/Thread
+   #21 = Class              #112          // qc
+   #22 = Fieldref           #18.#51       // ab.Yb:[Z
+   #23 = Fieldref           #18.#52       // ab.Qb:I
+   #24 = Fieldref           #18.#53       // ab.ic:I
+   #25 = Fieldref           #18.#57       // ab.Vb:[I
+   #26 = Fieldref           #18.#58       // ab.Zb:[Z
+   #27 = Fieldref           #18.#59       // ab.Ob:B
+   #28 = Fieldref           #18.#60       // ab.Sb:J
+   #29 = Fieldref           #18.#61       // ab.Wb:[I
+   #30 = Fieldref           #18.#62       // ab.Pb:B
+   #31 = Fieldref           #18.#63       // ab.Xb:[I
+   #32 = Fieldref           #18.#64       // ab.Tb:B
+   #33 = Fieldref           #18.#65       // ab.Ub:B
+   #34 = Methodref          #17.#46       // n."<init>":(Ljava/lang/String;Z)V
+   #35 = Methodref          #17.#47       // n.b:()V
+   #36 = Methodref          #17.#48       // n.b:(Ljava/lang/String;B)V
+   #37 = Methodref          #17.#49       // n.b:(Ljava/lang/String;J)V
+   #38 = Methodref          #17.#50       // n.b:(Ljava/lang/String;Z)V
+   #39 = Methodref          #17.#56       // n.c:()V
+   #40 = Methodref          #19.#45       // java/lang/StringBuffer."<init>":()V
+   #41 = Methodref          #19.#54       // java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+   #42 = Methodref          #19.#55       // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #43 = Methodref          #19.#66       // java/lang/StringBuffer.toString:()Ljava/lang/String;
+   #44 = Methodref          #20.#45       // java/lang/Thread."<init>":()V
+   #45 = NameAndType        #74:#68       // "<init>":()V
+   #46 = NameAndType        #74:#73       // "<init>":(Ljava/lang/String;Z)V
+   #47 = NameAndType        #81:#68       // b:()V
+   #48 = NameAndType        #81:#71       // b:(Ljava/lang/String;B)V
+   #49 = NameAndType        #81:#72       // b:(Ljava/lang/String;J)V
+   #50 = NameAndType        #81:#73       // b:(Ljava/lang/String;Z)V
+   #51 = NameAndType        #115:#80      // Yb:[Z
+   #52 = NameAndType        #82:#77       // Qb:I
+   #53 = NameAndType        #83:#77       // ic:I
+   #54 = NameAndType        #84:#69       // append:(I)Ljava/lang/StringBuffer;
+   #55 = NameAndType        #84:#70       // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #56 = NameAndType        #87:#68       // c:()V
+   #57 = NameAndType        #116:#79      // Vb:[I
+   #58 = NameAndType        #117:#80      // Zb:[Z
+   #59 = NameAndType        #89:#75       // Ob:B
+   #60 = NameAndType        #118:#78      // Sb:J
+   #61 = NameAndType        #119:#79      // Wb:[I
+   #62 = NameAndType        #92:#75       // Pb:B
+   #63 = NameAndType        #120:#79      // Xb:[I
+   #64 = NameAndType        #93:#75       // Tb:B
+   #65 = NameAndType        #94:#75       // Ub:B
+   #66 = NameAndType        #107:#67      // toString:()Ljava/lang/String;
+   #67 = Utf8               ()Ljava/lang/String;
+   #68 = Utf8               ()V
+   #69 = Utf8               (I)Ljava/lang/StringBuffer;
+   #70 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #71 = Utf8               (Ljava/lang/String;B)V
+   #72 = Utf8               (Ljava/lang/String;J)V
+   #73 = Utf8               (Ljava/lang/String;Z)V
+   #74 = Utf8               <init>
+   #75 = Utf8               B
+   #76 = Utf8               Code
+   #77 = Utf8               I
+   #78 = Utf8               J
+   #79 = Utf8               [I
+   #80 = Utf8               [Z
+   #81 = Utf8               b
+   #82 = Utf8               Qb
+   #83 = Utf8               ic
+   #84 = Utf8               append
+   #85 = Utf8               n
+   #86 = Utf8               autosave
+   #87 = Utf8               c
+   #88 = Utf8               ab
+   #89 = Utf8               Ob
+   #90 = Utf8               coins
+   #91 = Utf8               cur level
+   #92 = Utf8               Pb
+   #93 = Utf8               Tb
+   #94 = Utf8               Ub
+   #95 = Utf8               java/lang/StringBuffer
+   #96 = Utf8               java/lang/Thread
+   #97 = Utf8               lc
+   #98 = Utf8               levels completed
+   #99 = Utf8               picount
+  #100 = Utf8               piknown
+  #101 = Utf8               pitypes
+  #102 = Utf8               primr
+  #103 = Utf8               run
+  #104 = Utf8               secnd
+  #105 = Utf8               sk
+  #106 = Utf8               sks
+  #107 = Utf8               toString
+  #108 = Utf8               wcount
+  #109 = Utf8               wknown
+  #110 = Utf8               wtypes
+  #111 = Utf8               xpn
+  #112 = Utf8               qc
+  #113 = Utf8               StackMap
+  #114 = Utf8               ZKM5.3.2a
+  #115 = Utf8               Yb
+  #116 = Utf8               Vb
+  #117 = Utf8               Zb
+  #118 = Utf8               Sb
+  #119 = Utf8               Wb
+  #120 = Utf8               Xb
+  #121 = NameAndType        #122:#123     // xc:Z
+  #122 = Utf8               xc
+  #123 = Utf8               Z
+  #124 = Fieldref           #18.#121      // ab.xc:Z
+{
+  qc();
+    descriptor: ()V
+    flags: (0x0000)
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #44                 // Method java/lang/Thread."<init>":()V
+         4: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=5, locals=4, args_size=1
+         0: getstatic     #124                // Field ab.xc:Z
+         3: istore_3
+         4: new           #17                 // class n
+         7: dup
+         8: ldc           #1                  // String autosave
+        10: iconst_0
+        11: invokespecial #34                 // Method n."<init>":(Ljava/lang/String;Z)V
+        14: dup
+        15: astore_1
+        16: ldc           #5                  // String levels completed
+        18: getstatic     #32                 // Field ab.Tb:B
+        21: invokevirtual #36                 // Method n.b:(Ljava/lang/String;B)V
+        24: aload_1
+        25: ldc           #3                  // String cur level
+        27: getstatic     #33                 // Field ab.Ub:B
+        30: invokevirtual #36                 // Method n.b:(Ljava/lang/String;B)V
+        33: aload_1
+        34: ldc           #16                 // String xpn
+        36: getstatic     #28                 // Field ab.Sb:J
+        39: invokevirtual #37                 // Method n.b:(Ljava/lang/String;J)V
+        42: aload_1
+        43: ldc           #2                  // String coins
+        45: getstatic     #23                 // Field ab.Qb:I
+        48: i2l
+        49: invokevirtual #37                 // Method n.b:(Ljava/lang/String;J)V
+        52: aload_1
+        53: ldc           #15                 // String wtypes
+        55: bipush        14
+        57: invokevirtual #36                 // Method n.b:(Ljava/lang/String;B)V
+        60: iconst_0
+        61: istore_2
+        62: iload_2
+        63: bipush        14
+        65: if_icmpge     136
+        68: aload_1
+        69: new           #19                 // class java/lang/StringBuffer
+        72: dup
+        73: invokespecial #40                 // Method java/lang/StringBuffer."<init>":()V
+        76: ldc           #13                 // String wcount
+        78: invokevirtual #42                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        81: iload_2
+        82: invokevirtual #41                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+        85: invokevirtual #43                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        88: getstatic     #25                 // Field ab.Vb:[I
+        91: iload_2
+        92: iaload
+        93: i2l
+        94: invokevirtual #37                 // Method n.b:(Ljava/lang/String;J)V
+        97: aload_1
+        98: new           #19                 // class java/lang/StringBuffer
+       101: dup
+       102: invokespecial #40                 // Method java/lang/StringBuffer."<init>":()V
+       105: ldc           #14                 // String wknown
+       107: invokevirtual #42                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       110: iload_2
+       111: invokevirtual #41                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+       114: invokevirtual #43                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       117: getstatic     #22                 // Field ab.Yb:[Z
+       120: iload_2
+       121: baload
+       122: invokevirtual #38                 // Method n.b:(Ljava/lang/String;Z)V
+       125: iinc          2, 1
+       128: iload_3
+       129: ifne          144
+       132: iload_3
+       133: ifeq          62
+       136: aload_1
+       137: ldc           #12                 // String sks
+       139: bipush        11
+       141: invokevirtual #36                 // Method n.b:(Ljava/lang/String;B)V
+       144: iconst_0
+       145: istore_2
+       146: iload_2
+       147: bipush        11
+       149: if_icmpge     192
+       152: aload_1
+       153: new           #19                 // class java/lang/StringBuffer
+       156: dup
+       157: invokespecial #40                 // Method java/lang/StringBuffer."<init>":()V
+       160: ldc           #11                 // String sk
+       162: invokevirtual #42                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       165: iload_2
+       166: invokevirtual #41                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+       169: invokevirtual #43                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       172: getstatic     #29                 // Field ab.Wb:[I
+       175: iload_2
+       176: iaload
+       177: i2l
+       178: invokevirtual #37                 // Method n.b:(Ljava/lang/String;J)V
+       181: iinc          2, 1
+       184: iload_3
+       185: ifne          200
+       188: iload_3
+       189: ifeq          146
+       192: aload_1
+       193: ldc           #8                  // String pitypes
+       195: bipush        6
+       197: invokevirtual #36                 // Method n.b:(Ljava/lang/String;B)V
+       200: iconst_0
+       201: istore_2
+       202: iload_2
+       203: bipush        6
+       205: if_icmpge     276
+       208: aload_1
+       209: new           #19                 // class java/lang/StringBuffer
+       212: dup
+       213: invokespecial #40                 // Method java/lang/StringBuffer."<init>":()V
+       216: ldc           #6                  // String picount
+       218: invokevirtual #42                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       221: iload_2
+       222: invokevirtual #41                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+       225: invokevirtual #43                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       228: getstatic     #31                 // Field ab.Xb:[I
+       231: iload_2
+       232: iaload
+       233: i2l
+       234: invokevirtual #37                 // Method n.b:(Ljava/lang/String;J)V
+       237: aload_1
+       238: new           #19                 // class java/lang/StringBuffer
+       241: dup
+       242: invokespecial #40                 // Method java/lang/StringBuffer."<init>":()V
+       245: ldc           #7                  // String piknown
+       247: invokevirtual #42                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       250: iload_2
+       251: invokevirtual #41                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+       254: invokevirtual #43                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       257: getstatic     #26                 // Field ab.Zb:[Z
+       260: iload_2
+       261: baload
+       262: invokevirtual #38                 // Method n.b:(Ljava/lang/String;Z)V
+       265: iinc          2, 1
+       268: iload_3
+       269: ifne          312
+       272: iload_3
+       273: ifeq          202
+       276: aload_1
+       277: ldc           #9                  // String primr
+       279: getstatic     #27                 // Field ab.Ob:B
+       282: invokevirtual #36                 // Method n.b:(Ljava/lang/String;B)V
+       285: aload_1
+       286: ldc           #10                 // String secnd
+       288: getstatic     #30                 // Field ab.Pb:B
+       291: invokevirtual #36                 // Method n.b:(Ljava/lang/String;B)V
+       294: aload_1
+       295: ldc           #4                  // String lc
+       297: getstatic     #24                 // Field ab.ic:I
+       300: i2l
+       301: invokevirtual #37                 // Method n.b:(Ljava/lang/String;J)V
+       304: aload_1
+       305: invokevirtual #35                 // Method n.b:()V
+       308: aload_1
+       309: invokevirtual #39                 // Method n.c:()V
+       312: return
+      StackMap: number_of_entries = 9
+        frame_type = 255 offset = 62
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 136
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 144
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 146
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 192
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 200
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 202
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 276
+          locals = [ class qc, class n, int, int ]
+          stack = []
+        frame_type = 255 offset = 312
+          locals = [ class qc, class n, int, int ]
+          stack = []
+}

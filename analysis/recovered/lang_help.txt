@@ -1,0 +1,6 @@
+﻿Hướng dẫn trò chơi:
+
+Dùng phím 2 4 6 8 để di chuyển
+Phím 0 để lấy vật phẩm
+Phím # để chọn các loại vũ khí
+Phím 5 để nhả bom và chọn vũ khí

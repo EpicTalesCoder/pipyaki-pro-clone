@@ -1,0 +1,213 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/mb.class
+  Last modified Nov 24, 2026; size 466 bytes
+  SHA-256 checksum 6767c7d15a1663d6fbb742f7b6687769b5adbb25b973b8cc00767ee4a8356bea
+public final class mb
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #1                          // mb
+  super_class: #2                         // java/lang/Object
+  interfaces: 0, fields: 3, methods: 3, attributes: 0
+Constant pool:
+   #1 = Class              #17            // mb
+   #2 = Class              #18            // java/lang/Object
+   #3 = Fieldref           #1.#6          // mb.b:[B
+   #4 = Fieldref           #1.#7          // mb.c:[B
+   #5 = Fieldref           #1.#8          // mb.d:[B
+   #6 = NameAndType        #14:#13        // b:[B
+   #7 = NameAndType        #15:#13        // c:[B
+   #8 = NameAndType        #16:#13        // d:[B
+   #9 = Utf8               (I)B
+  #10 = Utf8               (I)I
+  #11 = Utf8               <clinit>
+  #12 = Utf8               Code
+  #13 = Utf8               [B
+  #14 = Utf8               b
+  #15 = Utf8               c
+  #16 = Utf8               d
+  #17 = Utf8               mb
+  #18 = Utf8               java/lang/Object
+  #19 = Utf8               ()V
+  #20 = Utf8               ZKM5.3.2a
+  #21 = Utf8               StackMap
+{
+  public static final byte[] b;
+    descriptor: [B
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  private static byte[] c;
+    descriptor: [B
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  private static byte[] d;
+    descriptor: [B
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public static int b(int);
+    descriptor: (I)I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #5                  // Field d:[B
+         3: iload_0
+         4: baload
+         5: ireturn
+
+  public static byte c(int);
+    descriptor: (I)B
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #4                  // Field c:[B
+         3: iload_0
+         4: baload
+         5: ireturn
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=4, locals=0, args_size=0
+         0: bipush        11
+         2: newarray       byte
+         4: dup
+         5: iconst_0
+         6: bipush        25
+         8: bastore
+         9: dup
+        10: iconst_1
+        11: bipush        26
+        13: bastore
+        14: dup
+        15: iconst_2
+        16: iconst_5
+        17: bastore
+        18: dup
+        19: iconst_3
+        20: bipush        7
+        22: bastore
+        23: dup
+        24: iconst_4
+        25: bipush        8
+        27: bastore
+        28: dup
+        29: iconst_5
+        30: bipush        10
+        32: bastore
+        33: dup
+        34: bipush        6
+        36: bipush        12
+        38: bastore
+        39: dup
+        40: bipush        7
+        42: bipush        14
+        44: bastore
+        45: dup
+        46: bipush        8
+        48: bipush        16
+        50: bastore
+        51: dup
+        52: bipush        9
+        54: bipush        20
+        56: bastore
+        57: dup
+        58: bipush        10
+        60: bipush        21
+        62: bastore
+        63: putstatic     #3                  // Field b:[B
+        66: bipush        11
+        68: newarray       byte
+        70: dup
+        71: iconst_0
+        72: iconst_3
+        73: bastore
+        74: dup
+        75: iconst_1
+        76: iconst_3
+        77: bastore
+        78: dup
+        79: iconst_2
+        80: iconst_2
+        81: bastore
+        82: dup
+        83: iconst_3
+        84: iconst_1
+        85: bastore
+        86: dup
+        87: iconst_4
+        88: iconst_2
+        89: bastore
+        90: dup
+        91: iconst_5
+        92: iconst_2
+        93: bastore
+        94: dup
+        95: bipush        6
+        97: iconst_2
+        98: bastore
+        99: dup
+       100: bipush        7
+       102: iconst_1
+       103: bastore
+       104: dup
+       105: bipush        8
+       107: iconst_1
+       108: bastore
+       109: dup
+       110: bipush        9
+       112: iconst_1
+       113: bastore
+       114: dup
+       115: bipush        10
+       117: iconst_1
+       118: bastore
+       119: putstatic     #4                  // Field c:[B
+       122: bipush        11
+       124: newarray       byte
+       126: dup
+       127: iconst_0
+       128: bipush        100
+       130: bastore
+       131: dup
+       132: iconst_1
+       133: bipush        100
+       135: bastore
+       136: dup
+       137: iconst_2
+       138: bipush        60
+       140: bastore
+       141: dup
+       142: iconst_3
+       143: bipush        80
+       145: bastore
+       146: dup
+       147: iconst_4
+       148: bipush        70
+       150: bastore
+       151: dup
+       152: iconst_5
+       153: bipush        80
+       155: bastore
+       156: dup
+       157: bipush        6
+       159: bipush        90
+       161: bastore
+       162: dup
+       163: bipush        7
+       165: bipush        80
+       167: bastore
+       168: dup
+       169: bipush        8
+       171: bipush        50
+       173: bastore
+       174: dup
+       175: bipush        9
+       177: bipush        80
+       179: bastore
+       180: dup
+       181: bipush        10
+       183: bipush        80
+       185: bastore
+       186: putstatic     #5                  // Field d:[B
+       189: return
+}

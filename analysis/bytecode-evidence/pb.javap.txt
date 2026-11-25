@@ -1,0 +1,269 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/pb.class
+  Last modified Nov 24, 2026; size 1091 bytes
+  SHA-256 checksum ea40cc1d383d952d24de23be4b64189f9fb7764dc71d9ef548e889016a6de15f
+public final class pb
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #4                          // pb
+  super_class: #1                         // java/lang/Object
+  interfaces: 0, fields: 9, methods: 5, attributes: 0
+Constant pool:
+   #1 = Class              #55            // java/lang/Object
+   #2 = Class              #56            // javax/microedition/lcdui/Graphics
+   #3 = Class              #57            // javax/microedition/lcdui/Image
+   #4 = Class              #58            // pb
+   #5 = Fieldref           #4.#21         // pb.b:I
+   #6 = Fieldref           #4.#22         // pb.j:Ljavax/microedition/lcdui/Image;
+   #7 = Fieldref           #4.#23         // pb.i:[I
+   #8 = Fieldref           #4.#24         // pb.c:I
+   #9 = Fieldref           #4.#25         // pb.d:I
+  #10 = Fieldref           #4.#26         // pb.e:I
+  #11 = Fieldref           #4.#28         // pb.f:I
+  #12 = Fieldref           #4.#29         // pb.g:I
+  #13 = Fieldref           #4.#30         // pb.h:I
+  #14 = Methodref          #1.#19         // java/lang/Object."<init>":()V
+  #15 = Methodref          #2.#27         // javax/microedition/lcdui/Graphics.drawRegion:(Ljavax/microedition/lcdui/Image;IIIIIIII)V
+  #16 = Methodref          #3.#31         // javax/microedition/lcdui/Image.getHeight:()I
+  #17 = Methodref          #3.#32         // javax/microedition/lcdui/Image.getWidth:()I
+  #18 = Methodref          #4.#20         // pb.b:()V
+  #19 = NameAndType        #40:#34        // "<init>":()V
+  #20 = NameAndType        #45:#34        // b:()V
+  #21 = NameAndType        #45:#42        // b:I
+  #22 = NameAndType        #61:#43        // j:Ljavax/microedition/lcdui/Image;
+  #23 = NameAndType        #62:#44        // i:[I
+  #24 = NameAndType        #46:#42        // c:I
+  #25 = NameAndType        #47:#42        // d:I
+  #26 = NameAndType        #48:#42        // e:I
+  #27 = NameAndType        #49:#39        // drawRegion:(Ljavax/microedition/lcdui/Image;IIIIIIII)V
+  #28 = NameAndType        #50:#42        // f:I
+  #29 = NameAndType        #51:#42        // g:I
+  #30 = NameAndType        #52:#42        // h:I
+  #31 = NameAndType        #53:#33        // getHeight:()I
+  #32 = NameAndType        #54:#33        // getWidth:()I
+  #33 = Utf8               ()I
+  #34 = Utf8               ()V
+  #35 = Utf8               (II)V
+  #36 = Utf8               (Ljavax/microedition/lcdui/Graphics;)V
+  #37 = Utf8               (Ljavax/microedition/lcdui/Image;)V
+  #38 = Utf8               (Ljavax/microedition/lcdui/Image;II)V
+  #39 = Utf8               (Ljavax/microedition/lcdui/Image;IIIIIIII)V
+  #40 = Utf8               <init>
+  #41 = Utf8               Code
+  #42 = Utf8               I
+  #43 = Utf8               Ljavax/microedition/lcdui/Image;
+  #44 = Utf8               [I
+  #45 = Utf8               b
+  #46 = Utf8               c
+  #47 = Utf8               d
+  #48 = Utf8               e
+  #49 = Utf8               drawRegion
+  #50 = Utf8               f
+  #51 = Utf8               g
+  #52 = Utf8               h
+  #53 = Utf8               getHeight
+  #54 = Utf8               getWidth
+  #55 = Utf8               java/lang/Object
+  #56 = Utf8               javax/microedition/lcdui/Graphics
+  #57 = Utf8               javax/microedition/lcdui/Image
+  #58 = Utf8               pb
+  #59 = Utf8               StackMap
+  #60 = Utf8               ZKM5.3.2a
+  #61 = Utf8               j
+  #62 = Utf8               i
+  #63 = Class              #64            // ab
+  #64 = Utf8               ab
+  #65 = NameAndType        #66:#67        // xc:Z
+  #66 = Utf8               xc
+  #67 = Utf8               Z
+  #68 = Fieldref           #63.#65        // ab.xc:Z
+{
+  public int b;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int c;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int d;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int e;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int f;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int g;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  public int h;
+    descriptor: I
+    flags: (0x0001) ACC_PUBLIC
+
+  private int[] i;
+    descriptor: [I
+    flags: (0x0002) ACC_PRIVATE
+
+  private javax.microedition.lcdui.Image j;
+    descriptor: Ljavax/microedition/lcdui/Image;
+    flags: (0x0002) ACC_PRIVATE
+
+  public final void b(javax.microedition.lcdui.Graphics);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=10, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #5                  // Field b:I
+         4: aload_0
+         5: getfield      #7                  // Field i:[I
+         8: arraylength
+         9: if_icmpge     51
+        12: aload_1
+        13: aload_0
+        14: getfield      #6                  // Field j:Ljavax/microedition/lcdui/Image;
+        17: aload_0
+        18: getfield      #7                  // Field i:[I
+        21: aload_0
+        22: getfield      #5                  // Field b:I
+        25: iaload
+        26: iconst_0
+        27: aload_0
+        28: getfield      #9                  // Field d:I
+        31: aload_0
+        32: getfield      #10                 // Field e:I
+        35: aload_0
+        36: getfield      #8                  // Field c:I
+        39: aload_0
+        40: getfield      #11                 // Field f:I
+        43: aload_0
+        44: getfield      #12                 // Field g:I
+        47: iconst_0
+        48: invokevirtual #15                 // Method javax/microedition/lcdui/Graphics.drawRegion:(Ljavax/microedition/lcdui/Image;IIIIIIII)V
+        51: return
+      StackMap: number_of_entries = 1
+        frame_type = 255 offset = 51
+          locals = [ class pb, class javax/microedition/lcdui/Graphics ]
+          stack = []
+
+  public final void b(int, int);
+    descriptor: (II)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: iload_1
+         2: putfield      #11                 // Field f:I
+         5: aload_0
+         6: iload_2
+         7: putfield      #12                 // Field g:I
+        10: return
+
+  public pb(javax.microedition.lcdui.Image, int, int);
+    descriptor: (Ljavax/microedition/lcdui/Image;II)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=4
+         0: aload_0
+         1: invokespecial #14                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iconst_0
+         6: putfield      #5                  // Field b:I
+         9: aload_0
+        10: iconst_0
+        11: putfield      #8                  // Field c:I
+        14: aload_0
+        15: aload_1
+        16: putfield      #6                  // Field j:Ljavax/microedition/lcdui/Image;
+        19: aload_0
+        20: iload_2
+        21: putfield      #9                  // Field d:I
+        24: aload_0
+        25: iload_3
+        26: putfield      #10                 // Field e:I
+        29: aload_0
+        30: invokespecial #18                 // Method b:()V
+        33: return
+
+  private void b();
+    descriptor: ()V
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=5, locals=3, args_size=1
+         0: getstatic     #68                 // Field ab.xc:Z
+         3: istore_2
+         4: aload_0
+         5: aload_0
+         6: getfield      #6                  // Field j:Ljavax/microedition/lcdui/Image;
+         9: invokevirtual #17                 // Method javax/microedition/lcdui/Image.getWidth:()I
+        12: aload_0
+        13: getfield      #9                  // Field d:I
+        16: idiv
+        17: putfield      #13                 // Field h:I
+        20: aload_0
+        21: aload_0
+        22: getfield      #13                 // Field h:I
+        25: newarray       int
+        27: putfield      #7                  // Field i:[I
+        30: iconst_0
+        31: istore_1
+        32: iload_1
+        33: aload_0
+        34: getfield      #13                 // Field h:I
+        37: if_icmpge     59
+        40: aload_0
+        41: getfield      #7                  // Field i:[I
+        44: iload_1
+        45: iload_1
+        46: aload_0
+        47: getfield      #9                  // Field d:I
+        50: imul
+        51: iastore
+        52: iinc          1, 1
+        55: iload_2
+        56: ifeq          32
+        59: return
+      StackMap: number_of_entries = 2
+        frame_type = 255 offset = 32
+          locals = [ class pb, int, int ]
+          stack = []
+        frame_type = 255 offset = 59
+          locals = [ class pb, int, int ]
+          stack = []
+
+  public pb(javax.microedition.lcdui.Image);
+    descriptor: (Ljavax/microedition/lcdui/Image;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #14                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iconst_0
+         6: putfield      #5                  // Field b:I
+         9: aload_0
+        10: iconst_0
+        11: putfield      #8                  // Field c:I
+        14: aload_0
+        15: aload_1
+        16: putfield      #6                  // Field j:Ljavax/microedition/lcdui/Image;
+        19: aload_0
+        20: aload_0
+        21: getfield      #6                  // Field j:Ljavax/microedition/lcdui/Image;
+        24: invokevirtual #17                 // Method javax/microedition/lcdui/Image.getWidth:()I
+        27: putfield      #9                  // Field d:I
+        30: aload_0
+        31: aload_0
+        32: getfield      #6                  // Field j:Ljavax/microedition/lcdui/Image;
+        35: invokevirtual #16                 // Method javax/microedition/lcdui/Image.getHeight:()I
+        38: putfield      #10                 // Field e:I
+        41: aload_0
+        42: invokespecial #18                 // Method b:()V
+        45: return
+}

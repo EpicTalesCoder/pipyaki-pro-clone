@@ -1,0 +1,528 @@
+Classfile /Users/kd-qa-0294/Desktop/REV/rea/games/pipyaki-pro/analysis/recovered/rb.class
+  Last modified Nov 24, 2026; size 2504 bytes
+  SHA-256 checksum 3de5912d5359c6b94e025b3c38b99140b89b02b723df24eecc10261c03fe1023
+public final class rb implements java.lang.Runnable
+  minor version: 0
+  major version: 47
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #17                         // rb
+  super_class: #9                         // java/lang/Object
+  interfaces: 1, fields: 7, methods: 3, attributes: 0
+Constant pool:
+    #1 = String             #73           //
+    #2 = String             #118          // networkConnector: fail
+    #3 = String             #119          // networkConnector: received =
+    #4 = String             #120          // networkConnector: sent =
+    #5 = Class              #101          // ab
+    #6 = Class              #105          // java/io/ByteArrayOutputStream
+    #7 = Class              #106          // java/io/InputStream
+    #8 = Class              #107          // java/lang/Exception
+    #9 = Class              #108          // java/lang/Object
+   #10 = Class              #109          // java/lang/Runnable
+   #11 = Class              #110          // java/lang/String
+   #12 = Class              #111          // java/lang/StringBuffer
+   #13 = Class              #112          // java/lang/System
+   #14 = Class              #113          // java/lang/Thread
+   #15 = Class              #114          // wfree/C
+   #16 = Class              #115          // javax/microedition/io/HttpConnection
+   #17 = Class              #117          // rb
+   #18 = Fieldref           #17.#51       // rb.h:Ljava/io/ByteArrayOutputStream;
+   #19 = Fieldref           #17.#52       // rb.g:Ljava/io/InputStream;
+   #20 = Fieldref           #17.#53       // rb.d:Ljava/lang/String;
+   #21 = Fieldref           #17.#54       // rb.b:Ljava/lang/Thread;
+   #22 = Fieldref           #17.#55       // rb.f:Ljavax/microedition/io/HttpConnection;
+   #23 = Fieldref           #17.#56       // rb.e:Z
+   #24 = Fieldref           #17.#60       // rb.c:Ljava/lang/String;
+   #25 = Methodref          #5.#50        // ab.b:(Ljava/lang/String;)V
+   #26 = Methodref          #6.#48        // java/io/ByteArrayOutputStream."<init>":()V
+   #27 = Methodref          #6.#62        // java/io/ByteArrayOutputStream.close:()V
+   #28 = Methodref          #6.#69        // java/io/ByteArrayOutputStream.toByteArray:()[B
+   #29 = Methodref          #6.#70        // java/io/ByteArrayOutputStream.toString:()Ljava/lang/String;
+   #30 = Methodref          #6.#71        // java/io/ByteArrayOutputStream.write:(I)V
+   #31 = Methodref          #7.#62        // java/io/InputStream.close:()V
+   #32 = Methodref          #7.#67        // java/io/InputStream.read:()I
+   #33 = Methodref          #8.#48        // java/lang/Exception."<init>":()V
+   #34 = Methodref          #9.#48        // java/lang/Object."<init>":()V
+   #35 = Methodref          #11.#61       // java/lang/String.charAt:(I)C
+   #36 = Methodref          #11.#64       // java/lang/String.length:()I
+   #37 = Methodref          #12.#48       // java/lang/StringBuffer."<init>":()V
+   #38 = Methodref          #12.#57       // java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+   #39 = Methodref          #12.#58       // java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #40 = Methodref          #12.#59       // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #41 = Methodref          #12.#70       // java/lang/StringBuffer.toString:()Ljava/lang/String;
+   #42 = Methodref          #13.#63       // java/lang/System.currentTimeMillis:()J
+   #43 = Methodref          #14.#49       // java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+   #44 = Methodref          #14.#68       // java/lang/Thread.start:()V
+   #45 = Methodref          #15.#65       // wfree/C.open:(Ljava/lang/String;)Ljavax/microedition/io/Connection;
+   #46 = InterfaceMethodref #16.#62       // javax/microedition/io/HttpConnection.close:()V
+   #47 = InterfaceMethodref #16.#66       // javax/microedition/io/HttpConnection.openInputStream:()Ljava/io/InputStream;
+   #48 = NameAndType        #90:#78       // "<init>":()V
+   #49 = NameAndType        #90:#84       // "<init>":(Ljava/lang/Runnable;)V
+   #50 = NameAndType        #98:#87       // b:(Ljava/lang/String;)V
+   #51 = NameAndType        #132:#92      // h:Ljava/io/ByteArrayOutputStream;
+   #52 = NameAndType        #133:#93      // g:Ljava/io/InputStream;
+   #53 = NameAndType        #134:#94      // d:Ljava/lang/String;
+   #54 = NameAndType        #98:#95       // b:Ljava/lang/Thread;
+   #55 = NameAndType        #135:#96      // f:Ljavax/microedition/io/HttpConnection;
+   #56 = NameAndType        #136:#97      // e:Z
+   #57 = NameAndType        #99:#80       // append:(C)Ljava/lang/StringBuffer;
+   #58 = NameAndType        #99:#83       // append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #59 = NameAndType        #99:#85       // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #60 = NameAndType        #100:#94      // c:Ljava/lang/String;
+   #61 = NameAndType        #102:#81      // charAt:(I)C
+   #62 = NameAndType        #103:#78      // close:()V
+   #63 = NameAndType        #104:#75      // currentTimeMillis:()J
+   #64 = NameAndType        #116:#74      // length:()I
+   #65 = NameAndType        #121:#86      // open:(Ljava/lang/String;)Ljavax/microedition/io/Connection;
+   #66 = NameAndType        #122:#76      // openInputStream:()Ljava/io/InputStream;
+   #67 = NameAndType        #123:#74      // read:()I
+   #68 = NameAndType        #125:#78      // start:()V
+   #69 = NameAndType        #126:#79      // toByteArray:()[B
+   #70 = NameAndType        #127:#77      // toString:()Ljava/lang/String;
+   #71 = NameAndType        #128:#82      // write:(I)V
+   #72 = Class              #130          // "[Ljava/lang/String;"
+   #73 = Utf8
+   #74 = Utf8               ()I
+   #75 = Utf8               ()J
+   #76 = Utf8               ()Ljava/io/InputStream;
+   #77 = Utf8               ()Ljava/lang/String;
+   #78 = Utf8               ()V
+   #79 = Utf8               ()[B
+   #80 = Utf8               (C)Ljava/lang/StringBuffer;
+   #81 = Utf8               (I)C
+   #82 = Utf8               (I)V
+   #83 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuffer;
+   #84 = Utf8               (Ljava/lang/Runnable;)V
+   #85 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+   #86 = Utf8               (Ljava/lang/String;)Ljavax/microedition/io/Connection;
+   #87 = Utf8               (Ljava/lang/String;)V
+   #88 = Utf8               (Ljava/lang/String;C)[Ljava/lang/String;
+   #89 = Utf8               (Ljava/lang/String;J)V
+   #90 = Utf8               <init>
+   #91 = Utf8               Code
+   #92 = Utf8               Ljava/io/ByteArrayOutputStream;
+   #93 = Utf8               Ljava/io/InputStream;
+   #94 = Utf8               Ljava/lang/String;
+   #95 = Utf8               Ljava/lang/Thread;
+   #96 = Utf8               Ljavax/microedition/io/HttpConnection;
+   #97 = Utf8               Z
+   #98 = Utf8               b
+   #99 = Utf8               append
+  #100 = Utf8               c
+  #101 = Utf8               ab
+  #102 = Utf8               charAt
+  #103 = Utf8               close
+  #104 = Utf8               currentTimeMillis
+  #105 = Utf8               java/io/ByteArrayOutputStream
+  #106 = Utf8               java/io/InputStream
+  #107 = Utf8               java/lang/Exception
+  #108 = Utf8               java/lang/Object
+  #109 = Utf8               java/lang/Runnable
+  #110 = Utf8               java/lang/String
+  #111 = Utf8               java/lang/StringBuffer
+  #112 = Utf8               java/lang/System
+  #113 = Utf8               java/lang/Thread
+  #114 = Utf8               wfree/C
+  #115 = Utf8               javax/microedition/io/HttpConnection
+  #116 = Utf8               length
+  #117 = Utf8               rb
+  #118 = Utf8               networkConnector: fail
+  #119 = Utf8               networkConnector: received =
+  #120 = Utf8               networkConnector: sent =
+  #121 = Utf8               open
+  #122 = Utf8               openInputStream
+  #123 = Utf8               read
+  #124 = Utf8               run
+  #125 = Utf8               start
+  #126 = Utf8               toByteArray
+  #127 = Utf8               toString
+  #128 = Utf8               write
+  #129 = Utf8               StackMap
+  #130 = Utf8               [Ljava/lang/String;
+  #131 = Utf8               ZKM5.3.2a
+  #132 = Utf8               h
+  #133 = Utf8               g
+  #134 = Utf8               d
+  #135 = Utf8               f
+  #136 = Utf8               e
+  #137 = NameAndType        #138:#97      // xc:Z
+  #138 = Utf8               xc
+  #139 = Fieldref           #5.#137       // ab.xc:Z
+{
+  private java.lang.Thread b;
+    descriptor: Ljava/lang/Thread;
+    flags: (0x0002) ACC_PRIVATE
+
+  private java.lang.String c;
+    descriptor: Ljava/lang/String;
+    flags: (0x0002) ACC_PRIVATE
+
+  public java.lang.String d;
+    descriptor: Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  public boolean e;
+    descriptor: Z
+    flags: (0x0001) ACC_PUBLIC
+
+  private javax.microedition.io.HttpConnection f;
+    descriptor: Ljavax/microedition/io/HttpConnection;
+    flags: (0x0002) ACC_PRIVATE
+
+  private java.io.InputStream g;
+    descriptor: Ljava/io/InputStream;
+    flags: (0x0002) ACC_PRIVATE
+
+  private java.io.ByteArrayOutputStream h;
+    descriptor: Ljava/io/ByteArrayOutputStream;
+    flags: (0x0002) ACC_PRIVATE
+
+  public rb(java.lang.String, long);
+    descriptor: (Ljava/lang/String;J)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=4, args_size=3
+         0: aload_0
+         1: invokespecial #34                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aconst_null
+         6: putfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+         9: aload_0
+        10: aconst_null
+        11: putfield      #19                 // Field g:Ljava/io/InputStream;
+        14: aload_0
+        15: aconst_null
+        16: putfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+        19: aload_0
+        20: aload_1
+        21: putfield      #24                 // Field c:Ljava/lang/String;
+        24: aload_0
+        25: new           #14                 // class java/lang/Thread
+        28: dup
+        29: aload_0
+        30: invokespecial #43                 // Method java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+        33: putfield      #21                 // Field b:Ljava/lang/Thread;
+        36: aload_0
+        37: getfield      #21                 // Field b:Ljava/lang/Thread;
+        40: invokevirtual #44                 // Method java/lang/Thread.start:()V
+        43: invokestatic  #42                 // Method java/lang/System.currentTimeMillis:()J
+        46: pop2
+        47: return
+
+  public final void run();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=4, locals=3, args_size=1
+         0: getstatic     #139                // Field ab.xc:Z
+         3: istore_2
+         4: aload_0
+         5: iconst_0
+         6: putfield      #23                 // Field e:Z
+         9: aload_0
+        10: aload_0
+        11: getfield      #24                 // Field c:Ljava/lang/String;
+        14: invokestatic  #45                 // Method wfree/C.open:(Ljava/lang/String;)Ljavax/microedition/io/Connection;
+        17: checkcast     #16                 // class javax/microedition/io/HttpConnection
+        20: putfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+        23: aload_0
+        24: aload_0
+        25: getfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+        28: invokeinterface #47,  1           // InterfaceMethod javax/microedition/io/HttpConnection.openInputStream:()Ljava/io/InputStream;
+        33: putfield      #19                 // Field g:Ljava/io/InputStream;
+        36: aload_0
+        37: new           #6                  // class java/io/ByteArrayOutputStream
+        40: dup
+        41: invokespecial #26                 // Method java/io/ByteArrayOutputStream."<init>":()V
+        44: putfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+        47: new           #12                 // class java/lang/StringBuffer
+        50: dup
+        51: invokespecial #37                 // Method java/lang/StringBuffer."<init>":()V
+        54: ldc           #4                  // String networkConnector: sent =
+        56: invokevirtual #40                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        59: aload_0
+        60: getfield      #24                 // Field c:Ljava/lang/String;
+        63: invokevirtual #40                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        66: invokevirtual #41                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        69: invokestatic  #25                 // Method ab.b:(Ljava/lang/String;)V
+        72: aload_0
+        73: getfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+        76: ifnull        93
+        79: aload_0
+        80: getfield      #19                 // Field g:Ljava/io/InputStream;
+        83: ifnull        93
+        86: aload_0
+        87: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+        90: ifnonnull     101
+        93: new           #8                  // class java/lang/Exception
+        96: dup
+        97: invokespecial #33                 // Method java/lang/Exception."<init>":()V
+       100: athrow
+       101: aload_0
+       102: getfield      #19                 // Field g:Ljava/io/InputStream;
+       105: invokevirtual #32                 // Method java/io/InputStream.read:()I
+       108: dup
+       109: istore_1
+       110: iconst_m1
+       111: if_icmpeq     130
+       114: aload_0
+       115: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+       118: iload_1
+       119: invokevirtual #30                 // Method java/io/ByteArrayOutputStream.write:(I)V
+       122: iload_2
+       123: ifne          149
+       126: iload_2
+       127: ifeq          101
+       130: aload_0
+       131: aload_0
+       132: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+       135: invokevirtual #29                 // Method java/io/ByteArrayOutputStream.toString:()Ljava/lang/String;
+       138: putfield      #20                 // Field d:Ljava/lang/String;
+       141: aload_0
+       142: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+       145: invokevirtual #28                 // Method java/io/ByteArrayOutputStream.toByteArray:()[B
+       148: pop
+       149: aload_0
+       150: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+       153: ifnull        163
+       156: aload_0
+       157: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+       160: invokevirtual #27                 // Method java/io/ByteArrayOutputStream.close:()V
+       163: aload_0
+       164: getfield      #19                 // Field g:Ljava/io/InputStream;
+       167: ifnull        177
+       170: aload_0
+       171: getfield      #19                 // Field g:Ljava/io/InputStream;
+       174: invokevirtual #31                 // Method java/io/InputStream.close:()V
+       177: aload_0
+       178: getfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+       181: ifnull        193
+       184: aload_0
+       185: getfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+       188: invokeinterface #46,  1           // InterfaceMethod javax/microedition/io/HttpConnection.close:()V
+       193: new           #12                 // class java/lang/StringBuffer
+       196: dup
+       197: invokespecial #37                 // Method java/lang/StringBuffer."<init>":()V
+       200: ldc           #3                  // String networkConnector: received =
+       202: invokevirtual #40                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       205: aload_0
+       206: getfield      #20                 // Field d:Ljava/lang/String;
+       209: invokevirtual #40                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       212: invokevirtual #41                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       215: invokestatic  #25                 // Method ab.b:(Ljava/lang/String;)V
+       218: goto          297
+       221: astore_1
+       222: aload_0
+       223: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+       226: ifnull        236
+       229: aload_0
+       230: getfield      #18                 // Field h:Ljava/io/ByteArrayOutputStream;
+       233: invokevirtual #27                 // Method java/io/ByteArrayOutputStream.close:()V
+       236: aload_0
+       237: getfield      #19                 // Field g:Ljava/io/InputStream;
+       240: ifnull        250
+       243: aload_0
+       244: getfield      #19                 // Field g:Ljava/io/InputStream;
+       247: invokevirtual #31                 // Method java/io/InputStream.close:()V
+       250: aload_0
+       251: getfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+       254: ifnull        266
+       257: aload_0
+       258: getfield      #22                 // Field f:Ljavax/microedition/io/HttpConnection;
+       261: invokeinterface #46,  1           // InterfaceMethod javax/microedition/io/HttpConnection.close:()V
+       266: goto          270
+       269: pop
+       270: aload_0
+       271: aconst_null
+       272: putfield      #20                 // Field d:Ljava/lang/String;
+       275: new           #12                 // class java/lang/StringBuffer
+       278: dup
+       279: invokespecial #37                 // Method java/lang/StringBuffer."<init>":()V
+       282: ldc           #2                  // String networkConnector: fail
+       284: invokevirtual #40                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       287: aload_1
+       288: invokevirtual #39                 // Method java/lang/StringBuffer.append:(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+       291: invokevirtual #41                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       294: invokestatic  #25                 // Method ab.b:(Ljava/lang/String;)V
+       297: aload_0
+       298: iconst_1
+       299: putfield      #23                 // Field e:Z
+       302: return
+      Exception table:
+         from    to  target type
+             9   218   221   Class java/lang/Exception
+           222   266   269   Class java/lang/Exception
+      StackMap: number_of_entries = 14
+        frame_type = 255 offset = 93
+          locals = [ class rb, top, int ]
+          stack = []
+        frame_type = 255 offset = 101
+          locals = [ class rb, top, int ]
+          stack = []
+        frame_type = 255 offset = 130
+          locals = [ class rb, int, int ]
+          stack = []
+        frame_type = 255 offset = 149
+          locals = [ class rb, int, int ]
+          stack = []
+        frame_type = 255 offset = 163
+          locals = [ class rb, int, int ]
+          stack = []
+        frame_type = 255 offset = 177
+          locals = [ class rb, int, int ]
+          stack = []
+        frame_type = 255 offset = 193
+          locals = [ class rb, int, int ]
+          stack = []
+        frame_type = 255 offset = 221
+          locals = [ class rb, top, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 236
+          locals = [ class rb, class java/lang/Exception, int ]
+          stack = []
+        frame_type = 255 offset = 250
+          locals = [ class rb, class java/lang/Exception, int ]
+          stack = []
+        frame_type = 255 offset = 266
+          locals = [ class rb, class java/lang/Exception, int ]
+          stack = []
+        frame_type = 255 offset = 269
+          locals = [ class rb, class java/lang/Exception, int ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 offset = 270
+          locals = [ class rb, class java/lang/Exception, int ]
+          stack = []
+        frame_type = 255 offset = 297
+          locals = [ class rb, top, int ]
+          stack = []
+
+  public static java.lang.String[] b(java.lang.String, char);
+    descriptor: (Ljava/lang/String;C)[Ljava/lang/String;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=6, locals=6, args_size=2
+         0: getstatic     #139                // Field ab.xc:Z
+         3: istore        5
+         5: aload_0
+         6: ifnull        166
+         9: iconst_1
+        10: istore_3
+        11: iconst_0
+        12: istore_2
+        13: iload_2
+        14: aload_0
+        15: invokevirtual #36                 // Method java/lang/String.length:()I
+        18: if_icmpge     46
+        21: aload_0
+        22: iload_2
+        23: invokevirtual #35                 // Method java/lang/String.charAt:(I)C
+        26: iload         5
+        28: ifne          47
+        31: iload_1
+        32: if_icmpne     38
+        35: iinc          3, 1
+        38: iinc          2, 1
+        41: iload         5
+        43: ifeq          13
+        46: iload_3
+        47: anewarray     #11                 // class java/lang/String
+        50: astore        4
+        52: iconst_0
+        53: istore_2
+        54: iload_2
+        55: aload         4
+        57: arraylength
+        58: if_icmpge     80
+        61: aload         4
+        63: iload_2
+        64: ldc           #1                  // String
+        66: aastore
+        67: iinc          2, 1
+        70: iload         5
+        72: ifne          82
+        75: iload         5
+        77: ifeq          54
+        80: iconst_0
+        81: istore_3
+        82: iconst_0
+        83: istore_2
+        84: iload_2
+        85: aload_0
+        86: invokevirtual #36                 // Method java/lang/String.length:()I
+        89: if_icmpge     163
+        92: aload_0
+        93: iload_2
+        94: invokevirtual #35                 // Method java/lang/String.charAt:(I)C
+        97: iload_1
+        98: if_icmpne     113
+       101: iload_2
+       102: ifeq          155
+       105: iinc          3, 1
+       108: iload         5
+       110: ifeq          155
+       113: aload_0
+       114: iload_2
+       115: invokevirtual #35                 // Method java/lang/String.charAt:(I)C
+       118: bipush        10
+       120: if_icmpeq     155
+       123: new           #12                 // class java/lang/StringBuffer
+       126: dup
+       127: invokespecial #37                 // Method java/lang/StringBuffer."<init>":()V
+       130: aload         4
+       132: iload_3
+       133: dup2_x1
+       134: aaload
+       135: invokevirtual #40                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       138: ldc           #1                  // String
+       140: invokevirtual #40                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+       143: aload_0
+       144: iload_2
+       145: invokevirtual #35                 // Method java/lang/String.charAt:(I)C
+       148: invokevirtual #38                 // Method java/lang/StringBuffer.append:(C)Ljava/lang/StringBuffer;
+       151: invokevirtual #41                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+       154: aastore
+       155: iinc          2, 1
+       158: iload         5
+       160: ifeq          84
+       163: aload         4
+       165: areturn
+       166: aconst_null
+       167: areturn
+      StackMap: number_of_entries = 12
+        frame_type = 255 offset = 13
+          locals = [ class java/lang/String, int, int, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 38
+          locals = [ class java/lang/String, int, int, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 46
+          locals = [ class java/lang/String, int, int, int, top, int ]
+          stack = []
+        frame_type = 255 offset = 47
+          locals = [ class java/lang/String, int, int, int, top, int ]
+          stack = [ int ]
+        frame_type = 255 offset = 54
+          locals = [ class java/lang/String, int, int, int, class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 80
+          locals = [ class java/lang/String, int, int, int, class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 82
+          locals = [ class java/lang/String, int, int, int, class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 84
+          locals = [ class java/lang/String, int, int, int, class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 113
+          locals = [ class java/lang/String, int, int, int, class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 155
+          locals = [ class java/lang/String, int, int, int, class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 163
+          locals = [ class java/lang/String, int, int, int, class "[Ljava/lang/String;", int ]
+          stack = []
+        frame_type = 255 offset = 166
+          locals = [ class java/lang/String, int, top, top, top, int ]
+          stack = []
+}
